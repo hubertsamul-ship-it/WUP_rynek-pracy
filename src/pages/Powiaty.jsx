@@ -163,15 +163,15 @@ function wyrejColor(v, mx, i) {
   return `rgba(72,149,239,${alpha.toFixed(2)})`;
 }
 
-export default function Powiaty() {
+export default function Powiaty({ initialPowiat = null }) {
   const { powiaty, stopa } = useAppData();
 
   const options = (powiaty || [])
     .sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl'))
     .map(p => ({ value: p.wgm, label: p.nazwa }));
 
-  const [selWgm, setSelWgm] = useState(null);
-  const [cmpWgms, setCmpWgms] = useState(['1465']); // domyślnie Warszawa
+  const [selWgm, setSelWgm] = useState(initialPowiat);
+  const [cmpWgms, setCmpWgms] = useState([initialPowiat || '1465']); // domyślnie Warszawa
 
   const defaultWgm = (powiaty || []).find(p => p.wgm === '1465')?.wgm || options[0]?.value || null;
   const wgm = selWgm || defaultWgm;

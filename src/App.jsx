@@ -16,23 +16,7 @@ export default function App() {
   const [powiatTarget, setPowiatTarget] = useState(null);
 
   function handleNavPowiaty(powData) {
-    // Map from POW_POSITIONS name to POWIAT_INFO key
-    const nameMap = {
-      'm. Warszawa':      'warszawa',
-      'm. Radom':         'radom',
-      'm. Płock':         'plock',
-      'm. Siedlce':       'siedlce',
-      'm. Ostrołęka':     'ostroleka',
-      'Szydłowiecki':     'szydlowiecki',
-      'Przysuski':        'przysuski',
-      'Radomski':         'radomski',
-      'Makowski':         'makowski',
-      'Legionowski':      'legionowski',
-      'Piaseczyński':     'piaseczynski',
-      'Pruszkowski':      'pruszkow',
-    };
-    const key = nameMap[powData.n];
-    if (key) setPowiatTarget(key);
+    if (powData.wgm) setPowiatTarget(powData.wgm);
     setPage('powiaty');
   }
 

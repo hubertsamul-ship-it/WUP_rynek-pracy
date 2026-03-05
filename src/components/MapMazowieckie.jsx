@@ -173,7 +173,7 @@ export default function MapMazowieckie({ onPowiatClick }) {
             <g key={i}
               style={{ cursor: hasData && onPowiatClick ? 'pointer' : 'default' }}
               onClick={() => {
-                if (hasData && onPowiatClick) onPowiatClick({ n: pow.nazwa, s: pow.stopa });
+                if (hasData && onPowiatClick) onPowiatClick({ n: pow.nazwa, s: pow.stopa, wgm: pow.wgm });
               }}
               onMouseEnter={e => {
                 if (hasData) e.currentTarget.querySelector('path').style.opacity = '1';
