@@ -1,0 +1,9951 @@
+{
+  "meta": {
+    "okres": "2026-01",
+    "poprzedni_okres": "2025-12",
+    "data_aktualizacji": "2026-01-31"
+  },
+  "pulpit": {
+    "bezr_razem": 122636,
+    "bezr_delta": 4450,
+    "stopa_maz": 4.5,
+    "stopa_maz_delta": 0.2,
+    "stopa_pl": 6.0,
+    "bezr_pl": 796000,
+    "trend_37m": [
+      {
+        "okres": "2023-01",
+        "label": "Sty 23",
+        "bezr": 121679,
+        "zarej": 16259,
+        "wyrej": 11100,
+        "stopa": 4.5
+      },
+      {
+        "okres": "2023-02",
+        "label": "Lut 23",
+        "bezr": 122200,
+        "zarej": 13330,
+        "wyrej": 12809,
+        "stopa": 4.5
+      },
+      {
+        "okres": "2023-03",
+        "label": "Mar 23",
+        "bezr": 119319,
+        "zarej": 14446,
+        "wyrej": 17327,
+        "stopa": 4.4
+      },
+      {
+        "okres": "2023-04",
+        "label": "Kwi 23",
+        "bezr": 115761,
+        "zarej": 10968,
+        "wyrej": 14526,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2023-05",
+        "label": "Maj 23",
+        "bezr": 113512,
+        "zarej": 11950,
+        "wyrej": 14199,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2023-06",
+        "label": "Cze 23",
+        "bezr": 110693,
+        "zarej": 11063,
+        "wyrej": 13882,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-07",
+        "label": "Lip 23",
+        "bezr": 111354,
+        "zarej": 12895,
+        "wyrej": 12234,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-08",
+        "label": "Sie 23",
+        "bezr": 111636,
+        "zarej": 13048,
+        "wyrej": 12766,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-09",
+        "label": "Wrz 23",
+        "bezr": 111381,
+        "zarej": 15166,
+        "wyrej": 15421,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-10",
+        "label": "Paź 23",
+        "bezr": 110283,
+        "zarej": 14357,
+        "wyrej": 15455,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-11",
+        "label": "Lis 23",
+        "bezr": 109874,
+        "zarej": 12704,
+        "wyrej": 13113,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2023-12",
+        "label": "Gru 23",
+        "bezr": 110526,
+        "zarej": 12008,
+        "wyrej": 11356,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2024-01",
+        "label": "Sty 24",
+        "bezr": 117138,
+        "zarej": 16728,
+        "wyrej": 10116,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2024-02",
+        "label": "Lut 24",
+        "bezr": 117666,
+        "zarej": 13686,
+        "wyrej": 13158,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2024-03",
+        "label": "Mar 24",
+        "bezr": 114766,
+        "zarej": 12403,
+        "wyrej": 15303,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2024-04",
+        "label": "Kwi 24",
+        "bezr": 111867,
+        "zarej": 11662,
+        "wyrej": 14561,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2024-05",
+        "label": "Maj 24",
+        "bezr": 110035,
+        "zarej": 11024,
+        "wyrej": 12856,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2024-06",
+        "label": "Cze 24",
+        "bezr": 108502,
+        "zarej": 10964,
+        "wyrej": 12497,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2024-07",
+        "label": "Lip 24",
+        "bezr": 109850,
+        "zarej": 13668,
+        "wyrej": 12320,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2024-08",
+        "label": "Sie 24",
+        "bezr": 110588,
+        "zarej": 12211,
+        "wyrej": 11473,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2024-09",
+        "label": "Wrz 24",
+        "bezr": 109607,
+        "zarej": 14229,
+        "wyrej": 15210,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2024-10",
+        "label": "Paź 24",
+        "bezr": 108322,
+        "zarej": 13613,
+        "wyrej": 14898,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2024-11",
+        "label": "Lis 24",
+        "bezr": 108409,
+        "zarej": 11974,
+        "wyrej": 11887,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2024-12",
+        "label": "Gru 24",
+        "bezr": 109020,
+        "zarej": 11083,
+        "wyrej": 10472,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2025-01",
+        "label": "Sty 25",
+        "bezr": 114722,
+        "zarej": 15673,
+        "wyrej": 9971,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-02",
+        "label": "Lut 25",
+        "bezr": 115898,
+        "zarej": 12896,
+        "wyrej": 11720,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-03",
+        "label": "Mar 25",
+        "bezr": 113866,
+        "zarej": 12631,
+        "wyrej": 14663,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-04",
+        "label": "Kwi 25",
+        "bezr": 111279,
+        "zarej": 11413,
+        "wyrej": 14000,
+        "stopa": 4.1
+      },
+      {
+        "okres": "2025-05",
+        "label": "Maj 25",
+        "bezr": 108718,
+        "zarej": 10995,
+        "wyrej": 13556,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2025-06",
+        "label": "Cze 25",
+        "bezr": 111025,
+        "zarej": 10103,
+        "wyrej": 7796,
+        "stopa": 4.0
+      },
+      {
+        "okres": "2025-07",
+        "label": "Lip 25",
+        "bezr": 115975,
+        "zarej": 13320,
+        "wyrej": 8370,
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-08",
+        "label": "Sie 25",
+        "bezr": 120154,
+        "zarej": 12249,
+        "wyrej": 8070,
+        "stopa": 4.4
+      },
+      {
+        "okres": "2025-09",
+        "label": "Wrz 25",
+        "bezr": 119598,
+        "zarej": 14759,
+        "wyrej": 15315,
+        "stopa": 4.4
+      },
+      {
+        "okres": "2025-10",
+        "label": "Paź 25",
+        "bezr": 118684,
+        "zarej": 13913,
+        "wyrej": 14827,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2025-11",
+        "label": "Lis 25",
+        "bezr": 118146,
+        "zarej": 11317,
+        "wyrej": 11855,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2025-12",
+        "label": "Gru 25",
+        "bezr": 118186,
+        "zarej": 11452,
+        "wyrej": 11412,
+        "stopa": 4.3
+      },
+      {
+        "okres": "2026-01",
+        "label": "Sty 26",
+        "bezr": 122636,
+        "zarej": 13948,
+        "wyrej": 9472,
+        "stopa": 4.5
+      }
+    ],
+    "mapa_maz": [
+      {
+        "wgm": "1401",
+        "nazwa": "Białobrzeski",
+        "stopa": 8.2,
+        "bezr_razem": 981
+      },
+      {
+        "wgm": "1402",
+        "nazwa": "Ciechanowski",
+        "stopa": 8.7,
+        "bezr_razem": 2868
+      },
+      {
+        "wgm": "1403",
+        "nazwa": "Garwoliński",
+        "stopa": 9.5,
+        "bezr_razem": 3538
+      },
+      {
+        "wgm": "1404",
+        "nazwa": "Gostyniński",
+        "stopa": 12.7,
+        "bezr_razem": 1934
+      },
+      {
+        "wgm": "1405",
+        "nazwa": "Grodziski",
+        "stopa": 3.4,
+        "bezr_razem": 1357
+      },
+      {
+        "wgm": "1406",
+        "nazwa": "Grójecki",
+        "stopa": 3.4,
+        "bezr_razem": 1367
+      },
+      {
+        "wgm": "1407",
+        "nazwa": "Kozienicki",
+        "stopa": 10.0,
+        "bezr_razem": 1917
+      },
+      {
+        "wgm": "1408",
+        "nazwa": "Legionowski",
+        "stopa": 6.8,
+        "bezr_razem": 2593
+      },
+      {
+        "wgm": "1409",
+        "nazwa": "Lipski",
+        "stopa": 13.5,
+        "bezr_razem": 1476
+      },
+      {
+        "wgm": "1410",
+        "nazwa": "Łosicki",
+        "stopa": 5.9,
+        "bezr_razem": 665
+      },
+      {
+        "wgm": "1411",
+        "nazwa": "Makowski",
+        "stopa": 17.0,
+        "bezr_razem": 2668
+      },
+      {
+        "wgm": "1412",
+        "nazwa": "Miński",
+        "stopa": 5.0,
+        "bezr_razem": 2424
+      },
+      {
+        "wgm": "1413",
+        "nazwa": "Mławski",
+        "stopa": 7.2,
+        "bezr_razem": 1953
+      },
+      {
+        "wgm": "1414",
+        "nazwa": "Nowodworski",
+        "stopa": 6.3,
+        "bezr_razem": 2154
+      },
+      {
+        "wgm": "1415",
+        "nazwa": "Ostrołęcki",
+        "stopa": 9.6,
+        "bezr_razem": 2850
+      },
+      {
+        "wgm": "1416",
+        "nazwa": "Ostrowski",
+        "stopa": 9.3,
+        "bezr_razem": 2415
+      },
+      {
+        "wgm": "1417",
+        "nazwa": "Otwocki",
+        "stopa": 4.2,
+        "bezr_razem": 2040
+      },
+      {
+        "wgm": "1418",
+        "nazwa": "Piaseczyński",
+        "stopa": 3.8,
+        "bezr_razem": 3077
+      },
+      {
+        "wgm": "1419",
+        "nazwa": "Płocki",
+        "stopa": 10.5,
+        "bezr_razem": 3394
+      },
+      {
+        "wgm": "1420",
+        "nazwa": "Płoński",
+        "stopa": 10.6,
+        "bezr_razem": 3228
+      },
+      {
+        "wgm": "1421",
+        "nazwa": "Pruszkowski",
+        "stopa": 2.7,
+        "bezr_razem": 2196
+      },
+      {
+        "wgm": "1422",
+        "nazwa": "Przasnyski",
+        "stopa": 10.3,
+        "bezr_razem": 1828
+      },
+      {
+        "wgm": "1423",
+        "nazwa": "Przysuski",
+        "stopa": 19.0,
+        "bezr_razem": 2593
+      },
+      {
+        "wgm": "1424",
+        "nazwa": "Pułtuski",
+        "stopa": 15.2,
+        "bezr_razem": 2713
+      },
+      {
+        "wgm": "1425",
+        "nazwa": "Radomski",
+        "stopa": 17.4,
+        "bezr_razem": 7963
+      },
+      {
+        "wgm": "1426",
+        "nazwa": "Siedlecki",
+        "stopa": 5.8,
+        "bezr_razem": 1533
+      },
+      {
+        "wgm": "1427",
+        "nazwa": "Sierpecki",
+        "stopa": 12.7,
+        "bezr_razem": 2158
+      },
+      {
+        "wgm": "1428",
+        "nazwa": "Sochaczewski",
+        "stopa": 3.7,
+        "bezr_razem": 1161
+      },
+      {
+        "wgm": "1429",
+        "nazwa": "Sokołowski",
+        "stopa": 5.8,
+        "bezr_razem": 1143
+      },
+      {
+        "wgm": "1430",
+        "nazwa": "Szydłowiecki",
+        "stopa": 23.2,
+        "bezr_razem": 2778
+      },
+      {
+        "wgm": "1432",
+        "nazwa": "Warszawski zachodni",
+        "stopa": 2.0,
+        "bezr_razem": 1319
+      },
+      {
+        "wgm": "1433",
+        "nazwa": "Węgrowski",
+        "stopa": 5.8,
+        "bezr_razem": 1259
+      },
+      {
+        "wgm": "1434",
+        "nazwa": "Wołomiński",
+        "stopa": 6.7,
+        "bezr_razem": 5963
+      },
+      {
+        "wgm": "1435",
+        "nazwa": "Wyszkowski",
+        "stopa": 4.8,
+        "bezr_razem": 1385
+      },
+      {
+        "wgm": "1436",
+        "nazwa": "Zwoleński",
+        "stopa": 13.8,
+        "bezr_razem": 1594
+      },
+      {
+        "wgm": "1437",
+        "nazwa": "Żuromiński",
+        "stopa": 15.1,
+        "bezr_razem": 1989
+      },
+      {
+        "wgm": "1438",
+        "nazwa": "Żyrardowski",
+        "stopa": 9.3,
+        "bezr_razem": 2553
+      },
+      {
+        "wgm": "1461",
+        "nazwa": "m. Ostrołęka",
+        "stopa": 8.0,
+        "bezr_razem": 1823
+      },
+      {
+        "wgm": "1462",
+        "nazwa": "m. Płock",
+        "stopa": 5.5,
+        "bezr_razem": 3171
+      },
+      {
+        "wgm": "1463",
+        "nazwa": "m. Radom",
+        "stopa": 10.5,
+        "bezr_razem": 8863
+      },
+      {
+        "wgm": "1464",
+        "nazwa": "m. Siedlce",
+        "stopa": 4.6,
+        "bezr_razem": 1670
+      },
+      {
+        "wgm": "1465",
+        "nazwa": "m. Warszawa",
+        "stopa": 1.5,
+        "bezr_razem": 20082
+      }
+    ]
+  },
+  "bezrobotni": {
+    "bezr_razem": 122636,
+    "bezr_delta": 4450,
+    "wyrej_razem": 9472,
+    "wyrej_delta": -1940,
+    "zarej_razem": 13948,
+    "zarej_delta": 2496,
+    "oferty_razem": 3327,
+    "oferty_delta": 451,
+    "kategorie": [
+      {
+        "label": "Zamieszkali na wsi",
+        "n": 54593,
+        "pct": 44.5
+      },
+      {
+        "label": "Długotrwale bezrobotni",
+        "n": 50050,
+        "pct": 40.8
+      },
+      {
+        "label": "Bez kwalifikacji zawodowych",
+        "n": 42995,
+        "pct": 35.1
+      },
+      {
+        "label": "Z dzieckiem do 18 lat",
+        "n": 34158,
+        "pct": 27.9
+      },
+      {
+        "label": "Powyżej 50 roku życia",
+        "n": 33444,
+        "pct": 27.3
+      },
+      {
+        "label": "Do 30 roku życia",
+        "n": 27895,
+        "pct": 22.7
+      },
+      {
+        "label": "Niepełnosprawni",
+        "n": 5721,
+        "pct": 4.7
+      }
+    ],
+    "wyrej_reasons": [
+      {
+        "label": "Podjęcie pracy",
+        "n": 5049,
+        "pct": 53.3
+      },
+      {
+        "label": "Brak kontaktu z PUP",
+        "n": 2398,
+        "pct": 25.3
+      },
+      {
+        "label": "Inne przyczyny",
+        "n": 759,
+        "pct": 8.0
+      },
+      {
+        "label": "Dobrowolna rezygnacja",
+        "n": 478,
+        "pct": 5.0
+      },
+      {
+        "label": "Wiek/prawa emery.",
+        "n": 229,
+        "pct": 2.4
+      },
+      {
+        "label": "Szkolenie i staż",
+        "n": 205,
+        "pct": 2.2
+      },
+      {
+        "label": "Niepodjęcie/przerwanie",
+        "n": 149,
+        "pct": 1.6
+      }
+    ],
+    "trend_13m": [
+      {
+        "label": "Sty 25",
+        "zarej": 15673,
+        "wyrej": 9971
+      },
+      {
+        "label": "Lut 25",
+        "zarej": 12896,
+        "wyrej": 11720
+      },
+      {
+        "label": "Mar 25",
+        "zarej": 12631,
+        "wyrej": 14663
+      },
+      {
+        "label": "Kwi 25",
+        "zarej": 11413,
+        "wyrej": 14000
+      },
+      {
+        "label": "Maj 25",
+        "zarej": 10995,
+        "wyrej": 13556
+      },
+      {
+        "label": "Cze 25",
+        "zarej": 10103,
+        "wyrej": 7796
+      },
+      {
+        "label": "Lip 25",
+        "zarej": 13320,
+        "wyrej": 8370
+      },
+      {
+        "label": "Sie 25",
+        "zarej": 12249,
+        "wyrej": 8070
+      },
+      {
+        "label": "Wrz 25",
+        "zarej": 14759,
+        "wyrej": 15315
+      },
+      {
+        "label": "Paź 25",
+        "zarej": 13913,
+        "wyrej": 14827
+      },
+      {
+        "label": "Lis 25",
+        "zarej": 11317,
+        "wyrej": 11855
+      },
+      {
+        "label": "Gru 25",
+        "zarej": 11452,
+        "wyrej": 11412
+      },
+      {
+        "label": "Sty 26",
+        "zarej": 13948,
+        "wyrej": 9472
+      }
+    ],
+    "charakterystyka": {
+      "kobiety": 57345,
+      "mezczyzni": 65291,
+      "czas": [
+        13108,
+        18274,
+        18861,
+        22343,
+        20931,
+        29119
+      ],
+      "wiek": [
+        14943,
+        27262,
+        31965,
+        28987,
+        12275,
+        7204
+      ],
+      "wyk": [
+        21114,
+        26026,
+        16636,
+        25343,
+        33517
+      ],
+      "staz": [
+        26138,
+        30070,
+        19507,
+        17725,
+        8741,
+        2260,
+        18195
+      ]
+    }
+  },
+  "stopa": {
+    "stopa_pl": 6.0,
+    "stopa_pl_delta": null,
+    "stopa_maz": 4.5,
+    "stopa_maz_delta": 0.2,
+    "pow_max": {
+      "wgm": "1430",
+      "nazwa": "Szydłowiecki",
+      "stopa": 23.2
+    },
+    "pow_min": {
+      "wgm": "1465",
+      "nazwa": "m. Warszawa",
+      "stopa": 1.5
+    },
+    "pow_top5": [
+      {
+        "label": "Szydłowiecki",
+        "value": 23.2
+      },
+      {
+        "label": "Przysuski",
+        "value": 19.0
+      },
+      {
+        "label": "Radomski",
+        "value": 17.4
+      },
+      {
+        "label": "Makowski",
+        "value": 17.0
+      },
+      {
+        "label": "Pułtuski",
+        "value": 15.2
+      }
+    ],
+    "pow_bot5": [
+      {
+        "label": "Grodziski",
+        "value": 3.4
+      },
+      {
+        "label": "Grójecki",
+        "value": 3.4
+      },
+      {
+        "label": "Pruszkowski",
+        "value": 2.7
+      },
+      {
+        "label": "Warszawski zachodni",
+        "value": 2.0
+      },
+      {
+        "label": "m. Warszawa",
+        "value": 1.5
+      }
+    ],
+    "trend_maz_13m": [
+      {
+        "okres": "2025-01",
+        "label": "Sty 25",
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-02",
+        "label": "Lut 25",
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-03",
+        "label": "Mar 25",
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-04",
+        "label": "Kwi 25",
+        "stopa": 4.1
+      },
+      {
+        "okres": "2025-05",
+        "label": "Maj 25",
+        "stopa": 4.0
+      },
+      {
+        "okres": "2025-06",
+        "label": "Cze 25",
+        "stopa": 4.0
+      },
+      {
+        "okres": "2025-07",
+        "label": "Lip 25",
+        "stopa": 4.2
+      },
+      {
+        "okres": "2025-08",
+        "label": "Sie 25",
+        "stopa": 4.4
+      },
+      {
+        "okres": "2025-09",
+        "label": "Wrz 25",
+        "stopa": 4.4
+      },
+      {
+        "okres": "2025-10",
+        "label": "Paź 25",
+        "stopa": 4.3
+      },
+      {
+        "okres": "2025-11",
+        "label": "Lis 25",
+        "stopa": 4.3
+      },
+      {
+        "okres": "2025-12",
+        "label": "Gru 25",
+        "stopa": 4.3
+      },
+      {
+        "okres": "2026-01",
+        "label": "Sty 26",
+        "stopa": 4.5
+      }
+    ]
+  },
+  "wynagrodzenia": {
+    "maz_avg": 9465.27,
+    "powiaty": [
+      {
+        "powiat": "Warszawa",
+        "wynagrodzenie": 10421.25,
+        "wyn_krotki": 9707.2,
+        "wyn_dlugi": 11415.83,
+        "pracujacy": 1675420
+      },
+      {
+        "powiat": "Płock",
+        "wynagrodzenie": 10246.25,
+        "wyn_krotki": 8802.53,
+        "wyn_dlugi": 11416.14,
+        "pracujacy": 43271
+      },
+      {
+        "powiat": "płocki",
+        "wynagrodzenie": 10070.86,
+        "wyn_krotki": 8669.86,
+        "wyn_dlugi": 11243.28,
+        "pracujacy": 43123
+      },
+      {
+        "powiat": "kozienicki",
+        "wynagrodzenie": 9265.91,
+        "wyn_krotki": 7290.76,
+        "wyn_dlugi": 10526.08,
+        "pracujacy": 8672
+      },
+      {
+        "powiat": "nowodworski",
+        "wynagrodzenie": 8449.54,
+        "wyn_krotki": 7996.25,
+        "wyn_dlugi": 9036.92,
+        "pracujacy": 33625
+      },
+      {
+        "powiat": "pruszkowski",
+        "wynagrodzenie": 8405.6,
+        "wyn_krotki": 7895.24,
+        "wyn_dlugi": 9114.68,
+        "pracujacy": 62355
+      },
+      {
+        "powiat": "warszawski zachodni",
+        "wynagrodzenie": 8357.09,
+        "wyn_krotki": 7964.68,
+        "wyn_dlugi": 8919.99,
+        "pracujacy": 48522
+      },
+      {
+        "powiat": "otwocki",
+        "wynagrodzenie": 8172.13,
+        "wyn_krotki": 7632.89,
+        "wyn_dlugi": 8838.96,
+        "pracujacy": 38081
+      },
+      {
+        "powiat": "sochaczewski",
+        "wynagrodzenie": 8081.52,
+        "wyn_krotki": 7542.71,
+        "wyn_dlugi": 8671.15,
+        "pracujacy": 18010
+      },
+      {
+        "powiat": "żyrardowski",
+        "wynagrodzenie": 7928.46,
+        "wyn_krotki": 7289.93,
+        "wyn_dlugi": 8601.16,
+        "pracujacy": 16659
+      },
+      {
+        "powiat": "Ostrołęka",
+        "wynagrodzenie": 7886.72,
+        "wyn_krotki": 6995.08,
+        "wyn_dlugi": 8527.3,
+        "pracujacy": 15613
+      },
+      {
+        "powiat": "grodziski",
+        "wynagrodzenie": 7825.93,
+        "wyn_krotki": 7423.43,
+        "wyn_dlugi": 8278.09,
+        "pracujacy": 34285
+      },
+      {
+        "powiat": "Siedlce",
+        "wynagrodzenie": 7737.6,
+        "wyn_krotki": 7049.24,
+        "wyn_dlugi": 8329.28,
+        "pracujacy": 33147
+      },
+      {
+        "powiat": "ciechanowski",
+        "wynagrodzenie": 7690.57,
+        "wyn_krotki": 6849.12,
+        "wyn_dlugi": 8351.88,
+        "pracujacy": 17246
+      },
+      {
+        "powiat": "ostrołęcki",
+        "wynagrodzenie": 7661.09,
+        "wyn_krotki": 6819.05,
+        "wyn_dlugi": 8307.64,
+        "pracujacy": 21688
+      },
+      {
+        "powiat": "siedlecki",
+        "wynagrodzenie": 7635.63,
+        "wyn_krotki": 7009.53,
+        "wyn_dlugi": 8195.27,
+        "pracujacy": 36649
+      },
+      {
+        "powiat": "piaseczyński",
+        "wynagrodzenie": 7586.54,
+        "wyn_krotki": 7122.34,
+        "wyn_dlugi": 8237.17,
+        "pracujacy": 70819
+      },
+      {
+        "powiat": "lipski",
+        "wynagrodzenie": 7552.62,
+        "wyn_krotki": 6910.53,
+        "wyn_dlugi": 8166.43,
+        "pracujacy": 5365
+      },
+      {
+        "powiat": "grójecki",
+        "wynagrodzenie": 7502.64,
+        "wyn_krotki": 7004.67,
+        "wyn_dlugi": 8037.51,
+        "pracujacy": 18412
+      },
+      {
+        "powiat": "legionowski",
+        "wynagrodzenie": 7489.55,
+        "wyn_krotki": 7053.72,
+        "wyn_dlugi": 8036.62,
+        "pracujacy": 34638
+      },
+      {
+        "powiat": "ostrowski",
+        "wynagrodzenie": 7366.59,
+        "wyn_krotki": 6807.29,
+        "wyn_dlugi": 7900.55,
+        "pracujacy": 56616
+      },
+      {
+        "powiat": "wołomiński",
+        "wynagrodzenie": 7281.44,
+        "wyn_krotki": 7025.89,
+        "wyn_dlugi": 7599.4,
+        "pracujacy": 61555
+      },
+      {
+        "powiat": "gostyniński",
+        "wynagrodzenie": 7249.3,
+        "wyn_krotki": 6812.78,
+        "wyn_dlugi": 7601.85,
+        "pracujacy": 8254
+      },
+      {
+        "powiat": "Radom",
+        "wynagrodzenie": 7234.45,
+        "wyn_krotki": 6830.86,
+        "wyn_dlugi": 7707.06,
+        "pracujacy": 40165
+      },
+      {
+        "powiat": "przasnyski",
+        "wynagrodzenie": 7228.77,
+        "wyn_krotki": 6478.23,
+        "wyn_dlugi": 7855.04,
+        "pracujacy": 7411
+      },
+      {
+        "powiat": "płoński",
+        "wynagrodzenie": 7186.83,
+        "wyn_krotki": 6773.61,
+        "wyn_dlugi": 7631.04,
+        "pracujacy": 15578
+      },
+      {
+        "powiat": "makowski",
+        "wynagrodzenie": 7184.82,
+        "wyn_krotki": 6610.77,
+        "wyn_dlugi": 7754.16,
+        "pracujacy": 8577
+      },
+      {
+        "powiat": "zwoleński",
+        "wynagrodzenie": 7120.24,
+        "wyn_krotki": 6536.81,
+        "wyn_dlugi": 7634.41,
+        "pracujacy": 4685
+      },
+      {
+        "powiat": "węgrowski",
+        "wynagrodzenie": 7056.78,
+        "wyn_krotki": 6567.75,
+        "wyn_dlugi": 7589.51,
+        "pracujacy": 13374
+      },
+      {
+        "powiat": "miński",
+        "wynagrodzenie": 7025.78,
+        "wyn_krotki": 6610.35,
+        "wyn_dlugi": 7538.02,
+        "pracujacy": 29630
+      },
+      {
+        "powiat": "garwoliński",
+        "wynagrodzenie": 6986.03,
+        "wyn_krotki": 6481.23,
+        "wyn_dlugi": 7479.36,
+        "pracujacy": 17064
+      },
+      {
+        "powiat": "radomski",
+        "wynagrodzenie": 6923.65,
+        "wyn_krotki": 6527.62,
+        "wyn_dlugi": 7309.49,
+        "pracujacy": 24529
+      },
+      {
+        "powiat": "sokołowski",
+        "wynagrodzenie": 6886.36,
+        "wyn_krotki": 6351.03,
+        "wyn_dlugi": 7253.43,
+        "pracujacy": 11202
+      },
+      {
+        "powiat": "sierpecki",
+        "wynagrodzenie": 6832.76,
+        "wyn_krotki": 6248.5,
+        "wyn_dlugi": 7412.59,
+        "pracujacy": 7716
+      },
+      {
+        "powiat": "pułtuski",
+        "wynagrodzenie": 6738.69,
+        "wyn_krotki": 6307.07,
+        "wyn_dlugi": 7185.41,
+        "pracujacy": 8616
+      },
+      {
+        "powiat": "mławski",
+        "wynagrodzenie": 6693.0,
+        "wyn_krotki": 6297.4,
+        "wyn_dlugi": 7161.73,
+        "pracujacy": 13736
+      },
+      {
+        "powiat": "przysuski",
+        "wynagrodzenie": 6675.42,
+        "wyn_krotki": 6250.14,
+        "wyn_dlugi": 7207.99,
+        "pracujacy": 5108
+      },
+      {
+        "powiat": "łosicki",
+        "wynagrodzenie": 6669.36,
+        "wyn_krotki": 6254.36,
+        "wyn_dlugi": 7143.14,
+        "pracujacy": 5572
+      },
+      {
+        "powiat": "żuromiński",
+        "wynagrodzenie": 6624.22,
+        "wyn_krotki": 6059.37,
+        "wyn_dlugi": 7089.0,
+        "pracujacy": 4889
+      },
+      {
+        "powiat": "wyszkowski",
+        "wynagrodzenie": 6615.64,
+        "wyn_krotki": 6191.16,
+        "wyn_dlugi": 7161.04,
+        "pracujacy": 16806
+      },
+      {
+        "powiat": "białobrzeski",
+        "wynagrodzenie": 6497.13,
+        "wyn_krotki": 6234.1,
+        "wyn_dlugi": 6904.56,
+        "pracujacy": 5837
+      },
+      {
+        "powiat": "szydłowiecki",
+        "wynagrodzenie": 6329.82,
+        "wyn_krotki": 5994.75,
+        "wyn_dlugi": 6917.83,
+        "pracujacy": 5587
+      }
+    ],
+    "zawody": [
+      {
+        "zawod": "technicy technologii żywności i żywienia",
+        "wynagrodzenie": 29603.76,
+        "premia_pct": 316.76
+      },
+      {
+        "zawod": "dyrektorzy i prezesi zarządzający podmiotem / instytucją",
+        "wynagrodzenie": 19532.16,
+        "premia_pct": -0.45
+      },
+      {
+        "zawod": "mediatorzy",
+        "wynagrodzenie": 19332.23,
+        "premia_pct": 292.06
+      },
+      {
+        "zawod": "wyżsi urzędnicy i przedstawiciele władz publicznych",
+        "wynagrodzenie": 18465.52,
+        "premia_pct": -5.79
+      },
+      {
+        "zawod": "programiści",
+        "wynagrodzenie": 18226.51,
+        "premia_pct": 2.28
+      },
+      {
+        "zawod": "personel zarządzający dziedziną / działem / komórką organizacyjną",
+        "wynagrodzenie": 17904.9,
+        "premia_pct": 14.76
+      },
+      {
+        "zawod": "lekarze",
+        "wynagrodzenie": 17341.94,
+        "premia_pct": 38.31
+      },
+      {
+        "zawod": "inżynierowie górnictwa",
+        "wynagrodzenie": 17262.17,
+        "premia_pct": -5.01
+      },
+      {
+        "zawod": "inżynierowie technologii ceramiki",
+        "wynagrodzenie": 16614.54,
+        "premia_pct": 147.49
+      },
+      {
+        "zawod": "matematycy",
+        "wynagrodzenie": 15933.38,
+        "premia_pct": 28.32
+      },
+      {
+        "zawod": "specjaliści ds. baz danych i sieci komputerowych",
+        "wynagrodzenie": 15899.62,
+        "premia_pct": 11.98
+      },
+      {
+        "zawod": "specjaliści poligrafii",
+        "wynagrodzenie": 15517.59,
+        "premia_pct": 38.82
+      },
+      {
+        "zawod": "prawnicy",
+        "wynagrodzenie": 15474.99,
+        "premia_pct": 20.9
+      },
+      {
+        "zawod": "analitycy, testerzy i operatorzy systemów komputerowych",
+        "wynagrodzenie": 15219.52,
+        "premia_pct": 8.89
+      },
+      {
+        "zawod": "specjaliści elektroniki, automatyki i robotyki",
+        "wynagrodzenie": 14579.51,
+        "premia_pct": 21.03
+      },
+      {
+        "zawod": "specjaliści biolodzy i biotechnolodzy",
+        "wynagrodzenie": 14549.25,
+        "premia_pct": 20.96
+      },
+      {
+        "zawod": "specjaliści ds. badań społeczno-ekonomiczny i analizy danych",
+        "wynagrodzenie": 14549.13,
+        "premia_pct": 19.63
+      },
+      {
+        "zawod": "reżyserzy i producenci filmowi, teatralni, telewizyjni i radiowi",
+        "wynagrodzenie": 14548.3,
+        "premia_pct": 5.35
+      },
+      {
+        "zawod": "kierownicy budowy",
+        "wynagrodzenie": 14473.58,
+        "premia_pct": 10.64
+      },
+      {
+        "zawod": "specjaliści mechanicy",
+        "wynagrodzenie": 14334.48,
+        "premia_pct": 23.96
+      },
+      {
+        "zawod": "inżynierowie elektrycy i energetycy",
+        "wynagrodzenie": 14237.75,
+        "premia_pct": 20.23
+      },
+      {
+        "zawod": "specjaliści ds. finansowych",
+        "wynagrodzenie": 13485.09,
+        "premia_pct": 21.17
+      },
+      {
+        "zawod": "działacze zrzeszeń i organizacji",
+        "wynagrodzenie": 13455.64,
+        "premia_pct": -23.12
+      },
+      {
+        "zawod": "pracownicy obsługi ruchu lotniczego",
+        "wynagrodzenie": 13284.61,
+        "premia_pct": 113.63
+      },
+      {
+        "zawod": "operatorzy maszyn włókienniczych",
+        "wynagrodzenie": 13063.99,
+        "premia_pct": 169.43
+      },
+      {
+        "zawod": "inspektorzy nadzoru budowlanego",
+        "wynagrodzenie": 13023.07,
+        "premia_pct": 10.68
+      },
+      {
+        "zawod": "specjaliści ds. zarządzania i konsultanci biznesu",
+        "wynagrodzenie": 12983.48,
+        "premia_pct": 20.28
+      },
+      {
+        "zawod": "specjaliści papiernictwa",
+        "wynagrodzenie": 12908.48,
+        "premia_pct": -21.25
+      },
+      {
+        "zawod": "specjaliści leśnictwa",
+        "wynagrodzenie": 12797.93,
+        "premia_pct": 32.78
+      },
+      {
+        "zawod": "technicy leśnictwa",
+        "wynagrodzenie": 12635.03,
+        "premia_pct": 71.44
+      },
+      {
+        "zawod": "inżynierowie inżynierii środowiska",
+        "wynagrodzenie": 12519.97,
+        "premia_pct": 28.71
+      },
+      {
+        "zawod": "specjaliści telekomunikacji",
+        "wynagrodzenie": 12447.59,
+        "premia_pct": 15.12
+      },
+      {
+        "zawod": "specjaliści farmacji",
+        "wynagrodzenie": 12351.3,
+        "premia_pct": 13.45
+      },
+      {
+        "zawod": "specjaliści chemicy",
+        "wynagrodzenie": 12235.66,
+        "premia_pct": 36.85
+      },
+      {
+        "zawod": "specjaliści fizycy i pokrewni",
+        "wynagrodzenie": 11975.6,
+        "premia_pct": 17.39
+      },
+      {
+        "zawod": "literaci i autorzy tekstów",
+        "wynagrodzenie": 11868.84,
+        "premia_pct": 23.94
+      },
+      {
+        "zawod": "prezenterzy, komentatorzy",
+        "wynagrodzenie": 11783.8,
+        "premia_pct": 54.72
+      },
+      {
+        "zawod": "samodzielni księgowi",
+        "wynagrodzenie": 11739.35,
+        "premia_pct": 13.33
+      },
+      {
+        "zawod": "naukowcy i nauczyciele akademiccy",
+        "wynagrodzenie": 11630.22,
+        "premia_pct": 45.16
+      },
+      {
+        "zawod": "maszyniści",
+        "wynagrodzenie": 11526.47,
+        "premia_pct": 12.59
+      },
+      {
+        "zawod": "specjaliści ds. PR, reklamy, marketingu i sprzedaży",
+        "wynagrodzenie": 11499.13,
+        "premia_pct": 24.38
+      },
+      {
+        "zawod": "inżynierowie budownictwa",
+        "wynagrodzenie": 11495.46,
+        "premia_pct": 27.01
+      },
+      {
+        "zawod": "pracownicy ds. jakości i organizacji produkcji",
+        "wynagrodzenie": 11395.13,
+        "premia_pct": 23.0
+      },
+      {
+        "zawod": "specjaliści zarządzania kryzysowego",
+        "wynagrodzenie": 11380.6,
+        "premia_pct": 10.65
+      },
+      {
+        "zawod": "specjaliści nauk o ziemi",
+        "wynagrodzenie": 11316.57,
+        "premia_pct": 43.63
+      },
+      {
+        "zawod": "górnicy i operatorzy maszyn i urządzeń wydobywczych",
+        "wynagrodzenie": 11234.45,
+        "premia_pct": 27.49
+      },
+      {
+        "zawod": "pielęgniarki",
+        "wynagrodzenie": 11175.7,
+        "premia_pct": 15.21
+      },
+      {
+        "zawod": "specjaliści ds. administracji",
+        "wynagrodzenie": 11171.33,
+        "premia_pct": 15.47
+      },
+      {
+        "zawod": "specjaliści zdrowia publicznego",
+        "wynagrodzenie": 11104.2,
+        "premia_pct": 19.3
+      },
+      {
+        "zawod": "specjaliści nauk humanistycznych",
+        "wynagrodzenie": 11077.73,
+        "premia_pct": 8.43
+      },
+      {
+        "zawod": "diagności laboratoryjni medyczni",
+        "wynagrodzenie": 11066.88,
+        "premia_pct": 11.43
+      },
+      {
+        "zawod": "filolodzy i tłumacze",
+        "wynagrodzenie": 10963.47,
+        "premia_pct": 28.71
+      },
+      {
+        "zawod": "ratownicy medyczni",
+        "wynagrodzenie": 10925.06,
+        "premia_pct": 16.05
+      },
+      {
+        "zawod": "położne",
+        "wynagrodzenie": 10883.06,
+        "premia_pct": 13.27
+      },
+      {
+        "zawod": "kierownicy zarządzający podmiotem / instytucją",
+        "wynagrodzenie": 10881.1,
+        "premia_pct": 24.12
+      },
+      {
+        "zawod": "nauczyciele języków obcych",
+        "wynagrodzenie": 10880.3,
+        "premia_pct": 47.62
+      },
+      {
+        "zawod": "nauczyciele nauczania wczesnoszkolnego",
+        "wynagrodzenie": 10778.1,
+        "premia_pct": 24.58
+      },
+      {
+        "zawod": "specjaliści ds. rynku nieruchomości",
+        "wynagrodzenie": 10664.56,
+        "premia_pct": 22.01
+      },
+      {
+        "zawod": "specjaliści ds. zarządzania zasobami ludzkimi i rekrutacji",
+        "wynagrodzenie": 10655.64,
+        "premia_pct": 19.96
+      },
+      {
+        "zawod": "lekarze weterynarii",
+        "wynagrodzenie": 10562.83,
+        "premia_pct": 10.19
+      },
+      {
+        "zawod": "nauczyciele szkół specjalnych i oddziałów integracyjnych",
+        "wynagrodzenie": 10527.06,
+        "premia_pct": 26.32
+      },
+      {
+        "zawod": "dziennikarze i redaktorzy",
+        "wynagrodzenie": 10449.56,
+        "premia_pct": 1.27
+      },
+      {
+        "zawod": "przedstawiciele handlowi",
+        "wynagrodzenie": 10429.82,
+        "premia_pct": 25.05
+      },
+      {
+        "zawod": "technicy mechanicy",
+        "wynagrodzenie": 10375.85,
+        "premia_pct": 27.04
+      },
+      {
+        "zawod": "aktorzy",
+        "wynagrodzenie": 10327.36,
+        "premia_pct": 13.48
+      },
+      {
+        "zawod": "nauczyciele przedmiotów zawodowych",
+        "wynagrodzenie": 10323.45,
+        "premia_pct": 21.05
+      },
+      {
+        "zawod": "pracownicy ds. bhp",
+        "wynagrodzenie": 10179.81,
+        "premia_pct": 13.71
+      },
+      {
+        "zawod": "nauczyciele przedmiotów ogólnokształcących",
+        "wynagrodzenie": 10049.08,
+        "premia_pct": 24.86
+      },
+      {
+        "zawod": "technicy budownictwa",
+        "wynagrodzenie": 10017.93,
+        "premia_pct": 18.5
+      },
+      {
+        "zawod": "nauczyciele praktycznej nauki zawodu",
+        "wynagrodzenie": 9969.37,
+        "premia_pct": 28.79
+      },
+      {
+        "zawod": "operatorzy maszyn do produkcji wyrobów chemicznych",
+        "wynagrodzenie": 9927.84,
+        "premia_pct": 54.13
+      },
+      {
+        "zawod": "technicy informatycy",
+        "wynagrodzenie": 9855.34,
+        "premia_pct": 14.66
+      },
+      {
+        "zawod": "technicy geolodzy, geofizycy, hydrolodzy, meteorolodzy",
+        "wynagrodzenie": 9835.53,
+        "premia_pct": 29.09
+      },
+      {
+        "zawod": "graficy komputerowi",
+        "wynagrodzenie": 9829.72,
+        "premia_pct": 10.46
+      },
+      {
+        "zawod": "agenci ubezpieczeniowi",
+        "wynagrodzenie": 9816.32,
+        "premia_pct": 21.91
+      },
+      {
+        "zawod": "pracownicy ds. rachunkowości i księgowości",
+        "wynagrodzenie": 9751.02,
+        "premia_pct": 24.35
+      },
+      {
+        "zawod": "pracownicy ds. ochrony środowiska i zrównoważonego rozwoju",
+        "wynagrodzenie": 9733.64,
+        "premia_pct": 14.18
+      },
+      {
+        "zawod": "specjaliści spedycji i logistyki",
+        "wynagrodzenie": 9682.04,
+        "premia_pct": 18.61
+      },
+      {
+        "zawod": "pracownicy socjalni",
+        "wynagrodzenie": 9661.99,
+        "premia_pct": 22.97
+      },
+      {
+        "zawod": "pracownicy służb mundurowych",
+        "wynagrodzenie": 9661.78,
+        "premia_pct": 13.23
+      },
+      {
+        "zawod": "administratorzy stron internetowych",
+        "wynagrodzenie": 9616.88,
+        "premia_pct": 4.72
+      },
+      {
+        "zawod": "wychowawcy w placówkach oświatowych i opiekuńczych",
+        "wynagrodzenie": 9589.28,
+        "premia_pct": 21.95
+      },
+      {
+        "zawod": "inżynierowie technologii szkła",
+        "wynagrodzenie": 9577.56,
+        "premia_pct": 30.99
+      },
+      {
+        "zawod": "architekci i urbaniści",
+        "wynagrodzenie": 9500.46,
+        "premia_pct": 7.99
+      },
+      {
+        "zawod": "technicy chemicy i tworzyw sztucznych",
+        "wynagrodzenie": 9491.91,
+        "premia_pct": 24.95
+      },
+      {
+        "zawod": "inżynierowie technologii przetwórstwa skóry",
+        "wynagrodzenie": 9458.81,
+        "premia_pct": 0
+      },
+      {
+        "zawod": "personel związany z produkcją filmową, teatralną, telewizyjną i radiową",
+        "wynagrodzenie": 9420.84,
+        "premia_pct": 23.67
+      },
+      {
+        "zawod": "dentyści",
+        "wynagrodzenie": 9379.4,
+        "premia_pct": 33.97
+      },
+      {
+        "zawod": "operatorzy aparatury medycznej",
+        "wynagrodzenie": 9317.5,
+        "premia_pct": 12.13
+      },
+      {
+        "zawod": "pracownicy obsługi ruchu szynowego",
+        "wynagrodzenie": 9261.6,
+        "premia_pct": 23.62
+      },
+      {
+        "zawod": "bibliotekoznawcy, bibliotekarze i specjaliści informacji naukowej",
+        "wynagrodzenie": 9236.25,
+        "premia_pct": 13.67
+      },
+      {
+        "zawod": "pedagodzy i nauczyciele wspierający",
+        "wynagrodzenie": 9176.22,
+        "premia_pct": 15.71
+      },
+      {
+        "zawod": "specjaliści przetwórstwa metali",
+        "wynagrodzenie": 9123.73,
+        "premia_pct": 26.1
+      },
+      {
+        "zawod": "psycholodzy",
+        "wynagrodzenie": 9108.6,
+        "premia_pct": 19.14
+      },
+      {
+        "zawod": "specjaliści technologii żywności i żywienia",
+        "wynagrodzenie": 9089.4,
+        "premia_pct": 40.26
+      },
+      {
+        "zawod": "sekretarki i asystenci",
+        "wynagrodzenie": 9027.73,
+        "premia_pct": 32.52
+      },
+      {
+        "zawod": "specjaliści geodeci i kartografowie",
+        "wynagrodzenie": 8984.14,
+        "premia_pct": 35.85
+      },
+      {
+        "zawod": "technicy elektroniki, automatyki i robotyki",
+        "wynagrodzenie": 8977.07,
+        "premia_pct": 26.51
+      },
+      {
+        "zawod": "marynarze, pracownicy obsługi statków i portów",
+        "wynagrodzenie": 8928.72,
+        "premia_pct": 48.07
+      },
+      {
+        "zawod": "pozostali specjaliści edukacji",
+        "wynagrodzenie": 8908.68,
+        "premia_pct": 23.0
+      },
+      {
+        "zawod": "logopedzi i audiofonolodzy",
+        "wynagrodzenie": 8856.51,
+        "premia_pct": 11.84
+      },
+      {
+        "zawod": "pracownicy ds. budowy i strojenia instrumentów muzycznych",
+        "wynagrodzenie": 8806.48,
+        "premia_pct": -27.04
+      },
+      {
+        "zawod": "specjaliści rolnictwa",
+        "wynagrodzenie": 8805.3,
+        "premia_pct": 20.15
+      },
+      {
+        "zawod": "nauczyciele przedszkoli",
+        "wynagrodzenie": 8793.19,
+        "premia_pct": 24.06
+      },
+      {
+        "zawod": "windykatorzy",
+        "wynagrodzenie": 8702.76,
+        "premia_pct": 3.2
+      },
+      {
+        "zawod": "plastycy, dekoratorzy wnętrz i konserwatorzy zabytków",
+        "wynagrodzenie": 8682.22,
+        "premia_pct": 17.58
+      },
+      {
+        "zawod": "muzycy",
+        "wynagrodzenie": 8565.53,
+        "premia_pct": 6.78
+      },
+      {
+        "zawod": "projektanci wzornictwa przemysłowego i operatorzy CAD",
+        "wynagrodzenie": 8560.71,
+        "premia_pct": 23.01
+      },
+      {
+        "zawod": "elektrycy i energetycy",
+        "wynagrodzenie": 8526.99,
+        "premia_pct": 28.66
+      },
+      {
+        "zawod": "optycy i pracownicy wytwarzający protezy",
+        "wynagrodzenie": 8512.98,
+        "premia_pct": 8.09
+      },
+      {
+        "zawod": "technicy geodeci i kartografowie",
+        "wynagrodzenie": 8409.53,
+        "premia_pct": 15.9
+      },
+      {
+        "zawod": "technicy ekonomiści",
+        "wynagrodzenie": 8363.09,
+        "premia_pct": -11.51
+      },
+      {
+        "zawod": "choreografowie i tancerze",
+        "wynagrodzenie": 8331.56,
+        "premia_pct": 19.89
+      },
+      {
+        "zawod": "szefowie kuchni",
+        "wynagrodzenie": 8203.38,
+        "premia_pct": 13.63
+      },
+      {
+        "zawod": "specjaliści archiwistyki i muzealnictwa",
+        "wynagrodzenie": 8156.26,
+        "premia_pct": 23.64
+      },
+      {
+        "zawod": "pracownicy administracyjni i biurowi",
+        "wynagrodzenie": 8136.64,
+        "premia_pct": 21.82
+      },
+      {
+        "zawod": "pozostali twórcy i artyści",
+        "wynagrodzenie": 8123.26,
+        "premia_pct": 5.89
+      },
+      {
+        "zawod": "animatorzy kultury i organizatorzy imprez",
+        "wynagrodzenie": 8099.79,
+        "premia_pct": 9.06
+      },
+      {
+        "zawod": "technicy archiwiści i muzealnicy",
+        "wynagrodzenie": 8049.81,
+        "premia_pct": 2.07
+      },
+      {
+        "zawod": "fizjoterapeuci i masażyści",
+        "wynagrodzenie": 8046.48,
+        "premia_pct": 11.8
+      },
+      {
+        "zawod": "specjaliści technologii drewna",
+        "wynagrodzenie": 8016.61,
+        "premia_pct": -0.28
+      },
+      {
+        "zawod": "krupierzy i bukmacherzy",
+        "wynagrodzenie": 7995.98,
+        "premia_pct": 23.18
+      },
+      {
+        "zawod": "technicy spedycji i logistyki",
+        "wynagrodzenie": 7943.01,
+        "premia_pct": 20.51
+      },
+      {
+        "zawod": "blacharze i lakiernicy samochodowi",
+        "wynagrodzenie": 7876.57,
+        "premia_pct": 2.61
+      },
+      {
+        "zawod": "operatorzy maszyn do produkcji wyrobów cementowych i kamiennych",
+        "wynagrodzenie": 7867.22,
+        "premia_pct": 15.88
+      },
+      {
+        "zawod": "opiekunowie wspomagający opiekę nad pacjentem",
+        "wynagrodzenie": 7846.1,
+        "premia_pct": 23.25
+      },
+      {
+        "zawod": "architekci krajobrazu",
+        "wynagrodzenie": 7810.33,
+        "premia_pct": 21.17
+      },
+      {
+        "zawod": "mechanicy-monterzy maszyn i urządzeń",
+        "wynagrodzenie": 7792.17,
+        "premia_pct": 21.32
+      },
+      {
+        "zawod": "pracownicy biur podróży i obsługi turystycznej",
+        "wynagrodzenie": 7783.06,
+        "premia_pct": 18.14
+      },
+      {
+        "zawod": "pracownicy telefonicznej i elektronicznej obsługi klienta, ankieterzy, teleankieterzy",
+        "wynagrodzenie": 7774.79,
+        "premia_pct": 18.46
+      },
+      {
+        "zawod": "kierowcy autobusów",
+        "wynagrodzenie": 7773.83,
+        "premia_pct": 9.55
+      },
+      {
+        "zawod": "operatorzy maszyn do produkcji i przetwórstwa papieru",
+        "wynagrodzenie": 7706.63,
+        "premia_pct": 28.92
+      },
+      {
+        "zawod": "terapeuci",
+        "wynagrodzenie": 7665.95,
+        "premia_pct": 9.24
+      },
+      {
+        "zawod": "kierowcy samochodów osobowych",
+        "wynagrodzenie": 7648.06,
+        "premia_pct": 31.63
+      },
+      {
+        "zawod": "pracownicy sprzedaży internetowej",
+        "wynagrodzenie": 7625.78,
+        "premia_pct": 17.63
+      },
+      {
+        "zawod": "instruktorzy nauki jazdy",
+        "wynagrodzenie": 7599.3,
+        "premia_pct": 37.85
+      },
+      {
+        "zawod": "pracownicy ds. budownictwa drogowego i kolejowego",
+        "wynagrodzenie": 7512.53,
+        "premia_pct": 14.8
+      },
+      {
+        "zawod": "technicy biolodzy i biotechnolodzy",
+        "wynagrodzenie": 7461.9,
+        "premia_pct": 11.57
+      },
+      {
+        "zawod": "fotografowie",
+        "wynagrodzenie": 7421.88,
+        "premia_pct": 12.51
+      },
+      {
+        "zawod": "pracownicy poligraficzni",
+        "wynagrodzenie": 7363.88,
+        "premia_pct": 23.7
+      },
+      {
+        "zawod": "zawodowi sportowcy",
+        "wynagrodzenie": 7348.17,
+        "premia_pct": 72.62
+      },
+      {
+        "zawod": "operatorzy urządzeń dźwigowo-transportowych",
+        "wynagrodzenie": 7344.52,
+        "premia_pct": 17.95
+      },
+      {
+        "zawod": "pracownicy przetwórstwa spożywczego",
+        "wynagrodzenie": 7308.42,
+        "premia_pct": 10.82
+      },
+      {
+        "zawod": "zaopatrzeniowcy i dostawcy",
+        "wynagrodzenie": 7237.57,
+        "premia_pct": 15.99
+      },
+      {
+        "zawod": "technicy farmacji",
+        "wynagrodzenie": 7223.47,
+        "premia_pct": 0.96
+      },
+      {
+        "zawod": "opiekunowie osoby starszej lub z niepełnosprawnością",
+        "wynagrodzenie": 7181.32,
+        "premia_pct": 9.69
+      },
+      {
+        "zawod": "instruktorzy rekreacji i sportu",
+        "wynagrodzenie": 7166.63,
+        "premia_pct": 19.29
+      },
+      {
+        "zawod": "spawacze",
+        "wynagrodzenie": 7165.91,
+        "premia_pct": 13.17
+      },
+      {
+        "zawod": "nurkowie",
+        "wynagrodzenie": 7153.98,
+        "premia_pct": 0
+      },
+      {
+        "zawod": "monterzy elektronicy",
+        "wynagrodzenie": 7059.87,
+        "premia_pct": 17.36
+      },
+      {
+        "zawod": "specjaliści włókiennicy",
+        "wynagrodzenie": 6999.75,
+        "premia_pct": 13.54
+      },
+      {
+        "zawod": "pracownicy ds. techniki dentystycznej",
+        "wynagrodzenie": 6950.18,
+        "premia_pct": 6.44
+      },
+      {
+        "zawod": "technicy weterynarii",
+        "wynagrodzenie": 6939.31,
+        "premia_pct": 9.44
+      },
+      {
+        "zawod": "operatorzy obrabiarek skrawających",
+        "wynagrodzenie": 6912.87,
+        "premia_pct": 11.39
+      },
+      {
+        "zawod": "operatorzy i mechanicy sprzętu do robót ziemnych",
+        "wynagrodzenie": 6895.86,
+        "premia_pct": 8.78
+      },
+      {
+        "zawod": "pracownicy przetwórstwa metali",
+        "wynagrodzenie": 6809.12,
+        "premia_pct": 23.44
+      },
+      {
+        "zawod": "monterzy konstrukcji metalowych",
+        "wynagrodzenie": 6804.11,
+        "premia_pct": 23.8
+      },
+      {
+        "zawod": "mechanicy pojazdów samochodowych",
+        "wynagrodzenie": 6711.03,
+        "premia_pct": 12.17
+      },
+      {
+        "zawod": "rybacy",
+        "wynagrodzenie": 6686.41,
+        "premia_pct": 7.04
+      },
+      {
+        "zawod": "duchowni",
+        "wynagrodzenie": 6657.46,
+        "premia_pct": -1.29
+      },
+      {
+        "zawod": "operatorzy maszyn do produkcji wyrobów z gumy i tworzyw sztucznych",
+        "wynagrodzenie": 6648.56,
+        "premia_pct": 14.37
+      },
+      {
+        "zawod": "recepcjoniści i rejestratorzy",
+        "wynagrodzenie": 6639.81,
+        "premia_pct": 16.91
+      },
+      {
+        "zawod": "kierowcy samochodów ciężarowych i ciągników siodłowych",
+        "wynagrodzenie": 6631.37,
+        "premia_pct": 8.64
+      },
+      {
+        "zawod": "ceramicy",
+        "wynagrodzenie": 6613.42,
+        "premia_pct": 19.65
+      },
+      {
+        "zawod": "diagności samochodowi",
+        "wynagrodzenie": 6611.71,
+        "premia_pct": 5.15
+      },
+      {
+        "zawod": "ślusarze",
+        "wynagrodzenie": 6611.0,
+        "premia_pct": 17.2
+      },
+      {
+        "zawod": "magazynierzy",
+        "wynagrodzenie": 6601.24,
+        "premia_pct": 13.51
+      },
+      {
+        "zawod": "piekarze",
+        "wynagrodzenie": 6529.76,
+        "premia_pct": 10.36
+      },
+      {
+        "zawod": "przetwórcy mięsa i ryb",
+        "wynagrodzenie": 6500.19,
+        "premia_pct": 10.07
+      },
+      {
+        "zawod": "sprzedawcy i kasjerzy",
+        "wynagrodzenie": 6427.37,
+        "premia_pct": 15.24
+      },
+      {
+        "zawod": "gospodarze obiektów, portierzy, woźni i dozorcy",
+        "wynagrodzenie": 6403.8,
+        "premia_pct": 19.71
+      },
+      {
+        "zawod": "monterzy instalacji budowlanych",
+        "wynagrodzenie": 6399.99,
+        "premia_pct": 14.63
+      },
+      {
+        "zawod": "lakiernicy",
+        "wynagrodzenie": 6392.19,
+        "premia_pct": 14.42
+      },
+      {
+        "zawod": "usługi astrologiczne",
+        "wynagrodzenie": 6389.76,
+        "premia_pct": 21.39
+      },
+      {
+        "zawod": "rolnicy i hodowcy",
+        "wynagrodzenie": 6346.03,
+        "premia_pct": 14.19
+      },
+      {
+        "zawod": "pracownicy fizyczni w produkcji i pracach prostych",
+        "wynagrodzenie": 6344.04,
+        "premia_pct": 14.75
+      },
+      {
+        "zawod": "robotnicy obróbki skóry",
+        "wynagrodzenie": 6332.14,
+        "premia_pct": 25.22
+      },
+      {
+        "zawod": "betoniarze i zbrojarze",
+        "wynagrodzenie": 6297.48,
+        "premia_pct": 2.73
+      },
+      {
+        "zawod": "opiekunki dziecięce",
+        "wynagrodzenie": 6197.37,
+        "premia_pct": 15.03
+      },
+      {
+        "zawod": "pracownicy zajmujący się zwierzętami",
+        "wynagrodzenie": 6140.51,
+        "premia_pct": 17.4
+      },
+      {
+        "zawod": "robotnicy budowlani",
+        "wynagrodzenie": 6132.97,
+        "premia_pct": 9.27
+      },
+      {
+        "zawod": "asystenci w edukacji",
+        "wynagrodzenie": 6131.37,
+        "premia_pct": 9.48
+      },
+      {
+        "zawod": "pracownicy obróbki szkła i kamieni szlachetnych",
+        "wynagrodzenie": 6098.07,
+        "premia_pct": 16.2
+      },
+      {
+        "zawod": "operatorzy maszyn rolniczych i ogrodniczych",
+        "wynagrodzenie": 6020.86,
+        "premia_pct": 6.06
+      },
+      {
+        "zawod": "cukiernicy",
+        "wynagrodzenie": 6014.35,
+        "premia_pct": 5.73
+      },
+      {
+        "zawod": "tapicerzy",
+        "wynagrodzenie": 5963.28,
+        "premia_pct": 18.79
+      },
+      {
+        "zawod": "pracownicy myjni, pralni i prasowalni",
+        "wynagrodzenie": 5918.68,
+        "premia_pct": 12.48
+      },
+      {
+        "zawod": "kucharze",
+        "wynagrodzenie": 5822.36,
+        "premia_pct": 10.87
+      },
+      {
+        "zawod": "cieśle i stolarze budowlani",
+        "wynagrodzenie": 5783.87,
+        "premia_pct": 8.89
+      },
+      {
+        "zawod": "pracownicy usług pogrzebowych",
+        "wynagrodzenie": 5777.03,
+        "premia_pct": 3.11
+      },
+      {
+        "zawod": "kelnerzy i barmani",
+        "wynagrodzenie": 5736.84,
+        "premia_pct": 13.84
+      },
+      {
+        "zawod": "pracownicy poczty",
+        "wynagrodzenie": 5725.64,
+        "premia_pct": 13.48
+      },
+      {
+        "zawod": "obuwnicy",
+        "wynagrodzenie": 5633.07,
+        "premia_pct": 20.96
+      },
+      {
+        "zawod": "personel sprzątający",
+        "wynagrodzenie": 5603.82,
+        "premia_pct": 12.38
+      },
+      {
+        "zawod": "pracownicy obróbki metali szlachetnych",
+        "wynagrodzenie": 5594.16,
+        "premia_pct": 7.67
+      },
+      {
+        "zawod": "monterzy okien i szklarze",
+        "wynagrodzenie": 5593.27,
+        "premia_pct": 4.46
+      },
+      {
+        "zawod": "murarze i tynkarze",
+        "wynagrodzenie": 5571.03,
+        "premia_pct": 10.55
+      },
+      {
+        "zawod": "pomoce kuchenne",
+        "wynagrodzenie": 5532.84,
+        "premia_pct": 10.54
+      },
+      {
+        "zawod": "robotnicy obróbki drewna i stolarze",
+        "wynagrodzenie": 5524.35,
+        "premia_pct": 5.42
+      },
+      {
+        "zawod": "pomoce w gospodarstwie domowym",
+        "wynagrodzenie": 5487.52,
+        "premia_pct": 13.65
+      },
+      {
+        "zawod": "robotnicy leśni",
+        "wynagrodzenie": 5465.8,
+        "premia_pct": 10.56
+      },
+      {
+        "zawod": "krawcy i pracownicy produkcji odzieży",
+        "wynagrodzenie": 5456.04,
+        "premia_pct": 8.85
+      },
+      {
+        "zawod": "ogrodnicy i sadownicy",
+        "wynagrodzenie": 5434.55,
+        "premia_pct": 6.36
+      },
+      {
+        "zawod": "pracownicy ochrony fizycznej",
+        "wynagrodzenie": 5411.96,
+        "premia_pct": 5.81
+      },
+      {
+        "zawod": "pracownicy robót wykończeniowych w budownictwie",
+        "wynagrodzenie": 5378.24,
+        "premia_pct": 4.75
+      },
+      {
+        "zawod": "dekarze i blacharze budowlani",
+        "wynagrodzenie": 5377.54,
+        "premia_pct": 5.9
+      },
+      {
+        "zawod": "kurierzy i listonosze",
+        "wynagrodzenie": 5265.73,
+        "premia_pct": 9.21
+      },
+      {
+        "zawod": "pracownicy usług kosmetycznych",
+        "wynagrodzenie": 5256.65,
+        "premia_pct": 5.89
+      },
+      {
+        "zawod": "brukarze",
+        "wynagrodzenie": 5141.98,
+        "premia_pct": 7.07
+      },
+      {
+        "zawod": "praktykujący niekonwencjonalne metody terapii",
+        "wynagrodzenie": 5125.2,
+        "premia_pct": 12.81
+      },
+      {
+        "zawod": "floryści",
+        "wynagrodzenie": 4993.98,
+        "premia_pct": 1.39
+      },
+      {
+        "zawod": "kamieniarze",
+        "wynagrodzenie": 4990.3,
+        "premia_pct": 3.82
+      },
+      {
+        "zawod": "fryzjerzy",
+        "wynagrodzenie": 4854.45,
+        "premia_pct": 2.49
+      }
+    ],
+    "struktura_umow": [
+      {
+        "powiat": "WOJEWÓDZTWO MAZOWIECKIE",
+        "pracujacy": 2648107,
+        "pct_uop": 62.32,
+        "pct_cywil": 23.99
+      },
+      {
+        "powiat": "Warszawa",
+        "pracujacy": 1675420,
+        "pct_uop": 61.8,
+        "pct_cywil": 28.04
+      },
+      {
+        "powiat": "piaseczyński",
+        "pracujacy": 70819,
+        "pct_uop": 55.26,
+        "pct_cywil": 23.57
+      },
+      {
+        "powiat": "pruszkowski",
+        "pracujacy": 62355,
+        "pct_uop": 64.04,
+        "pct_cywil": 16.69
+      },
+      {
+        "powiat": "wołomiński",
+        "pracujacy": 61555,
+        "pct_uop": 55.25,
+        "pct_cywil": 19.32
+      },
+      {
+        "powiat": "ostrowski",
+        "pracujacy": 56616,
+        "pct_uop": 79.17,
+        "pct_cywil": 13.62
+      },
+      {
+        "powiat": "warszawski zachodni",
+        "pracujacy": 48522,
+        "pct_uop": 64.63,
+        "pct_cywil": 17.28
+      },
+      {
+        "powiat": "Płock",
+        "pracujacy": 43271,
+        "pct_uop": 70.9,
+        "pct_cywil": 18.43
+      },
+      {
+        "powiat": "płocki",
+        "pracujacy": 43123,
+        "pct_uop": 73.24,
+        "pct_cywil": 17.96
+      },
+      {
+        "powiat": "Radom",
+        "pracujacy": 40165,
+        "pct_uop": 49.15,
+        "pct_cywil": 19.31
+      },
+      {
+        "powiat": "otwocki",
+        "pracujacy": 38081,
+        "pct_uop": 66.36,
+        "pct_cywil": 15.85
+      },
+      {
+        "powiat": "siedlecki",
+        "pracujacy": 36649,
+        "pct_uop": 62.26,
+        "pct_cywil": 17.78
+      },
+      {
+        "powiat": "legionowski",
+        "pracujacy": 34638,
+        "pct_uop": 52.91,
+        "pct_cywil": 18.06
+      },
+      {
+        "powiat": "grodziski",
+        "pracujacy": 34285,
+        "pct_uop": 63.62,
+        "pct_cywil": 16.32
+      },
+      {
+        "powiat": "nowodworski",
+        "pracujacy": 33625,
+        "pct_uop": 64.07,
+        "pct_cywil": 21.76
+      },
+      {
+        "powiat": "Siedlce",
+        "pracujacy": 33147,
+        "pct_uop": 59.4,
+        "pct_cywil": 15.48
+      },
+      {
+        "powiat": "miński",
+        "pracujacy": 29630,
+        "pct_uop": 57.91,
+        "pct_cywil": 14.44
+      },
+      {
+        "powiat": "radomski",
+        "pracujacy": 24529,
+        "pct_uop": 66.43,
+        "pct_cywil": 10.58
+      },
+      {
+        "powiat": "ostrołęcki",
+        "pracujacy": 21688,
+        "pct_uop": 72.13,
+        "pct_cywil": 11.73
+      },
+      {
+        "powiat": "grójecki",
+        "pracujacy": 18412,
+        "pct_uop": 57.79,
+        "pct_cywil": 19.7
+      },
+      {
+        "powiat": "sochaczewski",
+        "pracujacy": 18010,
+        "pct_uop": 66.9,
+        "pct_cywil": 15.15
+      },
+      {
+        "powiat": "ciechanowski",
+        "pracujacy": 17246,
+        "pct_uop": 67.94,
+        "pct_cywil": 12.77
+      },
+      {
+        "powiat": "garwoliński",
+        "pracujacy": 17064,
+        "pct_uop": 64.67,
+        "pct_cywil": 12.47
+      },
+      {
+        "powiat": "wyszkowski",
+        "pracujacy": 16806,
+        "pct_uop": 61.48,
+        "pct_cywil": 17.33
+      },
+      {
+        "powiat": "żyrardowski",
+        "pracujacy": 16659,
+        "pct_uop": 62.01,
+        "pct_cywil": 15.13
+      },
+      {
+        "powiat": "Ostrołęka",
+        "pracujacy": 15613,
+        "pct_uop": 71.78,
+        "pct_cywil": 11.72
+      },
+      {
+        "powiat": "płoński",
+        "pracujacy": 15578,
+        "pct_uop": 60.23,
+        "pct_cywil": 20.0
+      },
+      {
+        "powiat": "mławski",
+        "pracujacy": 13736,
+        "pct_uop": 65.96,
+        "pct_cywil": 14.24
+      },
+      {
+        "powiat": "węgrowski",
+        "pracujacy": 13374,
+        "pct_uop": 48.09,
+        "pct_cywil": 32.74
+      },
+      {
+        "powiat": "sokołowski",
+        "pracujacy": 11202,
+        "pct_uop": 72.36,
+        "pct_cywil": 11.54
+      },
+      {
+        "powiat": "kozienicki",
+        "pracujacy": 8672,
+        "pct_uop": 65.22,
+        "pct_cywil": 12.24
+      },
+      {
+        "powiat": "pułtuski",
+        "pracujacy": 8616,
+        "pct_uop": 63.35,
+        "pct_cywil": 11.38
+      },
+      {
+        "powiat": "makowski",
+        "pracujacy": 8577,
+        "pct_uop": 67.82,
+        "pct_cywil": 13.37
+      },
+      {
+        "powiat": "gostyniński",
+        "pracujacy": 8254,
+        "pct_uop": 69.01,
+        "pct_cywil": 12.48
+      },
+      {
+        "powiat": "sierpecki",
+        "pracujacy": 7716,
+        "pct_uop": 58.36,
+        "pct_cywil": 18.36
+      },
+      {
+        "powiat": "przasnyski",
+        "pracujacy": 7411,
+        "pct_uop": 66.43,
+        "pct_cywil": 12.78
+      },
+      {
+        "powiat": "białobrzeski",
+        "pracujacy": 5837,
+        "pct_uop": 59.58,
+        "pct_cywil": 16.62
+      },
+      {
+        "powiat": "szydłowiecki",
+        "pracujacy": 5587,
+        "pct_uop": 57.36,
+        "pct_cywil": 13.25
+      },
+      {
+        "powiat": "łosicki",
+        "pracujacy": 5572,
+        "pct_uop": 60.84,
+        "pct_cywil": 20.74
+      },
+      {
+        "powiat": "lipski",
+        "pracujacy": 5365,
+        "pct_uop": 66.95,
+        "pct_cywil": 13.75
+      },
+      {
+        "powiat": "przysuski",
+        "pracujacy": 5108,
+        "pct_uop": 59.82,
+        "pct_cywil": 15.01
+      },
+      {
+        "powiat": "żuromiński",
+        "pracujacy": 4889,
+        "pct_uop": 66.47,
+        "pct_cywil": 9.59
+      },
+      {
+        "powiat": "zwoleński",
+        "pracujacy": 4685,
+        "pct_uop": 60.46,
+        "pct_cywil": 12.14
+      },
+      {
+        "powiat": "opiekunowie osoby starszej lub z niepełnospr.",
+        "pracujacy": 84,
+        "pct_uop": 0,
+        "pct_cywil": 0
+      },
+      {
+        "powiat": "zawodowi sportowcy",
+        "pracujacy": 77,
+        "pct_uop": 0,
+        "pct_cywil": 0
+      },
+      {
+        "powiat": "instruktorzy rekreacji i sportu",
+        "pracujacy": 75,
+        "pct_uop": 0,
+        "pct_cywil": 0
+      },
+      {
+        "powiat": "agenci ubezpieczeniowi",
+        "pracujacy": 70,
+        "pct_uop": 0,
+        "pct_cywil": 0
+      },
+      {
+        "powiat": "pracownicy ochrony fizycznej",
+        "pracujacy": 68,
+        "pct_uop": 0,
+        "pct_cywil": 0
+      }
+    ],
+    "podsumowanie": {
+      "avg_wyn_uop": 9465.27
+    }
+  },
+  "pracujacy": {
+    "razem": 2648107,
+    "pct_uop": 62.32,
+    "n_uop": 1650388,
+    "pct_cywil": 23.99,
+    "n_cywil": 635281,
+    "pct_dg": 11.37,
+    "n_dg": 301090,
+    "top5_pracujacy": [
+      {
+        "label": "Warszawa",
+        "value": 1675420
+      },
+      {
+        "label": "piaseczyński",
+        "value": 70819
+      },
+      {
+        "label": "pruszkowski",
+        "value": 62355
+      },
+      {
+        "label": "wołomiński",
+        "value": 61555
+      },
+      {
+        "label": "ostrowski",
+        "value": 56616
+      }
+    ],
+    "bot5_pracujacy": [
+      {
+        "label": "żuromiński",
+        "value": 4889
+      },
+      {
+        "label": "przysuski",
+        "value": 5108
+      },
+      {
+        "label": "lipski",
+        "value": 5365
+      },
+      {
+        "label": "łosicki",
+        "value": 5572
+      },
+      {
+        "label": "szydłowiecki",
+        "value": 5587
+      }
+    ],
+    "top5_zawody_pracujacy": [
+      {
+        "label": "sprzedawcy i kasjerzy",
+        "value": 155211
+      },
+      {
+        "label": "pracownicy administracyjni i biurowi",
+        "value": 142855
+      },
+      {
+        "label": "pracownicy ochrony fizycznej",
+        "value": 113404
+      },
+      {
+        "label": "pracownicy fizyczni w produkcji i pracach prostych",
+        "value": 113038
+      },
+      {
+        "label": "personel zarządzający dziedziną / działem / komórką organizacyjną",
+        "value": 97116
+      }
+    ],
+    "top5_zawody_uop": [
+      {
+        "label": "nauczyciele nauczania wczesnoszkolnego",
+        "value": 97.82
+      },
+      {
+        "label": "operatorzy maszyn do prod. wyrobów chemicznych",
+        "value": 97.48
+      },
+      {
+        "label": "operatorzy maszyn do prod. i przetw. papieru",
+        "value": 96.63
+      },
+      {
+        "label": "nauczyciele przedszkoli",
+        "value": 95.81
+      },
+      {
+        "label": "operatorzy maszyn do prod. wyr. cement. i kamiennych",
+        "value": 95.5
+      }
+    ],
+    "top5_pow_cywil": [
+      {
+        "label": "Warszawa",
+        "value": 469788
+      },
+      {
+        "label": "piaseczyński",
+        "value": 16692
+      },
+      {
+        "label": "wołomiński",
+        "value": 11892
+      },
+      {
+        "label": "pruszkowski",
+        "value": 10407
+      },
+      {
+        "label": "warszawski zachodni",
+        "value": 8385
+      }
+    ],
+    "top5_zawody_dg": [
+      {
+        "label": "fotografowie",
+        "value": 70.58
+      },
+      {
+        "label": "kierownicy zarządzający podmiotem / instytucją",
+        "value": 69.35
+      },
+      {
+        "label": "dentyści",
+        "value": 67.26
+      },
+      {
+        "label": "reżyserzy i producenci film., teatr., TV i radiowi",
+        "value": 62.26
+      },
+      {
+        "label": "lekarze weterynarii",
+        "value": 50.69
+      }
+    ]
+  },
+  "wynagrodzenia_kpi": {
+    "avg_wyn_uop": 9465.27,
+    "top5_pow_wyn": [
+      {
+        "label": "Warszawa",
+        "value": 10421.25
+      },
+      {
+        "label": "Płock",
+        "value": 10246.25
+      },
+      {
+        "label": "płocki",
+        "value": 10070.86
+      },
+      {
+        "label": "kozienicki",
+        "value": 9265.91
+      },
+      {
+        "label": "nowodworski",
+        "value": 8449.54
+      }
+    ],
+    "bot5_pow_wyn": [
+      {
+        "label": "szydłowiecki",
+        "value": 6329.82
+      },
+      {
+        "label": "białobrzeski",
+        "value": 6497.13
+      },
+      {
+        "label": "wyszkowski",
+        "value": 6615.64
+      },
+      {
+        "label": "żuromiński",
+        "value": 6624.22
+      },
+      {
+        "label": "łosicki",
+        "value": 6669.36
+      }
+    ],
+    "top10_zawody_best": [
+      {
+        "label": "technicy technologii żywności i żywienia",
+        "value": 29603.76,
+        "szac_uop": 735
+      },
+      {
+        "label": "dyrektorzy i prezesi zarządzający podmiotem / instytucją",
+        "value": 19532.16,
+        "szac_uop": 10272
+      },
+      {
+        "label": "mediatorzy",
+        "value": 19332.23,
+        "szac_uop": 96
+      },
+      {
+        "label": "wyżsi urzędnicy i przedstawiciele władz publicznych",
+        "value": 18465.52,
+        "szac_uop": 1068
+      },
+      {
+        "label": "programiści",
+        "value": 18226.51,
+        "szac_uop": 31114
+      },
+      {
+        "label": "personel zarządzający dziedziną / działem / komórką organizacyjną",
+        "value": 17904.9,
+        "szac_uop": 79030
+      },
+      {
+        "label": "lekarze",
+        "value": 17341.94,
+        "szac_uop": 9614
+      },
+      {
+        "label": "inżynierowie górnictwa",
+        "value": 17262.17,
+        "szac_uop": 387
+      },
+      {
+        "label": "matematycy",
+        "value": 15933.38,
+        "szac_uop": 563
+      },
+      {
+        "label": "specjaliści ds. baz danych i sieci komputerowych",
+        "value": 15899.62,
+        "szac_uop": 19646
+      }
+    ],
+    "top10_zawody_worst": [
+      {
+        "label": "fryzjerzy",
+        "value": 4854.45,
+        "szac_uop": 3192
+      },
+      {
+        "label": "kamieniarze",
+        "value": 4990.3,
+        "szac_uop": 419
+      },
+      {
+        "label": "floryści",
+        "value": 4993.98,
+        "szac_uop": 458
+      },
+      {
+        "label": "praktykujący niekonwencjonalne metody terapii",
+        "value": 5125.2,
+        "szac_uop": 275
+      },
+      {
+        "label": "brukarze",
+        "value": 5141.98,
+        "szac_uop": 1474
+      },
+      {
+        "label": "pracownicy usług kosmetycznych",
+        "value": 5256.65,
+        "szac_uop": 4332
+      },
+      {
+        "label": "kurierzy i listonosze",
+        "value": 5265.73,
+        "szac_uop": 7731
+      },
+      {
+        "label": "dekarze i blacharze budowlani",
+        "value": 5377.54,
+        "szac_uop": 1601
+      },
+      {
+        "label": "pracownicy robót wykończeniowych w budownictwie",
+        "value": 5378.24,
+        "szac_uop": 7509
+      },
+      {
+        "label": "pracownicy ochrony fizycznej",
+        "value": 5411.96,
+        "szac_uop": 35740
+      }
+    ]
+  },
+  "powiaty_lista": [
+    {
+      "wgm": "1401",
+      "nazwa": "Białobrzeski",
+      "stopa": 8.2,
+      "bezr_razem": 981,
+      "bezr_kobiety": 413,
+      "zarej_razem": 101,
+      "wyrej_razem": 79,
+      "oferty_pracy": 69,
+      "podjeli_prace": 33,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 755,
+          "pct": 77.0
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 461,
+          "pct": 47.0
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 423,
+          "pct": 43.1
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 283,
+          "pct": 28.8
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 231,
+          "pct": 23.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 202,
+          "pct": 20.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 24,
+          "pct": 2.4
+        }
+      ],
+      "d5_kobiety": 413,
+      "d5_czas": [
+        99,
+        126,
+        144,
+        151,
+        196,
+        265
+      ],
+      "d5_wiek": [
+        182,
+        217,
+        258,
+        183,
+        88,
+        53
+      ],
+      "d5_wyk": [
+        83,
+        212,
+        95,
+        329,
+        262
+      ],
+      "d5_staz": [
+        180,
+        284,
+        158,
+        144,
+        53,
+        13,
+        149
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Szkolenie i staż",
+          "n": 36,
+          "pct": 45.6
+        },
+        {
+          "label": "Podjęcie pracy",
+          "n": 33,
+          "pct": 41.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 5,
+          "pct": 6.3
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 3,
+          "pct": 3.8
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 2,
+          "pct": 2.5
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        8.1,
+        8.3,
+        8.1,
+        7.8,
+        7.3,
+        7.5,
+        7.9,
+        7.8,
+        8.0,
+        7.7,
+        7.9,
+        8.0,
+        8.2
+      ],
+      "trend_zarej_13m": [
+        172,
+        107,
+        120,
+        91,
+        73,
+        76,
+        132,
+        80,
+        162,
+        107,
+        90,
+        88,
+        101
+      ],
+      "trend_wyrej_13m": [
+        136,
+        86,
+        139,
+        133,
+        142,
+        46,
+        83,
+        92,
+        130,
+        148,
+        68,
+        69,
+        79
+      ],
+      "wyn_brutto": 6497.13,
+      "wyn_pracujacy": 5837
+    },
+    {
+      "wgm": "1402",
+      "nazwa": "Ciechanowski",
+      "stopa": 8.7,
+      "bezr_razem": 2868,
+      "bezr_kobiety": 1291,
+      "zarej_razem": 317,
+      "wyrej_razem": 170,
+      "oferty_pracy": 64,
+      "podjeli_prace": 112,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1353,
+          "pct": 47.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1209,
+          "pct": 42.2
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1129,
+          "pct": 39.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 761,
+          "pct": 26.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 729,
+          "pct": 25.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 697,
+          "pct": 24.3
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 105,
+          "pct": 3.7
+        }
+      ],
+      "d5_kobiety": 1291,
+      "d5_czas": [
+        297,
+        418,
+        423,
+        521,
+        534,
+        675
+      ],
+      "d5_wiek": [
+        361,
+        679,
+        774,
+        583,
+        287,
+        184
+      ],
+      "d5_wyk": [
+        347,
+        577,
+        450,
+        755,
+        739
+      ],
+      "d5_staz": [
+        481,
+        791,
+        527,
+        406,
+        182,
+        48,
+        433
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 112,
+          "pct": 65.9
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 29,
+          "pct": 17.1
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 10,
+          "pct": 5.9
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 9,
+          "pct": 5.3
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 6,
+          "pct": 3.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 2,
+          "pct": 1.2
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        8.9,
+        8.9,
+        8.8,
+        8.5,
+        8.4,
+        8.4,
+        8.5,
+        8.5,
+        8.5,
+        8.3,
+        8.2,
+        8.3,
+        8.7
+      ],
+      "trend_zarej_13m": [
+        406,
+        327,
+        325,
+        235,
+        271,
+        242,
+        304,
+        247,
+        347,
+        264,
+        272,
+        252,
+        317
+      ],
+      "trend_wyrej_13m": [
+        177,
+        335,
+        373,
+        352,
+        304,
+        203,
+        306,
+        226,
+        353,
+        345,
+        307,
+        217,
+        170
+      ],
+      "wyn_brutto": 7690.57,
+      "wyn_pracujacy": 17246
+    },
+    {
+      "wgm": "1403",
+      "nazwa": "Garwoliński",
+      "stopa": 9.5,
+      "bezr_razem": 3538,
+      "bezr_kobiety": 1478,
+      "zarej_razem": 312,
+      "wyrej_razem": 171,
+      "oferty_pracy": 9,
+      "podjeli_prace": 133,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 2410,
+          "pct": 68.1
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1678,
+          "pct": 47.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1261,
+          "pct": 35.6
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 1102,
+          "pct": 31.1
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 961,
+          "pct": 27.2
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 815,
+          "pct": 23.0
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 55,
+          "pct": 1.6
+        }
+      ],
+      "d5_kobiety": 1478,
+      "d5_czas": [
+        303,
+        435,
+        522,
+        600,
+        685,
+        993
+      ],
+      "d5_wiek": [
+        559,
+        866,
+        933,
+        711,
+        276,
+        193
+      ],
+      "d5_wyk": [
+        350,
+        856,
+        395,
+        1135,
+        802
+      ],
+      "d5_staz": [
+        609,
+        935,
+        593,
+        581,
+        254,
+        54,
+        512
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 133,
+          "pct": 77.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 18,
+          "pct": 10.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 6,
+          "pct": 3.5
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 6,
+          "pct": 3.5
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 5,
+          "pct": 2.9
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        9.0,
+        9.1,
+        8.8,
+        8.6,
+        8.3,
+        8.2,
+        8.5,
+        8.8,
+        9.2,
+        9.0,
+        9.0,
+        9.1,
+        9.5
+      ],
+      "trend_zarej_13m": [
+        357,
+        274,
+        254,
+        277,
+        220,
+        204,
+        269,
+        274,
+        407,
+        296,
+        248,
+        270,
+        312
+      ],
+      "trend_wyrej_13m": [
+        221,
+        235,
+        367,
+        343,
+        374,
+        203,
+        165,
+        133,
+        257,
+        373,
+        249,
+        239,
+        171
+      ],
+      "wyn_brutto": 6986.03,
+      "wyn_pracujacy": 17064
+    },
+    {
+      "wgm": "1404",
+      "nazwa": "Gostyniński",
+      "stopa": 12.7,
+      "bezr_razem": 1934,
+      "bezr_kobiety": 961,
+      "zarej_razem": 209,
+      "wyrej_razem": 125,
+      "oferty_pracy": 76,
+      "podjeli_prace": 79,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1158,
+          "pct": 59.9
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 907,
+          "pct": 46.9
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 871,
+          "pct": 45.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 626,
+          "pct": 32.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 530,
+          "pct": 27.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 450,
+          "pct": 23.3
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 71,
+          "pct": 3.7
+        }
+      ],
+      "d5_kobiety": 961,
+      "d5_czas": [
+        184,
+        299,
+        250,
+        330,
+        306,
+        565
+      ],
+      "d5_wiek": [
+        234,
+        435,
+        513,
+        432,
+        219,
+        101
+      ],
+      "d5_wyk": [
+        196,
+        415,
+        231,
+        442,
+        650
+      ],
+      "d5_staz": [
+        447,
+        507,
+        315,
+        273,
+        100,
+        42,
+        250
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 79,
+          "pct": 63.2
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 30,
+          "pct": 24.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 8,
+          "pct": 6.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 2.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 2,
+          "pct": 1.6
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        11.8,
+        12.0,
+        11.0,
+        10.4,
+        10.3,
+        10.4,
+        10.8,
+        11.0,
+        11.2,
+        11.3,
+        11.6,
+        12.2,
+        12.7
+      ],
+      "trend_zarej_13m": [
+        215,
+        191,
+        141,
+        126,
+        133,
+        137,
+        183,
+        143,
+        265,
+        209,
+        169,
+        235,
+        209
+      ],
+      "trend_wyrej_13m": [
+        127,
+        142,
+        310,
+        234,
+        147,
+        105,
+        136,
+        103,
+        237,
+        183,
+        117,
+        136,
+        125
+      ],
+      "wyn_brutto": 7249.3,
+      "wyn_pracujacy": 8254
+    },
+    {
+      "wgm": "1405",
+      "nazwa": "Grodziski",
+      "stopa": 3.4,
+      "bezr_razem": 1357,
+      "bezr_kobiety": 624,
+      "zarej_razem": 201,
+      "wyrej_razem": 121,
+      "oferty_pracy": 42,
+      "podjeli_prace": 81,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 639,
+          "pct": 47.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 404,
+          "pct": 29.8
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 386,
+          "pct": 28.4
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 354,
+          "pct": 26.1
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 343,
+          "pct": 25.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 273,
+          "pct": 20.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 71,
+          "pct": 5.2
+        }
+      ],
+      "d5_kobiety": 624,
+      "d5_czas": [
+        191,
+        254,
+        273,
+        285,
+        193,
+        161
+      ],
+      "d5_wiek": [
+        152,
+        269,
+        357,
+        349,
+        153,
+        77
+      ],
+      "d5_wyk": [
+        313,
+        298,
+        243,
+        240,
+        263
+      ],
+      "d5_staz": [
+        263,
+        271,
+        222,
+        231,
+        147,
+        26,
+        197
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 81,
+          "pct": 66.9
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 19,
+          "pct": 15.7
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 8,
+          "pct": 6.6
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 7,
+          "pct": 5.8
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 3,
+          "pct": 2.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 2.5
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        2.8,
+        2.9,
+        2.8,
+        2.8,
+        2.7,
+        2.8,
+        3.0,
+        3.1,
+        3.3,
+        3.3,
+        3.2,
+        3.2,
+        3.4
+      ],
+      "trend_zarej_13m": [
+        224,
+        199,
+        167,
+        165,
+        158,
+        160,
+        185,
+        169,
+        224,
+        216,
+        168,
+        156,
+        201
+      ],
+      "trend_wyrej_13m": [
+        128,
+        151,
+        197,
+        196,
+        178,
+        118,
+        97,
+        122,
+        177,
+        216,
+        172,
+        167,
+        121
+      ],
+      "wyn_brutto": 7825.93,
+      "wyn_pracujacy": 34285
+    },
+    {
+      "wgm": "1406",
+      "nazwa": "Grójecki",
+      "stopa": 3.4,
+      "bezr_razem": 1367,
+      "bezr_kobiety": 641,
+      "zarej_razem": 151,
+      "wyrej_razem": 85,
+      "oferty_pracy": 103,
+      "podjeli_prace": 70,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 809,
+          "pct": 59.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 502,
+          "pct": 36.7
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 474,
+          "pct": 34.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 426,
+          "pct": 31.2
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 417,
+          "pct": 30.5
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 318,
+          "pct": 23.3
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 42,
+          "pct": 3.1
+        }
+      ],
+      "d5_kobiety": 641,
+      "d5_czas": [
+        147,
+        197,
+        254,
+        267,
+        265,
+        237
+      ],
+      "d5_wiek": [
+        250,
+        352,
+        300,
+        277,
+        108,
+        80
+      ],
+      "d5_wyk": [
+        155,
+        329,
+        155,
+        248,
+        480
+      ],
+      "d5_staz": [
+        231,
+        295,
+        209,
+        160,
+        88,
+        29,
+        355
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 70,
+          "pct": 82.4
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 5,
+          "pct": 5.9
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 4,
+          "pct": 4.7
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 1,
+          "pct": 1.2
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 1.2
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        2.8,
+        3.0,
+        3.0,
+        2.9,
+        2.6,
+        2.8,
+        2.9,
+        3.0,
+        3.3,
+        3.2,
+        3.2,
+        3.2,
+        3.4
+      ],
+      "trend_zarej_13m": [
+        206,
+        151,
+        185,
+        117,
+        118,
+        103,
+        127,
+        109,
+        215,
+        177,
+        142,
+        110,
+        151
+      ],
+      "trend_wyrej_13m": [
+        134,
+        85,
+        196,
+        155,
+        228,
+        12,
+        98,
+        59,
+        93,
+        240,
+        105,
+        128,
+        85
+      ],
+      "wyn_brutto": 7502.64,
+      "wyn_pracujacy": 18412
+    },
+    {
+      "wgm": "1407",
+      "nazwa": "Kozienicki",
+      "stopa": 10.0,
+      "bezr_razem": 1917,
+      "bezr_kobiety": 986,
+      "zarej_razem": 238,
+      "wyrej_razem": 130,
+      "oferty_pracy": 13,
+      "podjeli_prace": 69,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1408,
+          "pct": 73.4
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 855,
+          "pct": 44.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 684,
+          "pct": 35.7
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 662,
+          "pct": 34.5
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 494,
+          "pct": 25.8
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 476,
+          "pct": 24.8
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 88,
+          "pct": 4.6
+        }
+      ],
+      "d5_kobiety": 986,
+      "d5_czas": [
+        218,
+        268,
+        252,
+        324,
+        342,
+        513
+      ],
+      "d5_wiek": [
+        310,
+        418,
+        512,
+        404,
+        167,
+        106
+      ],
+      "d5_wyk": [
+        212,
+        467,
+        258,
+        541,
+        439
+      ],
+      "d5_staz": [
+        369,
+        603,
+        286,
+        264,
+        100,
+        27,
+        268
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 69,
+          "pct": 53.1
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 25,
+          "pct": 19.2
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 16,
+          "pct": 12.3
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 7,
+          "pct": 5.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 6,
+          "pct": 4.6
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 2.3
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        10.0,
+        10.0,
+        9.8,
+        9.2,
+        9.1,
+        9.0,
+        9.5,
+        9.7,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        10.0
+      ],
+      "trend_zarej_13m": [
+        235,
+        197,
+        206,
+        160,
+        138,
+        106,
+        190,
+        157,
+        227,
+        256,
+        184,
+        162,
+        238
+      ],
+      "trend_wyrej_13m": [
+        129,
+        199,
+        258,
+        270,
+        173,
+        110,
+        100,
+        115,
+        255,
+        266,
+        186,
+        159,
+        130
+      ],
+      "wyn_brutto": 9265.91,
+      "wyn_pracujacy": 8672
+    },
+    {
+      "wgm": "1408",
+      "nazwa": "Legionowski",
+      "stopa": 6.8,
+      "bezr_razem": 2593,
+      "bezr_kobiety": 1188,
+      "zarej_razem": 306,
+      "wyrej_razem": 217,
+      "oferty_pracy": 84,
+      "podjeli_prace": 135,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1315,
+          "pct": 50.7
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1031,
+          "pct": 39.8
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1015,
+          "pct": 39.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 757,
+          "pct": 29.2
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 626,
+          "pct": 24.1
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 510,
+          "pct": 19.7
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 115,
+          "pct": 4.4
+        }
+      ],
+      "d5_kobiety": 1188,
+      "d5_czas": [
+        291,
+        366,
+        422,
+        499,
+        439,
+        576
+      ],
+      "d5_wiek": [
+        263,
+        509,
+        675,
+        717,
+        261,
+        168
+      ],
+      "d5_wyk": [
+        508,
+        492,
+        426,
+        416,
+        751
+      ],
+      "d5_staz": [
+        584,
+        561,
+        430,
+        432,
+        221,
+        50,
+        315
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 135,
+          "pct": 62.2
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 28,
+          "pct": 12.9
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 26,
+          "pct": 12.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 9,
+          "pct": 4.1
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 8,
+          "pct": 3.7
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 5,
+          "pct": 2.3
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        5.8,
+        6.1,
+        6.1,
+        6.0,
+        5.9,
+        5.9,
+        6.2,
+        6.5,
+        6.6,
+        6.6,
+        6.6,
+        6.5,
+        6.8
+      ],
+      "trend_zarej_13m": [
+        331,
+        286,
+        311,
+        231,
+        225,
+        239,
+        279,
+        247,
+        303,
+        305,
+        271,
+        223,
+        306
+      ],
+      "trend_wyrej_13m": [
+        197,
+        185,
+        311,
+        266,
+        288,
+        206,
+        150,
+        152,
+        252,
+        288,
+        280,
+        251,
+        217
+      ],
+      "wyn_brutto": 7489.55,
+      "wyn_pracujacy": 34638
+    },
+    {
+      "wgm": "1409",
+      "nazwa": "Lipski",
+      "stopa": 13.5,
+      "bezr_razem": 1476,
+      "bezr_kobiety": 620,
+      "zarej_razem": 150,
+      "wyrej_razem": 80,
+      "oferty_pracy": 29,
+      "podjeli_prace": 38,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1207,
+          "pct": 81.8
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 698,
+          "pct": 47.3
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 547,
+          "pct": 37.1
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 458,
+          "pct": 31.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 404,
+          "pct": 27.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 363,
+          "pct": 24.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 74,
+          "pct": 5.0
+        }
+      ],
+      "d5_kobiety": 620,
+      "d5_czas": [
+        144,
+        220,
+        185,
+        229,
+        252,
+        446
+      ],
+      "d5_wiek": [
+        224,
+        401,
+        359,
+        273,
+        133,
+        86
+      ],
+      "d5_wyk": [
+        147,
+        371,
+        195,
+        429,
+        334
+      ],
+      "d5_staz": [
+        393,
+        456,
+        219,
+        149,
+        44,
+        7,
+        208
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 38,
+          "pct": 47.5
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 21,
+          "pct": 26.2
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 10,
+          "pct": 12.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 8,
+          "pct": 10.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 1,
+          "pct": 1.2
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 1.2
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        13.7,
+        13.2,
+        12.6,
+        12.1,
+        11.7,
+        11.9,
+        12.4,
+        12.5,
+        12.6,
+        12.4,
+        12.7,
+        12.9,
+        13.5
+      ],
+      "trend_zarej_13m": [
+        183,
+        116,
+        113,
+        128,
+        130,
+        91,
+        135,
+        146,
+        173,
+        149,
+        163,
+        135,
+        150
+      ],
+      "trend_wyrej_13m": [
+        89,
+        184,
+        184,
+        190,
+        179,
+        66,
+        78,
+        127,
+        159,
+        173,
+        131,
+        106,
+        80
+      ],
+      "wyn_brutto": 7552.62,
+      "wyn_pracujacy": 5365
+    },
+    {
+      "wgm": "1410",
+      "nazwa": "Łosicki",
+      "stopa": 5.9,
+      "bezr_razem": 665,
+      "bezr_kobiety": 288,
+      "zarej_razem": 86,
+      "wyrej_razem": 42,
+      "oferty_pracy": 7,
+      "podjeli_prace": 26,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 490,
+          "pct": 73.7
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 269,
+          "pct": 40.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 234,
+          "pct": 35.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 225,
+          "pct": 33.8
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 182,
+          "pct": 27.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 148,
+          "pct": 22.3
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 34,
+          "pct": 5.1
+        }
+      ],
+      "d5_kobiety": 288,
+      "d5_czas": [
+        80,
+        110,
+        115,
+        135,
+        102,
+        123
+      ],
+      "d5_wiek": [
+        120,
+        154,
+        174,
+        130,
+        60,
+        27
+      ],
+      "d5_wyk": [
+        73,
+        163,
+        78,
+        151,
+        200
+      ],
+      "d5_staz": [
+        180,
+        186,
+        88,
+        68,
+        26,
+        6,
+        111
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 26,
+          "pct": 61.9
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 8,
+          "pct": 19.0
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 5,
+          "pct": 11.9
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 1,
+          "pct": 2.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 2.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 2.4
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        5.5,
+        5.6,
+        5.7,
+        5.4,
+        4.9,
+        4.9,
+        5.4,
+        5.5,
+        5.7,
+        5.6,
+        5.3,
+        5.5,
+        5.9
+      ],
+      "trend_zarej_13m": [
+        95,
+        82,
+        99,
+        78,
+        70,
+        50,
+        99,
+        64,
+        89,
+        103,
+        77,
+        67,
+        86
+      ],
+      "trend_wyrej_13m": [
+        46,
+        61,
+        91,
+        115,
+        128,
+        44,
+        48,
+        46,
+        70,
+        116,
+        106,
+        50,
+        42
+      ],
+      "wyn_brutto": 6669.36,
+      "wyn_pracujacy": 5572
+    },
+    {
+      "wgm": "1411",
+      "nazwa": "Makowski",
+      "stopa": 17.0,
+      "bezr_razem": 2668,
+      "bezr_kobiety": 1182,
+      "zarej_razem": 232,
+      "wyrej_razem": 89,
+      "oferty_pracy": 4,
+      "podjeli_prace": 58,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1869,
+          "pct": 70.1
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1590,
+          "pct": 59.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1441,
+          "pct": 54.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 828,
+          "pct": 31.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 684,
+          "pct": 25.6
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 559,
+          "pct": 21.0
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 72,
+          "pct": 2.7
+        }
+      ],
+      "d5_kobiety": 1182,
+      "d5_czas": [
+        181,
+        320,
+        322,
+        404,
+        472,
+        969
+      ],
+      "d5_wiek": [
+        497,
+        644,
+        668,
+        526,
+        212,
+        121
+      ],
+      "d5_wyk": [
+        237,
+        646,
+        460,
+        621,
+        704
+      ],
+      "d5_staz": [
+        532,
+        694,
+        366,
+        256,
+        66,
+        14,
+        740
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 58,
+          "pct": 65.2
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 10,
+          "pct": 11.2
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 6,
+          "pct": 6.7
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 5,
+          "pct": 5.6
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 4,
+          "pct": 4.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 3.4
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        16.5,
+        16.3,
+        15.7,
+        15.5,
+        15.3,
+        15.5,
+        15.5,
+        16.1,
+        16.0,
+        15.7,
+        15.9,
+        16.1,
+        17.0
+      ],
+      "trend_zarej_13m": [
+        230,
+        196,
+        182,
+        156,
+        162,
+        160,
+        185,
+        203,
+        239,
+        204,
+        148,
+        227,
+        232
+      ],
+      "trend_wyrej_13m": [
+        158,
+        221,
+        308,
+        181,
+        214,
+        108,
+        181,
+        108,
+        251,
+        255,
+        109,
+        184,
+        89
+      ],
+      "wyn_brutto": 7184.82,
+      "wyn_pracujacy": 8577
+    },
+    {
+      "wgm": "1412",
+      "nazwa": "Miński",
+      "stopa": 5.0,
+      "bezr_razem": 2424,
+      "bezr_kobiety": 1151,
+      "zarej_razem": 367,
+      "wyrej_razem": 230,
+      "oferty_pracy": 56,
+      "podjeli_prace": 105,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1190,
+          "pct": 49.1
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 830,
+          "pct": 34.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 821,
+          "pct": 33.9
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 717,
+          "pct": 29.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 685,
+          "pct": 28.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 542,
+          "pct": 22.4
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 136,
+          "pct": 5.6
+        }
+      ],
+      "d5_kobiety": 1151,
+      "d5_czas": [
+        342,
+        448,
+        397,
+        416,
+        314,
+        507
+      ],
+      "d5_wiek": [
+        324,
+        473,
+        592,
+        610,
+        269,
+        156
+      ],
+      "d5_wyk": [
+        397,
+        554,
+        399,
+        572,
+        502
+      ],
+      "d5_staz": [
+        491,
+        532,
+        390,
+        422,
+        249,
+        89,
+        251
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 105,
+          "pct": 45.7
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 65,
+          "pct": 28.3
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 41,
+          "pct": 17.8
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 11,
+          "pct": 4.8
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 4,
+          "pct": 1.7
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        4.6,
+        4.6,
+        4.5,
+        4.3,
+        4.2,
+        4.3,
+        4.6,
+        4.9,
+        5.0,
+        4.8,
+        4.7,
+        4.7,
+        5.0
+      ],
+      "trend_zarej_13m": [
+        332,
+        210,
+        281,
+        198,
+        214,
+        222,
+        295,
+        319,
+        342,
+        298,
+        279,
+        255,
+        367
+      ],
+      "trend_wyrej_13m": [
+        156,
+        206,
+        327,
+        283,
+        298,
+        146,
+        148,
+        160,
+        306,
+        399,
+        297,
+        267,
+        230
+      ],
+      "wyn_brutto": 7025.78,
+      "wyn_pracujacy": 29630
+    },
+    {
+      "wgm": "1413",
+      "nazwa": "Mławski",
+      "stopa": 7.2,
+      "bezr_razem": 1953,
+      "bezr_kobiety": 1019,
+      "zarej_razem": 260,
+      "wyrej_razem": 202,
+      "oferty_pracy": 45,
+      "podjeli_prace": 108,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 989,
+          "pct": 50.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 716,
+          "pct": 36.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 543,
+          "pct": 27.8
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 501,
+          "pct": 25.7
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 472,
+          "pct": 24.2
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 451,
+          "pct": 23.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 137,
+          "pct": 7.0
+        }
+      ],
+      "d5_kobiety": 1019,
+      "d5_czas": [
+        234,
+        318,
+        320,
+        365,
+        316,
+        400
+      ],
+      "d5_wiek": [
+        322,
+        452,
+        475,
+        388,
+        212,
+        104
+      ],
+      "d5_wyk": [
+        216,
+        468,
+        284,
+        473,
+        512
+      ],
+      "d5_staz": [
+        330,
+        502,
+        364,
+        273,
+        128,
+        37,
+        319
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 108,
+          "pct": 53.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 39,
+          "pct": 19.3
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 15,
+          "pct": 7.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 12,
+          "pct": 5.9
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 12,
+          "pct": 5.9
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 7,
+          "pct": 3.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 6,
+          "pct": 3.0
+        }
+      ],
+      "trend_stopa_13m": [
+        6.5,
+        6.5,
+        6.4,
+        6.2,
+        6.2,
+        6.3,
+        6.6,
+        6.8,
+        7.0,
+        6.7,
+        6.8,
+        6.9,
+        7.2
+      ],
+      "trend_zarej_13m": [
+        312,
+        223,
+        199,
+        184,
+        206,
+        199,
+        247,
+        223,
+        257,
+        219,
+        195,
+        195,
+        260
+      ],
+      "trend_wyrej_13m": [
+        204,
+        200,
+        231,
+        249,
+        227,
+        152,
+        154,
+        161,
+        216,
+        299,
+        164,
+        153,
+        202
+      ],
+      "wyn_brutto": 6693.0,
+      "wyn_pracujacy": 13736
+    },
+    {
+      "wgm": "1414",
+      "nazwa": "Nowodworski",
+      "stopa": 6.3,
+      "bezr_razem": 2154,
+      "bezr_kobiety": 943,
+      "zarej_razem": 191,
+      "wyrej_razem": 123,
+      "oferty_pracy": 55,
+      "podjeli_prace": 89,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1054,
+          "pct": 48.9
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 976,
+          "pct": 45.3
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 910,
+          "pct": 42.2
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 589,
+          "pct": 27.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 587,
+          "pct": 27.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 451,
+          "pct": 20.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 97,
+          "pct": 4.5
+        }
+      ],
+      "d5_kobiety": 943,
+      "d5_czas": [
+        174,
+        302,
+        336,
+        366,
+        342,
+        634
+      ],
+      "d5_wiek": [
+        281,
+        392,
+        581,
+        566,
+        191,
+        143
+      ],
+      "d5_wyk": [
+        264,
+        370,
+        283,
+        411,
+        826
+      ],
+      "d5_staz": [
+        556,
+        483,
+        310,
+        306,
+        166,
+        37,
+        296
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 89,
+          "pct": 72.4
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 9,
+          "pct": 7.3
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 6,
+          "pct": 4.9
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 6,
+          "pct": 4.9
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 4,
+          "pct": 3.3
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 3,
+          "pct": 2.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.8
+        }
+      ],
+      "trend_stopa_13m": [
+        5.4,
+        5.5,
+        5.4,
+        5.4,
+        5.3,
+        5.5,
+        5.7,
+        5.9,
+        6.1,
+        6.0,
+        6.1,
+        6.0,
+        6.3
+      ],
+      "trend_zarej_13m": [
+        231,
+        191,
+        168,
+        174,
+        189,
+        170,
+        202,
+        171,
+        265,
+        231,
+        213,
+        179,
+        191
+      ],
+      "trend_wyrej_13m": [
+        142,
+        148,
+        213,
+        200,
+        224,
+        72,
+        146,
+        98,
+        202,
+        257,
+        184,
+        181,
+        123
+      ],
+      "wyn_brutto": 8449.54,
+      "wyn_pracujacy": 33625
+    },
+    {
+      "wgm": "1415",
+      "nazwa": "Ostrołęcki",
+      "stopa": 9.6,
+      "bezr_razem": 2850,
+      "bezr_kobiety": 1370,
+      "zarej_razem": 273,
+      "wyrej_razem": 187,
+      "oferty_pracy": 6,
+      "podjeli_prace": 89,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 2720,
+          "pct": 95.4
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1253,
+          "pct": 44.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 896,
+          "pct": 31.4
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 860,
+          "pct": 30.2
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 807,
+          "pct": 28.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 623,
+          "pct": 21.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 101,
+          "pct": 3.5
+        }
+      ],
+      "d5_kobiety": 1370,
+      "d5_czas": [
+        241,
+        361,
+        417,
+        578,
+        595,
+        658
+      ],
+      "d5_wiek": [
+        474,
+        816,
+        706,
+        465,
+        230,
+        159
+      ],
+      "d5_wyk": [
+        408,
+        878,
+        364,
+        615,
+        585
+      ],
+      "d5_staz": [
+        601,
+        808,
+        474,
+        383,
+        139,
+        40,
+        405
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 89,
+          "pct": 47.6
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 31,
+          "pct": 16.6
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 20,
+          "pct": 10.7
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 20,
+          "pct": 10.7
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 12,
+          "pct": 6.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 5,
+          "pct": 2.7
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 5,
+          "pct": 2.7
+        }
+      ],
+      "trend_stopa_13m": [
+        9.5,
+        9.7,
+        9.6,
+        9.0,
+        8.9,
+        8.8,
+        9.3,
+        9.4,
+        9.3,
+        9.2,
+        9.2,
+        9.3,
+        9.6
+      ],
+      "trend_zarej_13m": [
+        340,
+        282,
+        245,
+        208,
+        221,
+        168,
+        278,
+        214,
+        300,
+        309,
+        214,
+        203,
+        273
+      ],
+      "trend_wyrej_13m": [
+        187,
+        190,
+        297,
+        402,
+        262,
+        175,
+        138,
+        158,
+        340,
+        345,
+        229,
+        169,
+        187
+      ],
+      "wyn_brutto": 7661.09,
+      "wyn_pracujacy": 21688
+    },
+    {
+      "wgm": "1416",
+      "nazwa": "Ostrowski",
+      "stopa": 9.3,
+      "bezr_razem": 2415,
+      "bezr_kobiety": 1146,
+      "zarej_razem": 250,
+      "wyrej_razem": 157,
+      "oferty_pracy": 26,
+      "podjeli_prace": 98,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1357,
+          "pct": 56.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1202,
+          "pct": 49.8
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 904,
+          "pct": 37.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 696,
+          "pct": 28.8
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 690,
+          "pct": 28.6
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 563,
+          "pct": 23.3
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 168,
+          "pct": 7.0
+        }
+      ],
+      "d5_kobiety": 1146,
+      "d5_czas": [
+        221,
+        278,
+        340,
+        374,
+        413,
+        789
+      ],
+      "d5_wiek": [
+        412,
+        595,
+        608,
+        464,
+        197,
+        139
+      ],
+      "d5_wyk": [
+        274,
+        564,
+        366,
+        584,
+        627
+      ],
+      "d5_staz": [
+        581,
+        638,
+        329,
+        311,
+        111,
+        28,
+        417
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 98,
+          "pct": 62.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 18,
+          "pct": 11.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 16,
+          "pct": 10.2
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 11,
+          "pct": 7.0
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 1.9
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 3,
+          "pct": 1.9
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.6
+        }
+      ],
+      "trend_stopa_13m": [
+        9.1,
+        9.1,
+        9.0,
+        8.7,
+        8.6,
+        8.9,
+        9.1,
+        9.3,
+        9.2,
+        9.1,
+        9.0,
+        8.9,
+        9.3
+      ],
+      "trend_zarej_13m": [
+        344,
+        233,
+        220,
+        185,
+        207,
+        209,
+        222,
+        232,
+        276,
+        274,
+        215,
+        195,
+        250
+      ],
+      "trend_wyrej_13m": [
+        205,
+        229,
+        252,
+        283,
+        238,
+        118,
+        164,
+        178,
+        317,
+        284,
+        250,
+        213,
+        157
+      ],
+      "wyn_brutto": 7366.59,
+      "wyn_pracujacy": 56616
+    },
+    {
+      "wgm": "1417",
+      "nazwa": "Otwocki",
+      "stopa": 4.2,
+      "bezr_razem": 2040,
+      "bezr_kobiety": 778,
+      "zarej_razem": 242,
+      "wyrej_razem": 202,
+      "oferty_pracy": 53,
+      "podjeli_prace": 109,
+      "kategorie": [
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 690,
+          "pct": 33.8
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 670,
+          "pct": 32.8
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 665,
+          "pct": 32.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 653,
+          "pct": 32.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 402,
+          "pct": 19.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 390,
+          "pct": 19.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 86,
+          "pct": 4.2
+        }
+      ],
+      "d5_kobiety": 778,
+      "d5_czas": [
+        229,
+        343,
+        387,
+        428,
+        328,
+        325
+      ],
+      "d5_wiek": [
+        203,
+        386,
+        502,
+        550,
+        215,
+        184
+      ],
+      "d5_wyk": [
+        344,
+        381,
+        295,
+        421,
+        599
+      ],
+      "d5_staz": [
+        478,
+        422,
+        309,
+        347,
+        215,
+        65,
+        204
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 109,
+          "pct": 54.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 40,
+          "pct": 19.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 33,
+          "pct": 16.3
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 9,
+          "pct": 4.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 7,
+          "pct": 3.5
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 1.5
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.5
+        }
+      ],
+      "trend_stopa_13m": [
+        3.6,
+        3.6,
+        3.6,
+        3.5,
+        3.5,
+        3.5,
+        3.8,
+        3.9,
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.2
+      ],
+      "trend_zarej_13m": [
+        294,
+        215,
+        207,
+        186,
+        222,
+        162,
+        267,
+        213,
+        263,
+        299,
+        223,
+        199,
+        242
+      ],
+      "trend_wyrej_13m": [
+        166,
+        178,
+        223,
+        249,
+        221,
+        130,
+        130,
+        146,
+        198,
+        262,
+        201,
+        234,
+        202
+      ],
+      "wyn_brutto": 8172.13,
+      "wyn_pracujacy": 38081
+    },
+    {
+      "wgm": "1418",
+      "nazwa": "Piaseczyński",
+      "stopa": 3.8,
+      "bezr_razem": 3077,
+      "bezr_kobiety": 1392,
+      "zarej_razem": 384,
+      "wyrej_razem": 300,
+      "oferty_pracy": 89,
+      "podjeli_prace": 154,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1711,
+          "pct": 55.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1148,
+          "pct": 37.3
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1116,
+          "pct": 36.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 1029,
+          "pct": 33.4
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 636,
+          "pct": 20.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 481,
+          "pct": 15.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 149,
+          "pct": 4.8
+        }
+      ],
+      "d5_kobiety": 1392,
+      "d5_czas": [
+        377,
+        491,
+        516,
+        577,
+        494,
+        622
+      ],
+      "d5_wiek": [
+        207,
+        590,
+        815,
+        868,
+        388,
+        209
+      ],
+      "d5_wyk": [
+        746,
+        586,
+        392,
+        408,
+        945
+      ],
+      "d5_staz": [
+        439,
+        577,
+        459,
+        567,
+        381,
+        97,
+        557
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 154,
+          "pct": 51.3
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 83,
+          "pct": 27.7
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 21,
+          "pct": 7.0
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 8,
+          "pct": 2.7
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 5,
+          "pct": 1.7
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        3.6,
+        3.6,
+        3.6,
+        3.5,
+        3.5,
+        3.5,
+        3.7,
+        3.9,
+        3.9,
+        3.8,
+        3.6,
+        3.7,
+        3.8
+      ],
+      "trend_zarej_13m": [
+        384,
+        340,
+        314,
+        355,
+        332,
+        270,
+        428,
+        324,
+        370,
+        411,
+        306,
+        308,
+        384
+      ],
+      "trend_wyrej_13m": [
+        278,
+        301,
+        320,
+        436,
+        375,
+        228,
+        221,
+        176,
+        377,
+        515,
+        429,
+        288,
+        300
+      ],
+      "wyn_brutto": 7586.54,
+      "wyn_pracujacy": 70819
+    },
+    {
+      "wgm": "1419",
+      "nazwa": "Płocki",
+      "stopa": 10.5,
+      "bezr_razem": 3394,
+      "bezr_kobiety": 1830,
+      "zarej_razem": 315,
+      "wyrej_razem": 225,
+      "oferty_pracy": 31,
+      "podjeli_prace": 135,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 3010,
+          "pct": 88.7
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1478,
+          "pct": 43.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 1293,
+          "pct": 38.1
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1066,
+          "pct": 31.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 941,
+          "pct": 27.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 809,
+          "pct": 23.8
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 142,
+          "pct": 4.2
+        }
+      ],
+      "d5_kobiety": 1830,
+      "d5_czas": [
+        312,
+        478,
+        495,
+        631,
+        600,
+        878
+      ],
+      "d5_wiek": [
+        462,
+        771,
+        825,
+        775,
+        382,
+        179
+      ],
+      "d5_wyk": [
+        363,
+        793,
+        326,
+        820,
+        1092
+      ],
+      "d5_staz": [
+        759,
+        890,
+        568,
+        463,
+        195,
+        71,
+        448
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 135,
+          "pct": 60.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 40,
+          "pct": 17.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 24,
+          "pct": 10.7
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 10,
+          "pct": 4.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 5,
+          "pct": 2.2
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 4,
+          "pct": 1.8
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 1.3
+        }
+      ],
+      "trend_stopa_13m": [
+        10.5,
+        10.7,
+        10.3,
+        9.6,
+        9.4,
+        9.5,
+        10.0,
+        10.1,
+        10.0,
+        10.2,
+        10.0,
+        10.3,
+        10.5
+      ],
+      "trend_zarej_13m": [
+        488,
+        337,
+        325,
+        252,
+        270,
+        274,
+        392,
+        252,
+        388,
+        493,
+        294,
+        346,
+        315
+      ],
+      "trend_wyrej_13m": [
+        248,
+        266,
+        449,
+        509,
+        337,
+        209,
+        247,
+        218,
+        409,
+        442,
+        358,
+        248,
+        225
+      ],
+      "wyn_brutto": 10070.86,
+      "wyn_pracujacy": 43123
+    },
+    {
+      "wgm": "1420",
+      "nazwa": "Płoński",
+      "stopa": 10.6,
+      "bezr_razem": 3228,
+      "bezr_kobiety": 1561,
+      "zarej_razem": 298,
+      "wyrej_razem": 203,
+      "oferty_pracy": 140,
+      "podjeli_prace": 137,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1944,
+          "pct": 60.2
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1499,
+          "pct": 46.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1298,
+          "pct": 40.2
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 970,
+          "pct": 30.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 914,
+          "pct": 28.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 735,
+          "pct": 22.8
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 108,
+          "pct": 3.3
+        }
+      ],
+      "d5_kobiety": 1561,
+      "d5_czas": [
+        284,
+        384,
+        469,
+        592,
+        547,
+        952
+      ],
+      "d5_wiek": [
+        552,
+        821,
+        770,
+        648,
+        273,
+        164
+      ],
+      "d5_wyk": [
+        258,
+        508,
+        558,
+        873,
+        1031
+      ],
+      "d5_staz": [
+        597,
+        922,
+        533,
+        427,
+        162,
+        37,
+        550
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 137,
+          "pct": 67.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 28,
+          "pct": 13.8
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 22,
+          "pct": 10.8
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 10,
+          "pct": 4.9
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 1.5
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        10.1,
+        9.9,
+        9.8,
+        9.6,
+        9.7,
+        9.7,
+        10.0,
+        10.3,
+        10.3,
+        10.3,
+        10.2,
+        10.2,
+        10.6
+      ],
+      "trend_zarej_13m": [
+        395,
+        310,
+        244,
+        205,
+        227,
+        214,
+        277,
+        298,
+        335,
+        261,
+        205,
+        301,
+        298
+      ],
+      "trend_wyrej_13m": [
+        213,
+        369,
+        267,
+        265,
+        227,
+        181,
+        174,
+        221,
+        324,
+        268,
+        233,
+        287,
+        203
+      ],
+      "wyn_brutto": 7186.83,
+      "wyn_pracujacy": 15578
+    },
+    {
+      "wgm": "1421",
+      "nazwa": "Pruszkowski",
+      "stopa": 2.7,
+      "bezr_razem": 2196,
+      "bezr_kobiety": 987,
+      "zarej_razem": 295,
+      "wyrej_razem": 194,
+      "oferty_pracy": 102,
+      "podjeli_prace": 108,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 830,
+          "pct": 37.8
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 811,
+          "pct": 36.9
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 687,
+          "pct": 31.3
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 640,
+          "pct": 29.1
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 417,
+          "pct": 19.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 364,
+          "pct": 16.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 94,
+          "pct": 4.3
+        }
+      ],
+      "d5_kobiety": 987,
+      "d5_czas": [
+        286,
+        408,
+        418,
+        444,
+        348,
+        292
+      ],
+      "d5_wiek": [
+        168,
+        437,
+        619,
+        573,
+        252,
+        147
+      ],
+      "d5_wyk": [
+        579,
+        430,
+        319,
+        296,
+        572
+      ],
+      "d5_staz": [
+        321,
+        443,
+        301,
+        368,
+        244,
+        52,
+        467
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 108,
+          "pct": 55.7
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 50,
+          "pct": 25.8
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 18,
+          "pct": 9.3
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 7,
+          "pct": 3.6
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 5,
+          "pct": 2.6
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 1.5
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        2.2,
+        2.3,
+        2.3,
+        2.2,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.5,
+        2.5,
+        2.6,
+        2.7
+      ],
+      "trend_zarej_13m": [
+        286,
+        264,
+        276,
+        255,
+        231,
+        248,
+        290,
+        250,
+        313,
+        287,
+        233,
+        256,
+        295
+      ],
+      "trend_wyrej_13m": [
+        197,
+        183,
+        265,
+        291,
+        275,
+        174,
+        187,
+        200,
+        242,
+        303,
+        245,
+        216,
+        194
+      ],
+      "wyn_brutto": 8405.6,
+      "wyn_pracujacy": 62355
+    },
+    {
+      "wgm": "1422",
+      "nazwa": "Przasnyski",
+      "stopa": 10.3,
+      "bezr_razem": 1828,
+      "bezr_kobiety": 883,
+      "zarej_razem": 145,
+      "wyrej_razem": 96,
+      "oferty_pracy": 42,
+      "podjeli_prace": 64,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1197,
+          "pct": 65.5
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 924,
+          "pct": 50.5
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 839,
+          "pct": 45.9
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 660,
+          "pct": 36.1
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 552,
+          "pct": 30.2
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 413,
+          "pct": 22.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 84,
+          "pct": 4.6
+        }
+      ],
+      "d5_kobiety": 883,
+      "d5_czas": [
+        141,
+        231,
+        256,
+        276,
+        335,
+        589
+      ],
+      "d5_wiek": [
+        323,
+        462,
+        445,
+        344,
+        165,
+        89
+      ],
+      "d5_wyk": [
+        152,
+        372,
+        268,
+        436,
+        600
+      ],
+      "d5_staz": [
+        426,
+        499,
+        247,
+        174,
+        68,
+        21,
+        393
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 64,
+          "pct": 66.7
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 8,
+          "pct": 8.3
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 8,
+          "pct": 8.3
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 6,
+          "pct": 6.2
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 3.1
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        9.8,
+        9.7,
+        9.5,
+        9.2,
+        9.1,
+        9.1,
+        9.4,
+        9.8,
+        9.7,
+        9.8,
+        9.7,
+        10.0,
+        10.3
+      ],
+      "trend_zarej_13m": [
+        191,
+        155,
+        132,
+        105,
+        125,
+        95,
+        179,
+        140,
+        197,
+        182,
+        135,
+        148,
+        145
+      ],
+      "trend_wyrej_13m": [
+        97,
+        159,
+        181,
+        161,
+        142,
+        92,
+        113,
+        80,
+        207,
+        169,
+        143,
+        89,
+        96
+      ],
+      "wyn_brutto": 7228.77,
+      "wyn_pracujacy": 7411
+    },
+    {
+      "wgm": "1423",
+      "nazwa": "Przysuski",
+      "stopa": 19.0,
+      "bezr_razem": 2593,
+      "bezr_kobiety": 1082,
+      "zarej_razem": 279,
+      "wyrej_razem": 177,
+      "oferty_pracy": 63,
+      "podjeli_prace": 127,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 2197,
+          "pct": 84.7
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1410,
+          "pct": 54.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1004,
+          "pct": 38.7
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 854,
+          "pct": 32.9
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 713,
+          "pct": 27.5
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 688,
+          "pct": 26.5
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 54,
+          "pct": 2.1
+        }
+      ],
+      "d5_kobiety": 1082,
+      "d5_czas": [
+        213,
+        274,
+        281,
+        415,
+        423,
+        987
+      ],
+      "d5_wiek": [
+        383,
+        662,
+        586,
+        561,
+        258,
+        143
+      ],
+      "d5_wyk": [
+        248,
+        751,
+        290,
+        776,
+        528
+      ],
+      "d5_staz": [
+        448,
+        702,
+        491,
+        353,
+        97,
+        27,
+        475
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 127,
+          "pct": 71.8
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 17,
+          "pct": 9.6
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 11,
+          "pct": 6.2
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 10,
+          "pct": 5.6
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 6,
+          "pct": 3.4
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        19.2,
+        18.9,
+        18.6,
+        18.1,
+        17.9,
+        17.9,
+        18.3,
+        18.5,
+        18.3,
+        17.7,
+        17.9,
+        18.3,
+        19.0
+      ],
+      "trend_zarej_13m": [
+        351,
+        227,
+        240,
+        196,
+        190,
+        175,
+        245,
+        242,
+        271,
+        213,
+        168,
+        193,
+        279
+      ],
+      "trend_wyrej_13m": [
+        170,
+        284,
+        282,
+        273,
+        248,
+        144,
+        184,
+        211,
+        319,
+        303,
+        128,
+        130,
+        177
+      ],
+      "wyn_brutto": 6675.42,
+      "wyn_pracujacy": 5108
+    },
+    {
+      "wgm": "1424",
+      "nazwa": "Pułtuski",
+      "stopa": 15.2,
+      "bezr_razem": 2713,
+      "bezr_kobiety": 1239,
+      "zarej_razem": 267,
+      "wyrej_razem": 83,
+      "oferty_pracy": 31,
+      "podjeli_prace": 54,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1465,
+          "pct": 54.0
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1245,
+          "pct": 45.9
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1203,
+          "pct": 44.3
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 1077,
+          "pct": 39.7
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 761,
+          "pct": 28.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 574,
+          "pct": 21.2
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 64,
+          "pct": 2.4
+        }
+      ],
+      "d5_kobiety": 1239,
+      "d5_czas": [
+        248,
+        335,
+        378,
+        507,
+        465,
+        780
+      ],
+      "d5_wiek": [
+        459,
+        651,
+        708,
+        561,
+        209,
+        125
+      ],
+      "d5_wyk": [
+        295,
+        611,
+        397,
+        646,
+        764
+      ],
+      "d5_staz": [
+        435,
+        776,
+        464,
+        358,
+        117,
+        27,
+        536
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 54,
+          "pct": 65.1
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 13,
+          "pct": 15.7
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 7,
+          "pct": 8.4
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 3.6
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 2,
+          "pct": 2.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 2,
+          "pct": 2.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 1.2
+        }
+      ],
+      "trend_stopa_13m": [
+        14.3,
+        13.8,
+        13.5,
+        13.1,
+        13.0,
+        13.2,
+        13.3,
+        13.4,
+        13.6,
+        14.0,
+        14.1,
+        14.3,
+        15.2
+      ],
+      "trend_zarej_13m": [
+        387,
+        235,
+        221,
+        235,
+        219,
+        252,
+        223,
+        229,
+        271,
+        259,
+        213,
+        275,
+        267
+      ],
+      "trend_wyrej_13m": [
+        176,
+        334,
+        296,
+        312,
+        255,
+        185,
+        200,
+        215,
+        238,
+        170,
+        187,
+        248,
+        83
+      ],
+      "wyn_brutto": 6738.69,
+      "wyn_pracujacy": 8616
+    },
+    {
+      "wgm": "1425",
+      "nazwa": "Radomski",
+      "stopa": 17.4,
+      "bezr_razem": 7963,
+      "bezr_kobiety": 3630,
+      "zarej_razem": 767,
+      "wyrej_razem": 474,
+      "oferty_pracy": 92,
+      "podjeli_prace": 288,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 6378,
+          "pct": 80.1
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 3792,
+          "pct": 47.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 2585,
+          "pct": 32.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 2336,
+          "pct": 29.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 2066,
+          "pct": 25.9
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 1907,
+          "pct": 23.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 296,
+          "pct": 3.7
+        }
+      ],
+      "d5_kobiety": 3630,
+      "d5_czas": [
+        725,
+        922,
+        1081,
+        1443,
+        1453,
+        2339
+      ],
+      "d5_wiek": [
+        1134,
+        1967,
+        2095,
+        1682,
+        680,
+        405
+      ],
+      "d5_wyk": [
+        982,
+        1908,
+        882,
+        2063,
+        2128
+      ],
+      "d5_staz": [
+        1411,
+        2044,
+        1402,
+        1096,
+        426,
+        118,
+        1466
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 288,
+          "pct": 60.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 64,
+          "pct": 13.5
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 52,
+          "pct": 11.0
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 41,
+          "pct": 8.6
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 17,
+          "pct": 3.6
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.2
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        16.8,
+        16.8,
+        16.6,
+        16.4,
+        16.2,
+        16.3,
+        16.8,
+        17.1,
+        16.8,
+        16.8,
+        16.7,
+        16.8,
+        17.4
+      ],
+      "trend_zarej_13m": [
+        823,
+        635,
+        658,
+        595,
+        556,
+        589,
+        693,
+        586,
+        703,
+        618,
+        546,
+        577,
+        767
+      ],
+      "trend_wyrej_13m": [
+        499,
+        640,
+        771,
+        679,
+        709,
+        432,
+        468,
+        427,
+        855,
+        646,
+        569,
+        518,
+        474
+      ],
+      "wyn_brutto": 6923.65,
+      "wyn_pracujacy": 24529
+    },
+    {
+      "wgm": "1426",
+      "nazwa": "Siedlecki",
+      "stopa": 5.8,
+      "bezr_razem": 1533,
+      "bezr_kobiety": 712,
+      "zarej_razem": 165,
+      "wyrej_razem": 80,
+      "oferty_pracy": 51,
+      "podjeli_prace": 44,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1481,
+          "pct": 96.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 610,
+          "pct": 39.8
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 543,
+          "pct": 35.4
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 535,
+          "pct": 34.9
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 422,
+          "pct": 27.5
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 381,
+          "pct": 24.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 81,
+          "pct": 5.3
+        }
+      ],
+      "d5_kobiety": 712,
+      "d5_czas": [
+        159,
+        227,
+        274,
+        263,
+        243,
+        367
+      ],
+      "d5_wiek": [
+        237,
+        385,
+        376,
+        294,
+        145,
+        96
+      ],
+      "d5_wyk": [
+        235,
+        311,
+        201,
+        409,
+        377
+      ],
+      "d5_staz": [
+        380,
+        365,
+        249,
+        190,
+        99,
+        42,
+        208
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 44,
+          "pct": 55.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 22,
+          "pct": 27.5
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 7,
+          "pct": 8.8
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 4,
+          "pct": 5.0
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 3,
+          "pct": 3.8
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        5.3,
+        5.5,
+        5.3,
+        5.1,
+        5.1,
+        5.1,
+        5.2,
+        5.4,
+        5.5,
+        5.4,
+        5.4,
+        5.5,
+        5.8
+      ],
+      "trend_zarej_13m": [
+        198,
+        185,
+        146,
+        142,
+        148,
+        120,
+        182,
+        185,
+        199,
+        155,
+        141,
+        134,
+        165
+      ],
+      "trend_wyrej_13m": [
+        100,
+        114,
+        206,
+        187,
+        172,
+        107,
+        151,
+        130,
+        181,
+        177,
+        126,
+        123,
+        80
+      ],
+      "wyn_brutto": 7635.63,
+      "wyn_pracujacy": 36649
+    },
+    {
+      "wgm": "1427",
+      "nazwa": "Sierpecki",
+      "stopa": 12.7,
+      "bezr_razem": 2158,
+      "bezr_kobiety": 1123,
+      "zarej_razem": 156,
+      "wyrej_razem": 122,
+      "oferty_pracy": 46,
+      "podjeli_prace": 89,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1448,
+          "pct": 67.1
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1128,
+          "pct": 52.3
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 808,
+          "pct": 37.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 569,
+          "pct": 26.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 555,
+          "pct": 25.7
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 498,
+          "pct": 23.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 95,
+          "pct": 4.4
+        }
+      ],
+      "d5_kobiety": 1123,
+      "d5_czas": [
+        151,
+        209,
+        320,
+        350,
+        407,
+        721
+      ],
+      "d5_wiek": [
+        299,
+        557,
+        504,
+        443,
+        235,
+        120
+      ],
+      "d5_wyk": [
+        226,
+        509,
+        235,
+        576,
+        612
+      ],
+      "d5_staz": [
+        520,
+        568,
+        325,
+        300,
+        109,
+        28,
+        308
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 89,
+          "pct": 73.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 26,
+          "pct": 21.3
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 2.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 1,
+          "pct": 0.8
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.8
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 1,
+          "pct": 0.8
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        12.4,
+        12.7,
+        12.3,
+        11.5,
+        11.5,
+        11.4,
+        11.6,
+        11.7,
+        11.7,
+        12.1,
+        12.1,
+        12.5,
+        12.7
+      ],
+      "trend_zarej_13m": [
+        224,
+        303,
+        176,
+        153,
+        131,
+        115,
+        156,
+        263,
+        267,
+        188,
+        112,
+        158,
+        156
+      ],
+      "trend_wyrej_13m": [
+        123,
+        248,
+        262,
+        293,
+        142,
+        116,
+        119,
+        247,
+        272,
+        114,
+        111,
+        85,
+        122
+      ],
+      "wyn_brutto": 6832.76,
+      "wyn_pracujacy": 7716
+    },
+    {
+      "wgm": "1428",
+      "nazwa": "Sochaczewski",
+      "stopa": 3.7,
+      "bezr_razem": 1161,
+      "bezr_kobiety": 537,
+      "zarej_razem": 235,
+      "wyrej_razem": 141,
+      "oferty_pracy": 20,
+      "podjeli_prace": 73,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 632,
+          "pct": 54.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 505,
+          "pct": 43.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 389,
+          "pct": 33.5
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 320,
+          "pct": 27.6
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 283,
+          "pct": 24.4
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 186,
+          "pct": 16.0
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 59,
+          "pct": 5.1
+        }
+      ],
+      "d5_kobiety": 537,
+      "d5_czas": [
+        221,
+        247,
+        253,
+        254,
+        146,
+        40
+      ],
+      "d5_wiek": [
+        196,
+        251,
+        296,
+        259,
+        95,
+        64
+      ],
+      "d5_wyk": [
+        130,
+        293,
+        175,
+        236,
+        327
+      ],
+      "d5_staz": [
+        171,
+        304,
+        158,
+        160,
+        110,
+        28,
+        230
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 73,
+          "pct": 51.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 46,
+          "pct": 32.6
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 11,
+          "pct": 7.8
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 6,
+          "pct": 4.3
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 2,
+          "pct": 1.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 2,
+          "pct": 1.4
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        3.1,
+        3.1,
+        3.0,
+        2.8,
+        2.7,
+        2.9,
+        3.2,
+        3.4,
+        3.4,
+        3.4,
+        3.4,
+        3.4,
+        3.7
+      ],
+      "trend_zarej_13m": [
+        229,
+        187,
+        206,
+        164,
+        158,
+        170,
+        203,
+        171,
+        189,
+        198,
+        152,
+        171,
+        235
+      ],
+      "trend_wyrej_13m": [
+        126,
+        195,
+        230,
+        212,
+        196,
+        99,
+        111,
+        111,
+        185,
+        208,
+        145,
+        161,
+        141
+      ],
+      "wyn_brutto": 8081.52,
+      "wyn_pracujacy": 18010
+    },
+    {
+      "wgm": "1429",
+      "nazwa": "Sokołowski",
+      "stopa": 5.8,
+      "bezr_razem": 1143,
+      "bezr_kobiety": 553,
+      "zarej_razem": 128,
+      "wyrej_razem": 78,
+      "oferty_pracy": 31,
+      "podjeli_prace": 48,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 601,
+          "pct": 52.6
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 408,
+          "pct": 35.7
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 405,
+          "pct": 35.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 345,
+          "pct": 30.2
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 282,
+          "pct": 24.7
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 233,
+          "pct": 20.4
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 67,
+          "pct": 5.9
+        }
+      ],
+      "d5_kobiety": 553,
+      "d5_czas": [
+        117,
+        205,
+        203,
+        213,
+        183,
+        222
+      ],
+      "d5_wiek": [
+        211,
+        285,
+        285,
+        235,
+        79,
+        48
+      ],
+      "d5_wyk": [
+        154,
+        266,
+        191,
+        263,
+        269
+      ],
+      "d5_staz": [
+        241,
+        303,
+        189,
+        151,
+        55,
+        23,
+        181
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 48,
+          "pct": 61.5
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 11,
+          "pct": 14.1
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 6,
+          "pct": 7.7
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 5,
+          "pct": 6.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 3.8
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 2,
+          "pct": 2.6
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 1.3
+        }
+      ],
+      "trend_stopa_13m": [
+        5.6,
+        5.5,
+        5.4,
+        5.2,
+        5.0,
+        5.1,
+        5.4,
+        5.5,
+        5.5,
+        5.3,
+        5.4,
+        5.5,
+        5.8
+      ],
+      "trend_zarej_13m": [
+        160,
+        118,
+        139,
+        121,
+        116,
+        120,
+        155,
+        117,
+        169,
+        135,
+        118,
+        129,
+        128
+      ],
+      "trend_wyrej_13m": [
+        99,
+        126,
+        174,
+        148,
+        169,
+        88,
+        94,
+        112,
+        163,
+        177,
+        101,
+        98,
+        78
+      ],
+      "wyn_brutto": 6886.36,
+      "wyn_pracujacy": 11202
+    },
+    {
+      "wgm": "1430",
+      "nazwa": "Szydłowiecki",
+      "stopa": 23.2,
+      "bezr_razem": 2778,
+      "bezr_kobiety": 1332,
+      "zarej_razem": 292,
+      "wyrej_razem": 137,
+      "oferty_pracy": 10,
+      "podjeli_prace": 92,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 2059,
+          "pct": 74.1
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1445,
+          "pct": 52.0
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 1083,
+          "pct": 39.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 843,
+          "pct": 30.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 765,
+          "pct": 27.5
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 616,
+          "pct": 22.2
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 81,
+          "pct": 2.9
+        }
+      ],
+      "d5_kobiety": 1332,
+      "d5_czas": [
+        266,
+        324,
+        355,
+        388,
+        418,
+        1027
+      ],
+      "d5_wiek": [
+        330,
+        619,
+        719,
+        688,
+        275,
+        147
+      ],
+      "d5_wyk": [
+        271,
+        680,
+        327,
+        940,
+        560
+      ],
+      "d5_staz": [
+        461,
+        842,
+        552,
+        428,
+        123,
+        34,
+        338
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 92,
+          "pct": 67.2
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 11,
+          "pct": 8.0
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 9,
+          "pct": 6.6
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 9,
+          "pct": 6.6
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 7,
+          "pct": 5.1
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 5,
+          "pct": 3.6
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        24.5,
+        23.9,
+        23.0,
+        22.3,
+        22.0,
+        21.9,
+        22.3,
+        22.7,
+        22.0,
+        21.9,
+        21.8,
+        22.1,
+        23.2
+      ],
+      "trend_zarej_13m": [
+        321,
+        251,
+        182,
+        183,
+        218,
+        156,
+        247,
+        246,
+        283,
+        257,
+        204,
+        220,
+        292
+      ],
+      "trend_wyrej_13m": [
+        188,
+        341,
+        328,
+        295,
+        264,
+        148,
+        194,
+        189,
+        400,
+        273,
+        215,
+        162,
+        137
+      ],
+      "wyn_brutto": 6329.82,
+      "wyn_pracujacy": 5587
+    },
+    {
+      "wgm": "1432",
+      "nazwa": "Warszawski zachodni",
+      "stopa": 2.0,
+      "bezr_razem": 1319,
+      "bezr_kobiety": 618,
+      "zarej_razem": 184,
+      "wyrej_razem": 121,
+      "oferty_pracy": 30,
+      "podjeli_prace": 81,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 819,
+          "pct": 62.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 448,
+          "pct": 34.0
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 443,
+          "pct": 33.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 373,
+          "pct": 28.3
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 236,
+          "pct": 17.9
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 219,
+          "pct": 16.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 42,
+          "pct": 3.2
+        }
+      ],
+      "d5_kobiety": 618,
+      "d5_czas": [
+        179,
+        202,
+        244,
+        251,
+        185,
+        258
+      ],
+      "d5_wiek": [
+        96,
+        239,
+        358,
+        358,
+        164,
+        104
+      ],
+      "d5_wyk": [
+        365,
+        283,
+        151,
+        196,
+        324
+      ],
+      "d5_staz": [
+        244,
+        229,
+        222,
+        263,
+        170,
+        41,
+        150
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 81,
+          "pct": 66.9
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 11,
+          "pct": 9.1
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 9,
+          "pct": 7.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 4,
+          "pct": 3.3
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 2.5
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 2,
+          "pct": 1.7
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 1,
+          "pct": 0.8
+        }
+      ],
+      "trend_stopa_13m": [
+        1.7,
+        1.8,
+        1.8,
+        1.7,
+        1.6,
+        1.6,
+        1.8,
+        1.8,
+        1.9,
+        1.8,
+        1.8,
+        1.9,
+        2.0
+      ],
+      "trend_zarej_13m": [
+        196,
+        166,
+        151,
+        116,
+        111,
+        100,
+        169,
+        148,
+        151,
+        170,
+        139,
+        139,
+        184
+      ],
+      "trend_wyrej_13m": [
+        110,
+        121,
+        133,
+        161,
+        175,
+        108,
+        82,
+        80,
+        133,
+        193,
+        149,
+        119,
+        121
+      ],
+      "wyn_brutto": 8357.09,
+      "wyn_pracujacy": 48522
+    },
+    {
+      "wgm": "1433",
+      "nazwa": "Węgrowski",
+      "stopa": 5.8,
+      "bezr_razem": 1259,
+      "bezr_kobiety": 568,
+      "zarej_razem": 143,
+      "wyrej_razem": 71,
+      "oferty_pracy": 14,
+      "podjeli_prace": 50,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 860,
+          "pct": 68.3
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 499,
+          "pct": 39.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 460,
+          "pct": 36.5
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 448,
+          "pct": 35.6
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 360,
+          "pct": 28.6
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 310,
+          "pct": 24.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 78,
+          "pct": 6.2
+        }
+      ],
+      "d5_kobiety": 568,
+      "d5_czas": [
+        141,
+        169,
+        246,
+        243,
+        201,
+        259
+      ],
+      "d5_wiek": [
+        206,
+        309,
+        302,
+        265,
+        106,
+        71
+      ],
+      "d5_wyk": [
+        123,
+        265,
+        249,
+        355,
+        267
+      ],
+      "d5_staz": [
+        236,
+        357,
+        224,
+        179,
+        98,
+        24,
+        141
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 50,
+          "pct": 70.4
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 8,
+          "pct": 11.3
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 5,
+          "pct": 7.0
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 1.4
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 1,
+          "pct": 1.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        5.3,
+        5.5,
+        5.4,
+        5.3,
+        5.2,
+        5.2,
+        5.4,
+        5.5,
+        5.7,
+        5.5,
+        5.5,
+        5.5,
+        5.8
+      ],
+      "trend_zarej_13m": [
+        166,
+        180,
+        161,
+        121,
+        123,
+        90,
+        145,
+        112,
+        210,
+        162,
+        129,
+        84,
+        143
+      ],
+      "trend_wyrej_13m": [
+        111,
+        139,
+        182,
+        150,
+        144,
+        86,
+        96,
+        85,
+        177,
+        203,
+        119,
+        94,
+        71
+      ],
+      "wyn_brutto": 7056.78,
+      "wyn_pracujacy": 13374
+    },
+    {
+      "wgm": "1434",
+      "nazwa": "Wołomiński",
+      "stopa": 6.7,
+      "bezr_razem": 5963,
+      "bezr_kobiety": 2596,
+      "zarej_razem": 691,
+      "wyrej_razem": 389,
+      "oferty_pracy": 50,
+      "podjeli_prace": 221,
+      "kategorie": [
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 2524,
+          "pct": 42.3
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 2235,
+          "pct": 37.5
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 2173,
+          "pct": 36.4
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 1983,
+          "pct": 33.3
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 1605,
+          "pct": 26.9
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 1307,
+          "pct": 21.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 208,
+          "pct": 3.5
+        }
+      ],
+      "d5_kobiety": 2596,
+      "d5_czas": [
+        671,
+        816,
+        987,
+        1254,
+        1149,
+        1086
+      ],
+      "d5_wiek": [
+        671,
+        1362,
+        1607,
+        1404,
+        551,
+        368
+      ],
+      "d5_wyk": [
+        887,
+        1131,
+        934,
+        1126,
+        1885
+      ],
+      "d5_staz": [
+        1270,
+        1362,
+        979,
+        875,
+        580,
+        137,
+        760
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 221,
+          "pct": 56.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 100,
+          "pct": 25.7
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 30,
+          "pct": 7.7
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 17,
+          "pct": 4.4
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 10,
+          "pct": 2.6
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        5.4,
+        5.5,
+        5.5,
+        5.5,
+        5.4,
+        5.6,
+        5.9,
+        6.2,
+        6.3,
+        6.3,
+        6.3,
+        6.3,
+        6.7
+      ],
+      "trend_zarej_13m": [
+        686,
+        609,
+        552,
+        546,
+        470,
+        516,
+        624,
+        581,
+        660,
+        562,
+        522,
+        443,
+        691
+      ],
+      "trend_wyrej_13m": [
+        401,
+        523,
+        538,
+        590,
+        598,
+        255,
+        338,
+        287,
+        603,
+        582,
+        530,
+        369,
+        389
+      ],
+      "wyn_brutto": 7281.44,
+      "wyn_pracujacy": 61555
+    },
+    {
+      "wgm": "1435",
+      "nazwa": "Wyszkowski",
+      "stopa": 4.8,
+      "bezr_razem": 1385,
+      "bezr_kobiety": 655,
+      "zarej_razem": 210,
+      "wyrej_razem": 79,
+      "oferty_pracy": 65,
+      "podjeli_prace": 57,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 865,
+          "pct": 62.5
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 534,
+          "pct": 38.6
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 477,
+          "pct": 34.4
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 403,
+          "pct": 29.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 336,
+          "pct": 24.3
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 229,
+          "pct": 16.5
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 121,
+          "pct": 8.7
+        }
+      ],
+      "d5_kobiety": 655,
+      "d5_czas": [
+        204,
+        218,
+        316,
+        418,
+        177,
+        52
+      ],
+      "d5_wiek": [
+        256,
+        305,
+        352,
+        266,
+        127,
+        79
+      ],
+      "d5_wyk": [
+        165,
+        326,
+        245,
+        344,
+        305
+      ],
+      "d5_staz": [
+        285,
+        350,
+        228,
+        207,
+        99,
+        34,
+        182
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 57,
+          "pct": 72.2
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 9,
+          "pct": 11.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 4,
+          "pct": 5.1
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 3,
+          "pct": 3.8
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 2,
+          "pct": 2.5
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 1,
+          "pct": 1.3
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        3.7,
+        3.9,
+        3.6,
+        3.3,
+        3.1,
+        3.4,
+        3.7,
+        4.2,
+        4.4,
+        4.4,
+        4.4,
+        4.4,
+        4.8
+      ],
+      "trend_zarej_13m": [
+        240,
+        252,
+        232,
+        180,
+        221,
+        174,
+        183,
+        253,
+        200,
+        236,
+        169,
+        117,
+        210
+      ],
+      "trend_wyrej_13m": [
+        168,
+        187,
+        318,
+        285,
+        283,
+        71,
+        97,
+        110,
+        130,
+        230,
+        192,
+        111,
+        79
+      ],
+      "wyn_brutto": 6615.64,
+      "wyn_pracujacy": 16806
+    },
+    {
+      "wgm": "1436",
+      "nazwa": "Zwoleński",
+      "stopa": 13.8,
+      "bezr_razem": 1594,
+      "bezr_kobiety": 786,
+      "zarej_razem": 195,
+      "wyrej_razem": 70,
+      "oferty_pracy": 1,
+      "podjeli_prace": 44,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1222,
+          "pct": 76.7
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 683,
+          "pct": 42.8
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 638,
+          "pct": 40.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 523,
+          "pct": 32.8
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 501,
+          "pct": 31.4
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 344,
+          "pct": 21.6
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 51,
+          "pct": 3.2
+        }
+      ],
+      "d5_kobiety": 786,
+      "d5_czas": [
+        188,
+        202,
+        254,
+        267,
+        269,
+        414
+      ],
+      "d5_wiek": [
+        323,
+        400,
+        383,
+        291,
+        125,
+        72
+      ],
+      "d5_wyk": [
+        204,
+        337,
+        219,
+        440,
+        394
+      ],
+      "d5_staz": [
+        319,
+        502,
+        256,
+        187,
+        63,
+        21,
+        246
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 44,
+          "pct": 62.9
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 10,
+          "pct": 14.3
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 9,
+          "pct": 12.9
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 4.3
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 1,
+          "pct": 1.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        13.6,
+        13.2,
+        12.6,
+        11.7,
+        11.3,
+        11.3,
+        11.7,
+        12.1,
+        12.3,
+        12.3,
+        12.2,
+        12.8,
+        13.8
+      ],
+      "trend_zarej_13m": [
+        193,
+        138,
+        116,
+        110,
+        112,
+        86,
+        134,
+        149,
+        168,
+        208,
+        102,
+        147,
+        195
+      ],
+      "trend_wyrej_13m": [
+        105,
+        193,
+        188,
+        231,
+        161,
+        75,
+        95,
+        96,
+        142,
+        207,
+        111,
+        66,
+        70
+      ],
+      "wyn_brutto": 7120.24,
+      "wyn_pracujacy": 4685
+    },
+    {
+      "wgm": "1437",
+      "nazwa": "Żuromiński",
+      "stopa": 15.1,
+      "bezr_razem": 1989,
+      "bezr_kobiety": 993,
+      "zarej_razem": 175,
+      "wyrej_razem": 116,
+      "oferty_pracy": 46,
+      "podjeli_prace": 83,
+      "kategorie": [
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 1365,
+          "pct": 68.6
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 967,
+          "pct": 48.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 675,
+          "pct": 33.9
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 546,
+          "pct": 27.5
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 546,
+          "pct": 27.5
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 506,
+          "pct": 25.4
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 42,
+          "pct": 2.1
+        }
+      ],
+      "d5_kobiety": 993,
+      "d5_czas": [
+        169,
+        214,
+        259,
+        380,
+        360,
+        607
+      ],
+      "d5_wiek": [
+        317,
+        482,
+        483,
+        417,
+        184,
+        106
+      ],
+      "d5_wyk": [
+        221,
+        478,
+        252,
+        526,
+        512
+      ],
+      "d5_staz": [
+        315,
+        573,
+        350,
+        270,
+        92,
+        26,
+        363
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 83,
+          "pct": 71.6
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 8,
+          "pct": 6.9
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 7,
+          "pct": 6.0
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 6,
+          "pct": 5.2
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 6,
+          "pct": 5.2
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 4,
+          "pct": 3.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        14.4,
+        14.3,
+        13.9,
+        13.4,
+        13.6,
+        13.8,
+        14.4,
+        14.5,
+        14.4,
+        14.4,
+        14.8,
+        14.6,
+        15.1
+      ],
+      "trend_zarej_13m": [
+        193,
+        161,
+        180,
+        139,
+        141,
+        129,
+        178,
+        139,
+        179,
+        170,
+        184,
+        133,
+        175
+      ],
+      "trend_wyrej_13m": [
+        86,
+        170,
+        235,
+        212,
+        124,
+        88,
+        89,
+        131,
+        183,
+        170,
+        131,
+        150,
+        116
+      ],
+      "wyn_brutto": 6624.22,
+      "wyn_pracujacy": 4889
+    },
+    {
+      "wgm": "1438",
+      "nazwa": "Żyrardowski",
+      "stopa": 9.3,
+      "bezr_razem": 2553,
+      "bezr_kobiety": 1148,
+      "zarej_razem": 227,
+      "wyrej_razem": 141,
+      "oferty_pracy": 49,
+      "podjeli_prace": 91,
+      "kategorie": [
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1287,
+          "pct": 50.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 970,
+          "pct": 38.0
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 948,
+          "pct": 37.1
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 710,
+          "pct": 27.8
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 602,
+          "pct": 23.6
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 505,
+          "pct": 19.8
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 92,
+          "pct": 3.6
+        }
+      ],
+      "d5_kobiety": 1148,
+      "d5_czas": [
+        212,
+        296,
+        329,
+        429,
+        417,
+        870
+      ],
+      "d5_wiek": [
+        266,
+        488,
+        728,
+        669,
+        253,
+        149
+      ],
+      "d5_wyk": [
+        269,
+        486,
+        360,
+        559,
+        879
+      ],
+      "d5_staz": [
+        545,
+        642,
+        467,
+        439,
+        187,
+        55,
+        218
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 91,
+          "pct": 64.5
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 22,
+          "pct": 15.6
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 21,
+          "pct": 14.9
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 3,
+          "pct": 2.1
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 3,
+          "pct": 2.1
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        8.9,
+        8.9,
+        8.7,
+        8.6,
+        8.2,
+        8.4,
+        8.7,
+        8.8,
+        8.9,
+        8.9,
+        8.8,
+        8.9,
+        9.3
+      ],
+      "trend_zarej_13m": [
+        261,
+        209,
+        207,
+        214,
+        161,
+        189,
+        228,
+        186,
+        252,
+        220,
+        175,
+        189,
+        227
+      ],
+      "trend_wyrej_13m": [
+        193,
+        198,
+        257,
+        268,
+        272,
+        109,
+        139,
+        157,
+        221,
+        246,
+        188,
+        152,
+        141
+      ],
+      "wyn_brutto": 7928.46,
+      "wyn_pracujacy": 16659
+    },
+    {
+      "wgm": "1461",
+      "nazwa": "m. Ostrołęka",
+      "stopa": 8.0,
+      "bezr_razem": 1823,
+      "bezr_kobiety": 911,
+      "zarej_razem": 206,
+      "wyrej_razem": 113,
+      "oferty_pracy": 6,
+      "podjeli_prace": 75,
+      "kategorie": [
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 784,
+          "pct": 43.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 612,
+          "pct": 33.6
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 491,
+          "pct": 26.9
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 467,
+          "pct": 25.6
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 365,
+          "pct": 20.0
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 107,
+          "pct": 5.9
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "d5_kobiety": 911,
+      "d5_czas": [
+        181,
+        215,
+        268,
+        375,
+        296,
+        488
+      ],
+      "d5_wiek": [
+        190,
+        395,
+        530,
+        448,
+        178,
+        82
+      ],
+      "d5_wyk": [
+        346,
+        484,
+        289,
+        318,
+        386
+      ],
+      "d5_staz": [
+        422,
+        488,
+        306,
+        297,
+        107,
+        23,
+        180
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 75,
+          "pct": 66.4
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 16,
+          "pct": 14.2
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 9,
+          "pct": 8.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 8,
+          "pct": 7.1
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 2,
+          "pct": 1.8
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 2,
+          "pct": 1.8
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        7.2,
+        7.4,
+        7.5,
+        7.2,
+        7.0,
+        7.1,
+        7.4,
+        7.6,
+        7.6,
+        7.5,
+        7.5,
+        7.5,
+        8.0
+      ],
+      "trend_zarej_13m": [
+        214,
+        190,
+        171,
+        161,
+        126,
+        135,
+        164,
+        157,
+        170,
+        189,
+        138,
+        123,
+        206
+      ],
+      "trend_wyrej_13m": [
+        160,
+        117,
+        154,
+        226,
+        192,
+        102,
+        103,
+        91,
+        188,
+        203,
+        139,
+        109,
+        113
+      ],
+      "wyn_brutto": 7886.72,
+      "wyn_pracujacy": 15613
+    },
+    {
+      "wgm": "1462",
+      "nazwa": "m. Płock",
+      "stopa": 5.5,
+      "bezr_razem": 3171,
+      "bezr_kobiety": 1737,
+      "zarej_razem": 417,
+      "wyrej_razem": 304,
+      "oferty_pracy": 85,
+      "podjeli_prace": 139,
+      "kategorie": [
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 1300,
+          "pct": 41.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 999,
+          "pct": 31.5
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 985,
+          "pct": 31.1
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 866,
+          "pct": 27.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 568,
+          "pct": 17.9
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 192,
+          "pct": 6.1
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "d5_kobiety": 1737,
+      "d5_czas": [
+        355,
+        489,
+        458,
+        569,
+        536,
+        764
+      ],
+      "d5_wiek": [
+        276,
+        649,
+        814,
+        878,
+        393,
+        161
+      ],
+      "d5_wyk": [
+        525,
+        802,
+        391,
+        538,
+        915
+      ],
+      "d5_staz": [
+        848,
+        731,
+        484,
+        454,
+        243,
+        88,
+        323
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 139,
+          "pct": 45.7
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 53,
+          "pct": 17.4
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 32,
+          "pct": 10.5
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 19,
+          "pct": 6.2
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 16,
+          "pct": 5.3
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 16,
+          "pct": 5.3
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 12,
+          "pct": 3.9
+        }
+      ],
+      "trend_stopa_13m": [
+        5.3,
+        5.4,
+        5.2,
+        5.0,
+        5.0,
+        5.1,
+        5.4,
+        5.6,
+        5.5,
+        5.3,
+        5.3,
+        5.3,
+        5.5
+      ],
+      "trend_zarej_13m": [
+        482,
+        393,
+        355,
+        338,
+        318,
+        312,
+        366,
+        371,
+        380,
+        339,
+        278,
+        298,
+        417
+      ],
+      "trend_wyrej_13m": [
+        314,
+        357,
+        480,
+        435,
+        347,
+        218,
+        206,
+        251,
+        409,
+        462,
+        314,
+        296,
+        304
+      ],
+      "wyn_brutto": 10246.25,
+      "wyn_pracujacy": 43271
+    },
+    {
+      "wgm": "1463",
+      "nazwa": "m. Radom",
+      "stopa": 10.5,
+      "bezr_razem": 8863,
+      "bezr_kobiety": 4039,
+      "zarej_razem": 645,
+      "wyrej_razem": 330,
+      "oferty_pracy": 120,
+      "podjeli_prace": 206,
+      "kategorie": [
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 3961,
+          "pct": 44.7
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 2747,
+          "pct": 31.0
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 2570,
+          "pct": 29.0
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 2347,
+          "pct": 26.5
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 1706,
+          "pct": 19.2
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 654,
+          "pct": 7.4
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "d5_kobiety": 4039,
+      "d5_czas": [
+        620,
+        1252,
+        1389,
+        1641,
+        1683,
+        2278
+      ],
+      "d5_wiek": [
+        832,
+        1870,
+        2400,
+        2263,
+        967,
+        531
+      ],
+      "d5_wyk": [
+        1581,
+        1801,
+        1091,
+        1875,
+        2515
+      ],
+      "d5_staz": [
+        1724,
+        2133,
+        1368,
+        1220,
+        592,
+        131,
+        1695
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 206,
+          "pct": 62.4
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 66,
+          "pct": 20.0
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 40,
+          "pct": 12.1
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 12,
+          "pct": 3.6
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 4,
+          "pct": 1.2
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        10.0,
+        9.9,
+        9.8,
+        9.7,
+        9.7,
+        9.6,
+        10.0,
+        10.3,
+        10.1,
+        10.0,
+        10.0,
+        10.2,
+        10.5
+      ],
+      "trend_zarej_13m": [
+        1039,
+        753,
+        781,
+        746,
+        782,
+        660,
+        844,
+        755,
+        838,
+        804,
+        705,
+        768,
+        645
+      ],
+      "trend_wyrej_13m": [
+        646,
+        881,
+        888,
+        780,
+        887,
+        639,
+        524,
+        506,
+        976,
+        888,
+        718,
+        600,
+        330
+      ],
+      "wyn_brutto": 7234.45,
+      "wyn_pracujacy": 40165
+    },
+    {
+      "wgm": "1464",
+      "nazwa": "m. Siedlce",
+      "stopa": 4.6,
+      "bezr_razem": 1670,
+      "bezr_kobiety": 792,
+      "zarej_razem": 203,
+      "wyrej_razem": 106,
+      "oferty_pracy": 122,
+      "podjeli_prace": 61,
+      "kategorie": [
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 611,
+          "pct": 36.6
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 574,
+          "pct": 34.4
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 565,
+          "pct": 33.8
+        },
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 418,
+          "pct": 25.0
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 352,
+          "pct": 21.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 144,
+          "pct": 8.6
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "d5_kobiety": 792,
+      "d5_czas": [
+        199,
+        256,
+        301,
+        303,
+        247,
+        364
+      ],
+      "d5_wiek": [
+        162,
+        393,
+        475,
+        394,
+        157,
+        89
+      ],
+      "d5_wyk": [
+        367,
+        341,
+        268,
+        305,
+        389
+      ],
+      "d5_staz": [
+        470,
+        429,
+        239,
+        229,
+        99,
+        30,
+        174
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Podjęcie pracy",
+          "n": 61,
+          "pct": 57.5
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 29,
+          "pct": 27.4
+        },
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 6,
+          "pct": 5.7
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 6,
+          "pct": 5.7
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 4,
+          "pct": 3.8
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 0,
+          "pct": 0.0
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "trend_stopa_13m": [
+        3.8,
+        4.0,
+        4.0,
+        3.8,
+        3.7,
+        3.8,
+        4.1,
+        4.3,
+        4.5,
+        4.3,
+        4.3,
+        4.3,
+        4.6
+      ],
+      "trend_zarej_13m": [
+        199,
+        184,
+        179,
+        135,
+        149,
+        147,
+        236,
+        198,
+        251,
+        173,
+        162,
+        152,
+        203
+      ],
+      "trend_wyrej_13m": [
+        127,
+        125,
+        193,
+        179,
+        192,
+        92,
+        146,
+        122,
+        194,
+        226,
+        168,
+        132,
+        106
+      ],
+      "wyn_brutto": 7737.6,
+      "wyn_pracujacy": 33147
+    },
+    {
+      "wgm": "1465",
+      "nazwa": "m. Warszawa",
+      "stopa": 1.5,
+      "bezr_razem": 20082,
+      "bezr_kobiety": 9562,
+      "zarej_razem": 3040,
+      "wyrej_razem": 2912,
+      "oferty_pracy": 1250,
+      "podjeli_prace": 1096,
+      "kategorie": [
+        {
+          "label": "Powyżej 50 roku życia",
+          "n": 6517,
+          "pct": 32.5
+        },
+        {
+          "label": "Bez kwalifikacji zawodowych",
+          "n": 6371,
+          "pct": 31.7
+        },
+        {
+          "label": "Długotrwale bezrobotni",
+          "n": 6282,
+          "pct": 31.3
+        },
+        {
+          "label": "Z dzieckiem do 18 lat",
+          "n": 3466,
+          "pct": 17.3
+        },
+        {
+          "label": "Do 30 roku życia",
+          "n": 3041,
+          "pct": 15.1
+        },
+        {
+          "label": "Niepełnosprawni",
+          "n": 1140,
+          "pct": 5.7
+        },
+        {
+          "label": "Zamieszkali na wsi",
+          "n": 0,
+          "pct": 0.0
+        }
+      ],
+      "d5_kobiety": 9562,
+      "d5_czas": [
+        2913,
+        4147,
+        3152,
+        3588,
+        3255,
+        3027
+      ],
+      "d5_wiek": [
+        1219,
+        3854,
+        5503,
+        5775,
+        2356,
+        1375
+      ],
+      "d5_wyk": [
+        6898,
+        3233,
+        2649,
+        1636,
+        5666
+      ],
+      "d5_staz": [
+        5545,
+        4071,
+        2857,
+        3064,
+        1936,
+        433,
+        2176
+      ],
+      "wyrej_reasons": [
+        {
+          "label": "Brak kontaktu z PUP",
+          "n": 1592,
+          "pct": 54.7
+        },
+        {
+          "label": "Podjęcie pracy",
+          "n": 1096,
+          "pct": 37.6
+        },
+        {
+          "label": "Dobrowolna rezygnacja",
+          "n": 87,
+          "pct": 3.0
+        },
+        {
+          "label": "Inne przyczyny",
+          "n": 61,
+          "pct": 2.1
+        },
+        {
+          "label": "Wiek/prawa emery.",
+          "n": 42,
+          "pct": 1.4
+        },
+        {
+          "label": "Niepodjęcie/przerwanie",
+          "n": 4,
+          "pct": 0.1
+        },
+        {
+          "label": "Szkolenie i staż",
+          "n": 3,
+          "pct": 0.1
+        }
+      ],
+      "trend_stopa_13m": [
+        1.4,
+        1.4,
+        1.4,
+        1.5,
+        1.4,
+        1.5,
+        1.5,
+        1.6,
+        1.6,
+        1.6,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "trend_zarej_13m": [
+        2860,
+        2634,
+        2864,
+        2747,
+        2403,
+        2069,
+        2780,
+        2686,
+        2991,
+        3107,
+        2516,
+        2492,
+        3040
+      ],
+      "trend_wyrej_13m": [
+        2434,
+        2114,
+        2789,
+        2321,
+        2845,
+        1736,
+        1670,
+        1433,
+        3974,
+        3003,
+        2951,
+        3638,
+        2912
+      ],
+      "wyn_brutto": 10421.25,
+      "wyn_pracujacy": 1675420
+    }
+  ],
+  "zwolnienia": {
+    "zgl_cur": 164,
+    "zgl_delta": -653,
+    "fakt_cur": 206,
+    "fakt_delta": -494,
+    "mon_cur": 117,
+    "mon_delta": -582,
+    "wyd_cur": 0,
+    "wyd_delta": -122,
+    "trend_13m": [
+      {
+        "label": "Lut 25",
+        "zgl": 601,
+        "wyd": 10,
+        "fakt": 3635,
+        "mon": 8863
+      },
+      {
+        "label": "Mar 25",
+        "zgl": 53654,
+        "wyd": 53274,
+        "fakt": 923,
+        "mon": 53
+      },
+      {
+        "label": "Kwi 25",
+        "zgl": 583,
+        "wyd": 100,
+        "fakt": 417,
+        "mon": 75
+      },
+      {
+        "label": "Maj 25",
+        "zgl": 243,
+        "wyd": 0,
+        "fakt": 346,
+        "mon": 30
+      },
+      {
+        "label": "Cze 25",
+        "zgl": 947,
+        "wyd": 0,
+        "fakt": 1079,
+        "mon": 409
+      },
+      {
+        "label": "Lip 25",
+        "zgl": 1067,
+        "wyd": 70,
+        "fakt": 428,
+        "mon": 999
+      },
+      {
+        "label": "Sie 25",
+        "zgl": 1203,
+        "wyd": 305,
+        "fakt": 162,
+        "mon": 862
+      },
+      {
+        "label": "Wrz 25",
+        "zgl": 212,
+        "wyd": 0,
+        "fakt": 1392,
+        "mon": 0
+      },
+      {
+        "label": "Paź 25",
+        "zgl": 762,
+        "wyd": 0,
+        "fakt": 488,
+        "mon": 631
+      },
+      {
+        "label": "Lis 25",
+        "zgl": 135,
+        "wyd": 0,
+        "fakt": 1103,
+        "mon": 0
+      },
+      {
+        "label": "Gru 25",
+        "zgl": 728,
+        "wyd": 0,
+        "fakt": 697,
+        "mon": 675
+      },
+      {
+        "label": "Sty 26",
+        "zgl": 817,
+        "wyd": 122,
+        "fakt": 700,
+        "mon": 699
+      },
+      {
+        "label": "Lut 26",
+        "zgl": 164,
+        "wyd": 0,
+        "fakt": 206,
+        "mon": 117
+      }
+    ],
+    "pkd_top10": [
+      {
+        "pkd": "53",
+        "n": 53264
+      },
+      {
+        "pkd": "46",
+        "n": 1318
+      },
+      {
+        "pkd": "49",
+        "n": 1198
+      },
+      {
+        "pkd": "47",
+        "n": 1018
+      },
+      {
+        "pkd": "61",
+        "n": 788
+      },
+      {
+        "pkd": "62",
+        "n": 536
+      },
+      {
+        "pkd": "66",
+        "n": 253
+      },
+      {
+        "pkd": "64",
+        "n": 237
+      },
+      {
+        "pkd": "63",
+        "n": 220
+      },
+      {
+        "pkd": "20",
+        "n": 186
+      }
+    ],
+    "pkd_top10_fakt": [
+      {
+        "pkd": "53",
+        "n": 2273
+      },
+      {
+        "pkd": "66",
+        "n": 772
+      },
+      {
+        "pkd": "61",
+        "n": 743
+      },
+      {
+        "pkd": "47",
+        "n": 574
+      },
+      {
+        "pkd": "62",
+        "n": 561
+      },
+      {
+        "pkd": "46",
+        "n": 509
+      },
+      {
+        "pkd": "49",
+        "n": 450
+      },
+      {
+        "pkd": "64",
+        "n": 382
+      },
+      {
+        "pkd": "73",
+        "n": 222
+      },
+      {
+        "pkd": "20",
+        "n": 206
+      }
+    ]
+  }
+}
