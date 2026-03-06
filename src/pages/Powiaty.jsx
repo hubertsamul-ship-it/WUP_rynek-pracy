@@ -3,6 +3,7 @@ import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
 import HorizontalBar, { blueColor, greenColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
+import DonutChart from '../components/DonutChart';
 import { useAppData } from '../context/DataContext';
 
 const POW_COLORS = ['#e63946', '#4895ef', '#f4a261', '#52b788', '#a78bfa', '#fbbf24'];
@@ -303,37 +304,9 @@ export default function Powiaty({ initialPowiat = null }) {
       {/* ── Przyczyny wyrejestrowania — full width ───────────────────────── */}
       {wyrejTop5.length > 0 && (
         <Card title={`Przyczyny wyrejestrowania · ${d.nazwa || ''}`}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', alignItems: 'start' }}>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-              {wyrejTop5.map((r, i) => (
-                <div key={i} style={{
-                  display: 'flex', alignItems: 'center', gap: '7px',
-                  padding: '5px 10px',
-                  background: i === 0 ? 'rgba(82,183,136,0.10)' : 'rgba(255,255,255,0.05)',
-                  borderRadius: '8px',
-                  border: i === 0 ? '1px solid rgba(82,183,136,0.2)' : '1px solid rgba(255,255,255,0.07)',
-                }}>
-                  <div style={{
-                    width: '6px', height: '6px', borderRadius: '50%',
-                    background: i === 0 ? 'var(--green)' : 'var(--blue)', flexShrink: 0,
-                  }} />
-                  <div>
-                    <div style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '1px' }}>{r.label}</div>
-                    <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '0.75rem', fontWeight: 700, color: 'var(--text)' }}>
-                      {fmt(r.n)}
-                      <span style={{ fontWeight: 400, color: 'var(--muted)', marginLeft: '4px', fontSize: '0.65rem' }}>
-                        {r.pct?.toFixed(1).replace('.', ',')}%
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <HorizontalBar
-              data={wyrejBarData} unit=" os." colorFn={wyrejColorFn}
-              barHeight={9} wrapLabel labelWidth={160}
-            />
-          </div>
+          <DonutChart
+            data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
+          />
         </Card>
       )}
 

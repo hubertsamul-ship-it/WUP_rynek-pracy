@@ -2,6 +2,7 @@ import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
 import HorizontalBar, { blueColor, greenColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
+import DonutChart from '../components/DonutChart';
 import { useAppData } from '../context/DataContext';
 
 const CZAS_LABELS = ['do 1 mies.', '1–3 mies.', '3–6 mies.', '6–12 mies.', '12–24 mies.', 'pow. 24 mies.'];
@@ -238,48 +239,8 @@ export default function Bezrobotni() {
         {/* Przyczyny wyrejestrowania */}
         {wyrejTop5.length > 0 && (
           <Card title="Przyczyny wyrejestrowania · Sty 2026">
-            {/* Stat pills */}
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '14px' }}>
-              {wyrejTop5.map((r, i) => (
-                <div key={i} style={{
-                  display: 'flex', alignItems: 'center', gap: '7px',
-                  padding: '5px 10px',
-                  background: i === 0
-                    ? 'rgba(82,183,136,0.10)'
-                    : 'rgba(255,255,255,0.05)',
-                  borderRadius: '8px',
-                  border: i === 0
-                    ? '1px solid rgba(82,183,136,0.2)'
-                    : '1px solid rgba(255,255,255,0.07)',
-                }}>
-                  <div style={{
-                    width: '6px', height: '6px', borderRadius: '50%',
-                    background: i === 0 ? 'var(--green)' : 'var(--blue)',
-                    flexShrink: 0,
-                  }} />
-                  <div>
-                    <div style={{ fontSize: '0.65rem', color: 'var(--muted)', marginBottom: '1px' }}>
-                      {r.label}
-                    </div>
-                    <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '0.75rem', fontWeight: 700, color: 'var(--text)' }}>
-                      {fmt(r.n)}
-                      <span style={{ fontWeight: 400, color: 'var(--muted)', marginLeft: '4px', fontSize: '0.65rem' }}>
-                        {r.pct.toFixed(1).replace('.', ',')}%
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Horizontal bars */}
-            <HorizontalBar
-              data={wyrejBarData}
-              unit=" os."
-              colorFn={wyrejColorFn}
-              barHeight={8}
-              wrapLabel={true}
-              labelWidth={145}
+            <DonutChart
+              data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
             />
           </Card>
         )}
