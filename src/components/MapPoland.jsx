@@ -117,9 +117,6 @@ export default function MapPoland() {
       background: 'rgba(255,255,255,0.02)',
       borderRadius: '10px',
       overflow: 'hidden',
-      height: '100%',
-      display: 'flex',
-      flexDirection: 'column',
     }}>
       {tooltip && (
         <div style={{
@@ -138,7 +135,7 @@ export default function MapPoland() {
       )}
       <svg
         viewBox={`0 0 ${SVG_W} ${SVG_H}`}
-        style={{ width: '100%', display: 'block', flex: 1, minHeight: 0 }}
+        style={{ width: '100%', display: 'block', height: 'auto' }}
       >
         {features.length === 0 && (
           <text x={SVG_W / 2} y={SVG_H / 2} textAnchor="middle" fill="var(--muted)" fontSize="13" fontFamily="Outfit, sans-serif">
@@ -169,7 +166,7 @@ export default function MapPoland() {
       </svg>
       <div style={{
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        marginTop: '6px', padding: '0 4px', flexShrink: 0,
+        marginTop: '6px', padding: '0 4px',
       }}>
         <div style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>Najazd = szczegóły · Mazowieckie = czerwona obwódka</div>
         <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>

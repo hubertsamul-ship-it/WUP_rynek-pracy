@@ -136,7 +136,6 @@ export default function MapMazowieckie({ onPowiatClick }) {
   return (
     <div style={{
       position: 'relative', background: 'rgba(255,255,255,0.02)', borderRadius: '10px', overflow: 'hidden',
-      height: '100%', display: 'flex', flexDirection: 'column',
     }}>
       {tooltip && (
         <div style={{
@@ -162,7 +161,7 @@ export default function MapMazowieckie({ onPowiatClick }) {
             : <span style={{ color: 'var(--muted)' }}>brak danych</span>}
         </div>
       )}
-      <svg viewBox={`0 0 ${SVG_W} ${SVG_H}`} style={{ width: '100%', display: 'block', flex: 1, minHeight: 0 }}>
+      <svg viewBox={`0 0 ${SVG_W} ${SVG_H}`} style={{ width: '100%', display: 'block', height: 'auto' }}>
         {isEmpty && (
           <text x={SVG_W / 2} y={SVG_H / 2} textAnchor="middle"
             fill="var(--muted)" fontSize="13" fontFamily="Outfit, sans-serif">
@@ -207,7 +206,7 @@ export default function MapMazowieckie({ onPowiatClick }) {
           );
         })}
       </svg>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '6px', padding: '0 4px', flexShrink: 0 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '6px', padding: '0 4px' }}>
         <div style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>
           Kliknij powiat · szary = brak danych · najazd = szczegóły
         </div>

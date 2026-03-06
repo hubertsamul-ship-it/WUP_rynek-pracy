@@ -37,7 +37,7 @@ export default function Pulpit({ onNavPowiaty }) {
   const stopaDelta = pulpit.stopa_maz_delta;
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Rynek pracy w liczbach"
         sub="Najświeższe dane · Polska i Województwo Mazowieckie · Styczeń 2026"
@@ -72,11 +72,11 @@ export default function Pulpit({ onNavPowiaty }) {
         />
       </Grid>
 
-      <Grid cols={2} grow style={{ gridTemplateColumns: '1fr 1.1fr' }}>
-        <Card title="Stopa bezrobocia — Polska" badge="Sty 2026" badgeLive grow>
+      <Grid cols={2} style={{ gridTemplateColumns: '1fr 1.1fr' }}>
+        <Card title="Stopa bezrobocia — Polska" badge="Sty 2026" badgeLive>
           <MapPoland />
         </Card>
-        <Card title="Stopa bezrobocia — powiaty mazowieckie" badge="Sty 2026" badgeLive grow>
+        <Card title="Stopa bezrobocia — powiaty mazowieckie" badge="Sty 2026" badgeLive>
           <MapMazowieckie onPowiatClick={onNavPowiaty} />
         </Card>
       </Grid>
@@ -90,7 +90,6 @@ export default function Pulpit({ onNavPowiaty }) {
             onChange={setTrendMode}
           />
         }
-        grow
       >
         <LineChartSVG datasets={trendData} labels={trendLabels} height={180} width={900} />
       </Card>
