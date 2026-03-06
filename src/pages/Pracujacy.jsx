@@ -1,6 +1,7 @@
 import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
-import HorizontalBar, { blueColor, greenColor, stopaColor } from '../components/HorizontalBar';
+import HorizontalBar, { blueColor, greenColor } from '../components/HorizontalBar';
+import RankTable from '../components/RankTable';
 import { useAppData } from '../context/DataContext';
 
 const fmtPct = v => v?.toFixed(2).replace('.', ',') + '%';
@@ -25,7 +26,7 @@ export default function Pracujacy() {
       />
 
       {/* KPI */}
-      <Grid cols={4} style={{ marginBottom: '14px' }}>
+      <Grid cols={4}>
         <KpiCard flag="Pracujący ogółem" flagColor="green"
           target={razem} label="Mazowieckie · I poł. 2025" variant="green" />
         <KpiCard flag="Umowy o pracę" flagColor="maz"
@@ -36,33 +37,30 @@ export default function Pracujacy() {
           target={n_dg} label={`${fmtPct(pct_dg)} pracujących`} />
       </Grid>
 
-      {/* Rankingi powiatów — liczba pracujących */}
-      <Grid cols={2} style={{ marginBottom: '14px' }}>
-        <Card title="TOP 5 powiatów wg liczby pracujących" badge="Top 5">
+      <Grid cols={2} grow>
+        <Card title="TOP 5 powiatów wg liczby pracujących" badge="Top 5" grow>
           <HorizontalBar data={toBar(top5_pracujacy)} unit=" os." colorFn={blueColor} />
         </Card>
-        <Card title="5 powiatów z najmniejszą liczbą pracujących" badge="Bot 5">
+        <Card title="5 powiatów z najmniejszą liczbą pracujących" badge="Bot 5" grow>
           <HorizontalBar data={toBar(bot5_pracujacy)} unit=" os." colorFn={greenColor} />
         </Card>
       </Grid>
 
-      {/* Rankingi zawodów */}
-      <Grid cols={2} style={{ marginBottom: '14px' }}>
-        <Card title="TOP 5 zawodów wg liczby pracujących" badge="Top 5">
-          <HorizontalBar data={toBar(top5_zawody_pracujacy)} unit=" os." colorFn={blueColor} wrapLabel />
+      <Grid cols={2} grow>
+        <Card title="TOP 5 zawodów wg liczby pracujących" badge="Top 5" grow>
+          <RankTable data={toBar(top5_zawody_pracujacy)} unit=" os." accentColor="#4895ef" />
         </Card>
-        <Card title="TOP 5 zawodów z dominacją umów o pracę" badge="UoP">
-          <HorizontalBar data={toBar(top5_zawody_uop)} unit="%" colorFn={greenColor} wrapLabel />
+        <Card title="TOP 5 zawodów z dominacją umów o pracę" badge="UoP" grow>
+          <RankTable data={toBar(top5_zawody_uop)} unit="%" accentColor="#52b788" />
         </Card>
       </Grid>
 
-      {/* Cywilnoprawne + DG */}
-      <Grid cols={2}>
-        <Card title="TOP 5 powiatów wg szac. liczby cywilnoprawnych" badge="Cywil.">
-          <HorizontalBar data={toBar(top5_pow_cywil)} unit=" os." colorFn={blueColor} />
+      <Grid cols={2} grow>
+        <Card title="TOP 5 powiatów wg szac. liczby cywilnoprawnych" badge="Cywil." grow>
+          <RankTable data={toBar(top5_pow_cywil)} unit=" os." accentColor="#4895ef" />
         </Card>
-        <Card title="TOP 5 zawodów z dominacją działalności gosp." badge="DG">
-          <HorizontalBar data={toBar(top5_zawody_dg)} unit="%" colorFn={stopaColor} wrapLabel />
+        <Card title="TOP 5 zawodów z dominacją działalności gosp." badge="DG" grow>
+          <RankTable data={toBar(top5_zawody_dg)} unit="%" accentColor="#e63946" />
         </Card>
       </Grid>
     </div>

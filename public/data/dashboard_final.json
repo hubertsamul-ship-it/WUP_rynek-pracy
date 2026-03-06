@@ -10,7 +10,7 @@
     "stopa_maz": 4.5,
     "stopa_maz_delta": 0.2,
     "stopa_pl": 6.0,
-    "bezr_pl": 796000,
+    "bezr_pl": 841000,
     "trend_37m": [
       {
         "okres": "2023-01",
@@ -753,7 +753,7 @@
   },
   "stopa": {
     "stopa_pl": 6.0,
-    "stopa_pl_delta": null,
+    "stopa_pl_delta": 0.3,
     "stopa_maz": 4.5,
     "stopa_maz_delta": 0.2,
     "pow_max": {
@@ -875,6 +875,126 @@
         "okres": "2026-01",
         "label": "Sty 26",
         "stopa": 4.5
+      }
+    ],
+    "woj_stopa": [
+      {
+        "n": "Warmińsko-maz.",
+        "s": 9.9
+      },
+      {
+        "n": "Podkarpackie",
+        "s": 9.6
+      },
+      {
+        "n": "Świętokrzyskie",
+        "s": 8.8
+      },
+      {
+        "n": "Lubelskie",
+        "s": 8.5
+      },
+      {
+        "n": "Kujawsko-pom.",
+        "s": 8.2
+      },
+      {
+        "n": "Zachodniopom.",
+        "s": 8.1
+      },
+      {
+        "n": "Podlaskie",
+        "s": 7.8
+      },
+      {
+        "n": "Opolskie",
+        "s": 6.7
+      },
+      {
+        "n": "Łódzkie",
+        "s": 6.6
+      },
+      {
+        "n": "Lubuskie",
+        "s": 6.1
+      },
+      {
+        "n": "Dolnośląskie",
+        "s": 5.6
+      },
+      {
+        "n": "Pomorskie",
+        "s": 5.6
+      },
+      {
+        "n": "Małopolskie",
+        "s": 5.0
+      },
+      {
+        "n": "Śląskie",
+        "s": 4.7
+      },
+      {
+        "n": "Mazowieckie",
+        "s": 4.5
+      },
+      {
+        "n": "Wielkopolskie",
+        "s": 3.8
+      }
+    ],
+    "trend_pl_13m": [
+      {
+        "label": "Sty 25",
+        "stopa": 5.4
+      },
+      {
+        "label": "Lut 25",
+        "stopa": 5.5
+      },
+      {
+        "label": "Mar 25",
+        "stopa": 5.4
+      },
+      {
+        "label": "Kwi 25",
+        "stopa": 5.2
+      },
+      {
+        "label": "Maj 25",
+        "stopa": 5.1
+      },
+      {
+        "label": "Cze 25",
+        "stopa": 5.1
+      },
+      {
+        "label": "Lip 25",
+        "stopa": 5.4
+      },
+      {
+        "label": "Sie 25",
+        "stopa": 5.5
+      },
+      {
+        "label": "Wrz 25",
+        "stopa": 5.6
+      },
+      {
+        "label": "Paź 25",
+        "stopa": 5.6
+      },
+      {
+        "label": "Lis 25",
+        "stopa": 5.6
+      },
+      {
+        "label": "Gru 25",
+        "stopa": 5.7
+      },
+      {
+        "label": "Sty 26",
+        "stopa": 6.0
       }
     ]
   },

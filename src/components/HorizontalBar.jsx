@@ -6,7 +6,8 @@ function fmtBarVal(v) {
   if (typeof v !== 'number') return String(v);
   if (Number.isInteger(v))
     return v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
-  return v.toFixed(1).replace('.', ',');
+  const [int, dec] = v.toFixed(1).split('.');
+  return int.replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0') + ',' + dec;
 }
 
 function lerp(a, b, t) {

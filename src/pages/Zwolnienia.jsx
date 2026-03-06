@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
 import LineChartSVG from '../components/LineChartSVG';
-import HorizontalBar, { stopaColor } from '../components/HorizontalBar';
+import RankTable from '../components/RankTable';
 import { useAppData } from '../context/DataContext';
 
 const PKD_NAMES = {
@@ -101,8 +101,8 @@ export default function Zwolnienia() {
   const faktData = trend_13m.map(t => t.fakt);
   const monData  = trend_13m.map(t => t.mon);
 
-  const pkdZglData  = pkd_top10.map(d      => ({ label: pkdLabel(d.pkd), value: d.n }));
-  const pkdFaktData = pkd_top10_fakt.map(d => ({ label: pkdLabel(d.pkd), value: d.n }));
+  const pkdZglData  = pkd_top10.slice(0, 5).map(d      => ({ label: pkdLabel(d.pkd), value: d.n }));
+  const pkdFaktData = pkd_top10_fakt.slice(0, 5).map(d => ({ label: pkdLabel(d.pkd), value: d.n }));
 
   return (
     <div className="page-enter">
@@ -112,15 +112,15 @@ export default function Zwolnienia() {
       />
 
       {/* KPI — bieżący miesiąc */}
-      <Grid cols={4} style={{ marginBottom: '14px' }}>
-        <KpiCard flag="Zgłoszenia"  flagColor="pl"    target={zgl_cur}  label="Obj. zgłoszeniem"     variant="red"   />
-        <KpiCard flag="Zwolnienia"  flagColor="maz"   target={fakt_cur} label="Faktycznie zwolnieni"  variant="red"   />
-        <KpiCard flag="Monitorowane" flagColor="maz"  target={mon_cur}  label="Obj. monitoringiem"                    />
-        <KpiCard flag="Wypow. zm."  flagColor="green" target={wyd_cur}  label="Zmiana warunków płacy" variant="green" />
+      <Grid cols={4}>
+        <KpiCard flag="Zgłoszenia"   flagColor="pl"    target={zgl_cur}  label="Obj. zgłoszeniem"     variant="red"   />
+        <KpiCard flag="Zwolnienia"   flagColor="maz"   target={fakt_cur} label="Faktycznie zwolnieni"  variant="red"   />
+        <KpiCard flag="Monitorowane" flagColor="maz"   target={mon_cur}  label="Obj. monitoringiem"                    />
+        <KpiCard flag="Wypow. zm."   flagColor="green" target={wyd_cur}  label="Zmiana warunków płacy" variant="green" />
       </Grid>
 
       {/* KPI — wybrany zakres */}
-      <Card style={{ marginBottom: '14px' }}>
+      <Card style={{ marginBottom: '10px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px', flexWrap: 'wrap', gap: '8px' }}>
           <span style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text)' }}>Suma za wybrany okres</span>
           <RangeSelector
@@ -131,16 +131,16 @@ export default function Zwolnienia() {
           />
         </div>
         <Grid cols={4}>
-          <KpiCard flag="Zgłoszenia"  flagColor="pl"    target={rangeSum.zgl}  label="Obj. zgłoszeniem"     variant="red"   />
-          <KpiCard flag="Zwolnienia"  flagColor="maz"   target={rangeSum.fakt} label="Faktycznie zwolnieni"  variant="red"   />
-          <KpiCard flag="Monitorowane" flagColor="maz"  target={rangeSum.mon}  label="Obj. monitoringiem"                    />
-          <KpiCard flag="Wypow. zm."  flagColor="green" target={rangeSum.wyd}  label="Zmiana warunków płacy" variant="green" />
+          <KpiCard flag="Zgłoszenia"   flagColor="pl"    target={rangeSum.zgl}  label="Obj. zgłoszeniem"     variant="red"   />
+          <KpiCard flag="Zwolnienia"   flagColor="maz"   target={rangeSum.fakt} label="Faktycznie zwolnieni"  variant="red"   />
+          <KpiCard flag="Monitorowane" flagColor="maz"   target={rangeSum.mon}  label="Obj. monitoringiem"                    />
+          <KpiCard flag="Wypow. zm."   flagColor="green" target={rangeSum.wyd}  label="Zmiana warunków płacy" variant="green" />
         </Grid>
       </Card>
 
       {/* Wykresy trendu */}
-      <Grid cols={2} style={{ marginBottom: '14px' }}>
-        <Card title="Zgłoszenia i wypowiedzenia zmieniające" badge="13 miesięcy">
+      <Grid cols={2} grow>
+        <Card title="Zgłoszenia i wypowiedzenia zmieniające" badge="13 miesięcy" grow>
           <LineChartSVG
             datasets={[
               { data: zglData, color: '#e63946', label: 'Zgłoszenia' },
@@ -149,7 +149,7 @@ export default function Zwolnienia() {
             labels={tLabels} height={150}
           />
         </Card>
-        <Card title="Faktyczne zwolnienia i monitorowane" badge="13 miesięcy">
+        <Card title="Faktyczne zwolnienia i monitorowane" badge="13 miesięcy" grow>
           <LineChartSVG
             datasets={[
               { data: faktData, color: '#f4a261', label: 'Faktyczne' },
@@ -161,12 +161,12 @@ export default function Zwolnienia() {
       </Grid>
 
       {/* PKD */}
-      <Grid cols={2}>
-        <Card title="Zgłoszenia wg PKD · ost. 12 m.">
-          <HorizontalBar data={pkdZglData}  unit=" os." colorFn={stopaColor} />
+      <Grid cols={2} grow>
+        <Card title="Zgłoszenia wg PKD · ost. 12 m." badge="Top 5" grow>
+          <RankTable data={pkdZglData}  unit=" os." accentColor="#e63946" />
         </Card>
-        <Card title="Faktyczne zwolnienia wg PKD · ost. 12 m.">
-          <HorizontalBar data={pkdFaktData} unit=" os." colorFn={stopaColor} />
+        <Card title="Faktyczne zwolnienia wg PKD · ost. 12 m." badge="Top 5" grow>
+          <RankTable data={pkdFaktData} unit=" os." accentColor="#e63946" />
         </Card>
       </Grid>
     </div>

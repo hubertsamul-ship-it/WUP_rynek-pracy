@@ -43,7 +43,7 @@ export default function Pulpit({ onNavPowiaty }) {
         sub="Najświeższe dane · Polska i Województwo Mazowieckie · Styczeń 2026"
       />
 
-      <Grid cols={4} style={{ marginBottom: '16px' }}>
+      <Grid cols={4}>
         <KpiCard
           flag="Polska" flagColor="pl"
           target={pulpit.bezr_pl} label="Bezrobotnych ogółem"
@@ -72,11 +72,11 @@ export default function Pulpit({ onNavPowiaty }) {
         />
       </Grid>
 
-      <Grid cols={2} style={{ gridTemplateColumns: '1fr 1.1fr', marginBottom: '14px' }}>
-        <Card title="Stopa bezrobocia — Polska" badge="Sty 2026" badgeLive>
+      <Grid cols={2} grow style={{ gridTemplateColumns: '1fr 1.1fr' }}>
+        <Card title="Stopa bezrobocia — Polska" badge="Sty 2026" badgeLive grow>
           <MapPoland />
         </Card>
-        <Card title="Stopa bezrobocia — powiaty mazowieckie" badge="Sty 2026" badgeLive>
+        <Card title="Stopa bezrobocia — powiaty mazowieckie" badge="Sty 2026" badgeLive grow>
           <MapMazowieckie onPowiatClick={onNavPowiaty} />
         </Card>
       </Grid>
@@ -90,6 +90,7 @@ export default function Pulpit({ onNavPowiaty }) {
             onChange={setTrendMode}
           />
         }
+        grow
       >
         <LineChartSVG datasets={trendData} labels={trendLabels} height={180} width={900} />
       </Card>

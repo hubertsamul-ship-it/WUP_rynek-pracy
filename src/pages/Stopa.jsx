@@ -2,40 +2,17 @@ import { useState, useMemo } from 'react';
 import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
 import LineChartSVG from '../components/LineChartSVG';
-import HorizontalBar, { stopaColor, greenColor } from '../components/HorizontalBar';
-import { DS, months, WOJ_DATA } from '../data/mockData';
+import RankTable from '../components/RankTable';
 import { useAppData } from '../context/DataContext';
-
-// Generuje przybliżony trend dla województwa proporcjonalnie do trendu Polski
-function genWojTrend(currentStopa) {
-  const scale = currentStopa / 6.0;
-  return DS.polska.map(v => Math.round(v * scale * 10) / 10);
-}
-
-// Trendy dla każdego województwa (mock, skalowane od trendu PL)
-const WOJ_TRENDS = {};
-WOJ_DATA.forEach(w => { WOJ_TRENDS[w.n] = genWojTrend(w.s); });
-WOJ_TRENDS['Polska'] = [...DS.polska];
-
-// Opcje dla dropdowna (Mazowieckie na górze, potem Polska, reszta alfabetycznie)
-const WOJ_OPTIONS = [
-  { n: 'Mazowieckie', s: 4.5 },
-  { n: 'Polska', s: 6.0 },
-  ...WOJ_DATA.filter(w => w.n !== 'Mazowieckie').sort((a, b) => a.n.localeCompare(b.n)),
-];
-
-const WOJ_SORTED = [...WOJ_DATA].sort((a, b) => b.s - a.s);
-const WOJ_TOP5 = WOJ_SORTED.slice(0, 5).map(d => ({ label: d.n, value: d.s }));
-const WOJ_BOT5 = WOJ_SORTED.slice(-5).map(d => ({ label: d.n, value: d.s }));
 
 // Kolory linii trendu (woj. 1 = czerwony, 2 = niebieski, 3 = pomarańczowy)
 const CHART_COLORS = ['#e63946', '#4895ef', '#f4a261'];
 
 // ── Selektor województw ────────────────────────────────────────────────────
 
-function WojSelector({ selected, onChange }) {
+function WojSelector({ selected, onChange, options = [] }) {
   const [open, setOpen] = useState(false);
-  const available = WOJ_OPTIONS.filter(w => !selected.includes(w.n));
+  const available = options.filter(w => !selected.includes(w.n));
 
   const remove = (woj) => {
     if (selected.length > 1) onChange(selected.filter(w => w !== woj));
@@ -47,7 +24,6 @@ function WojSelector({ selected, onChange }) {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap', position: 'relative' }}>
-      {/* Overlay do zamknięcia dropdowna przy kliknięciu poza nim */}
       {open && (
         <div
           style={{ position: 'fixed', inset: 0, zIndex: 99 }}
@@ -55,7 +31,6 @@ function WojSelector({ selected, onChange }) {
         />
       )}
 
-      {/* Wybrane województwa — pills */}
       {selected.map((woj, i) => (
         <div key={woj} style={{
           display: 'flex', alignItems: 'center', gap: '5px',
@@ -84,7 +59,6 @@ function WojSelector({ selected, onChange }) {
         </div>
       ))}
 
-      {/* Przycisk „+ Dodaj" — do 3 województw */}
       {selected.length < 3 && (
         <div style={{ position: 'relative', zIndex: 100 }}>
           <button
@@ -148,25 +122,46 @@ export default function Stopa() {
 
   if (!stopa) return null;
 
-  const { pow_top5, pow_bot5, pow_max, pow_min, trend_maz_13m } = stopa;
+  const {
+    pow_top5, pow_bot5, pow_max, pow_min,
+    trend_maz_13m,
+    woj_stopa    = [],  // [{n, s}] posortowane desc — GUS BDL, bieżący miesiąc
+    trend_pl_13m = [],  // [{label, stopa}] 13 miesięcy Polska — GUS BDL
+  } = stopa;
 
-  // Trendy dla zaznaczonych województw
+  const stopa_pl_val = stopa.stopa_pl ?? 5.4;
+
+  // Rankingi województw (woj_stopa posortowane desc z JSON)
+  const WOJ_TOP5 = woj_stopa.slice(0, 5).map(d => ({ label: d.n, value: d.s }));
+  const WOJ_BOT5 = woj_stopa.slice(-5).map(d => ({ label: d.n, value: d.s }));
+
+  // Opcje dla dropdowna (Mazowieckie na górze, potem Polska, reszta alfabetycznie)
+  const WOJ_OPTIONS = [
+    { n: 'Mazowieckie', s: woj_stopa.find(w => w.n === 'Mazowieckie')?.s ?? stopa.stopa_maz },
+    { n: 'Polska', s: stopa_pl_val },
+    ...woj_stopa.filter(w => w.n !== 'Mazowieckie').sort((a, b) => a.n.localeCompare(b.n, 'pl')),
+  ];
+
   const trendDatasets = useMemo(() => {
+    const polskaTrend = trend_pl_13m.map(t => t.stopa);
+    function genWojTrend(currentStopa) {
+      const scale = currentStopa / (stopa_pl_val || 5.4);
+      return polskaTrend.map(v => Math.round(v * scale * 10) / 10);
+    }
     return selWojs.map((woj, i) => ({
       color: CHART_COLORS[i % CHART_COLORS.length],
       label: woj,
       data: woj === 'Mazowieckie'
         ? trend_maz_13m.map(t => t.stopa)
         : woj === 'Polska'
-          ? DS.polska
-          : (WOJ_TRENDS[woj] ?? DS.polska),
+          ? polskaTrend
+          : genWojTrend(woj_stopa.find(w => w.n === woj)?.s ?? stopa_pl_val),
     }));
-  }, [selWojs, trend_maz_13m]);
+  }, [selWojs, trend_maz_13m, trend_pl_13m, woj_stopa, stopa_pl_val]);
 
-  // Etykiety osi X: jeśli Mazowieckie wybrane → realne daty, inaczej mock
   const trendLabels = selWojs.includes('Mazowieckie')
     ? trend_maz_13m.map(t => t.label)
-    : months;
+    : trend_pl_13m.map(t => t.label);
 
   return (
     <div className="page-enter">
@@ -175,10 +170,10 @@ export default function Stopa() {
         sub="GUS · dane miesięczne"
       />
 
-      <Grid cols={4} style={{ marginBottom: '14px' }}>
+      <Grid cols={4}>
         <KpiCard
           flag="Polska" flagColor="pl"
-          target={Math.round(stopa.stopa_pl * 10)} decimals={1} suffix="%"
+          target={Math.round(stopa_pl_val * 10)} decimals={1} suffix="%"
           label="Ogółem kraj"
         />
         <KpiCard
@@ -201,32 +196,32 @@ export default function Stopa() {
         />
       </Grid>
 
-      {/* Ranking województw: najwyższa i najniższa stopa */}
-      <Grid cols={2} style={{ marginBottom: '14px' }}>
-        <Card title="Województwa — najwyższa stopa" badge="Top 5">
-          <HorizontalBar data={WOJ_TOP5} unit="%" colorFn={stopaColor} />
+      {/* Ranking województw */}
+      <Grid cols={2} grow>
+        <Card title="Województwa — najwyższa stopa" badge="Top 5" grow>
+          <RankTable data={WOJ_TOP5} unit="%" accentColor="#e63946" />
         </Card>
-        <Card title="Województwa — najniższa stopa" badge="Bot 5">
-          <HorizontalBar data={WOJ_BOT5} unit="%" colorFn={greenColor} />
+        <Card title="Województwa — najniższa stopa" badge="Bot 5" grow>
+          <RankTable data={WOJ_BOT5} unit="%" accentColor="#52b788" reverse />
         </Card>
       </Grid>
 
-      {/* Ranking powiatów: najwyższa i najniższa stopa */}
-      <Grid cols={2} style={{ marginBottom: '14px' }}>
-        <Card title="Powiaty mazowieckie — najwyższa stopa" badge="Top 5">
-          <HorizontalBar data={pow_top5} unit="%" colorFn={stopaColor} />
+      {/* Ranking powiatów */}
+      <Grid cols={2} grow>
+        <Card title="Powiaty mazowieckie — najwyższa stopa" badge="Top 5" grow>
+          <RankTable data={pow_top5} unit="%" accentColor="#e63946" />
         </Card>
-        <Card title="Powiaty mazowieckie — najniższa stopa" badge="Bot 5">
-          <HorizontalBar data={pow_bot5} unit="%" colorFn={greenColor} />
+        <Card title="Powiaty mazowieckie — najniższa stopa" badge="Bot 5" grow>
+          <RankTable data={pow_bot5} unit="%" accentColor="#52b788" reverse />
         </Card>
       </Grid>
 
       {/* Trend z wyborem do 3 województw */}
-      <Card title="Trend stopy bezrobocia 2025–2026">
-        <div style={{ marginBottom: '14px' }}>
-          <WojSelector selected={selWojs} onChange={setSelWojs} />
+      <Card title="Trend stopy bezrobocia 2025–2026" grow>
+        <div style={{ marginBottom: '8px' }}>
+          <WojSelector selected={selWojs} onChange={setSelWojs} options={WOJ_OPTIONS} />
         </div>
-        <LineChartSVG datasets={trendDatasets} labels={trendLabels} height={160} width={760} />
+        <LineChartSVG datasets={trendDatasets} labels={trendLabels} height={110} width={760} />
       </Card>
     </div>
   );

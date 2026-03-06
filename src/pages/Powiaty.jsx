@@ -1,9 +1,10 @@
 import { useState, useMemo, useEffect } from 'react';
 import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
-import HorizontalBar, { blueColor, greenColor } from '../components/HorizontalBar';
+import HorizontalBar, { blueColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
-import DonutChart from '../components/DonutChart';
+import WyrejList from '../components/WyrejList';
+import CharMiniCards from '../components/CharMiniCards';
 import { useAppData } from '../context/DataContext';
 
 const POW_COLORS = ['#e63946', '#4895ef', '#f4a261', '#52b788', '#a78bfa', '#fbbf24'];
@@ -108,10 +109,6 @@ function fmt(n) {
 function fmtPct(n, total) {
   return total ? (n / total * 100).toFixed(1).replace('.', ',') + '%' : '—';
 }
-function topN(data, n = 3) {
-  return [...data].sort((a, b) => b.value - a.value).slice(0, n);
-}
-
 function GenderCell({ icon, label, n, total, color }) {
   return (
     <div style={{
@@ -131,38 +128,6 @@ function GenderCell({ icon, label, n, total, color }) {
   );
 }
 
-function ChartLabel({ color, label }) {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-      <div style={{ width: '22px', height: '2px', background: color, borderRadius: '1px' }} />
-      <span style={{ fontSize: '0.68rem', color: 'var(--muted)' }}>{label}</span>
-    </div>
-  );
-}
-
-function SectionLabel({ label }) {
-  return (
-    <div style={{ fontSize: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--muted)', marginBottom: '5px' }}>
-      {label}
-    </div>
-  );
-}
-
-function MiniSection({ label, data, colorFn = blueColor }) {
-  return (
-    <div style={{ marginBottom: '10px' }}>
-      <SectionLabel label={label} />
-      <HorizontalBar data={topN(data, 3)} unit=" os." colorFn={colorFn} barHeight={7} />
-    </div>
-  );
-}
-
-function wyrejColor(v, mx, i) {
-  if (i === 0) return 'var(--green)';
-  const t = mx > 0 ? v / mx : 0;
-  const alpha = 0.45 + t * 0.55;
-  return `rgba(72,149,239,${alpha.toFixed(2)})`;
-}
 
 export default function Powiaty({ initialPowiat = null }) {
   const { powiaty, stopa } = useAppData();
@@ -172,20 +137,20 @@ export default function Powiaty({ initialPowiat = null }) {
     .map(p => ({ value: p.wgm, label: p.nazwa }));
 
   const [selWgm, setSelWgm] = useState(initialPowiat);
-  const [cmpWgms, setCmpWgms] = useState([initialPowiat || '1465']); // domyślnie Warszawa
+  const [cmpWgms, setCmpWgms] = useState([initialPowiat || '1465']);
 
   const defaultWgm = (powiaty || []).find(p => p.wgm === '1465')?.wgm || options[0]?.value || null;
   const wgm = selWgm || defaultWgm;
 
-  // Sync pierwsza pozycja wykresu z głównym selectorem
   useEffect(() => {
     if (wgm) setCmpWgms(prev => [wgm, ...prev.slice(1).filter(w => w !== wgm)]);
   }, [wgm]);
+
   const d = (powiaty || []).find(p => p.wgm === wgm) || {};
 
   if (!powiaty || powiaty.length === 0) return null;
 
-  const bezr = d.bezr_razem || 0;
+  const bezr  = d.bezr_razem || 0;
   const wyrej = d.wyrej_razem || 0;
 
   // Charakterystyka
@@ -194,14 +159,12 @@ export default function Powiaty({ initialPowiat = null }) {
   const wykData  = (d.d5_wyk  || []).map((n, i) => ({ label: WYK_LABELS[i],  value: n }));
   const stazData = (d.d5_staz || []).map((n, i) => ({ label: STAZ_LABELS[i], value: n }));
 
-  const kobiety   = d.d5_kobiety || 0;
-  const mezczyzni = bezr - kobiety;
+  const kobiety       = d.d5_kobiety || 0;
+  const mezczyzni     = bezr - kobiety;
   const kategorieData = (d.kategorie || []).map(k => ({ label: k.label, value: k.n, pct: k.pct }));
 
-  // Trend — etykiety z globalnego trend Mazowsza (te same 13 miesięcy)
   const trendLabels = (stopa?.trend_maz_13m || []).map(t => t.label);
 
-  // Dane wykresu porównawczego stopy
   const powSorted = useMemo(() =>
     [...(powiaty || [])].sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl')),
     [powiaty]
@@ -213,19 +176,13 @@ export default function Powiaty({ initialPowiat = null }) {
     }),
     [cmpWgms, powiaty]
   );
+
   const trendZarej = d.trend_zarej_13m || [];
   const trendWyrej = d.trend_wyrej_13m || [];
-  // Przyczyny wyrejestrowania
-  const wyrejTop5 = (d.wyrej_reasons || []).slice(0, 5);
-  const wyrejMax  = wyrejTop5[0]?.n || 1;
-  const wyrejBarData = wyrejTop5.map(r => ({ label: r.label, value: r.n }));
-  const wyrejColorFn = (v) => {
-    const i = wyrejTop5.findIndex(r => r.n === v);
-    return wyrejColor(v, wyrejMax, i);
-  };
+  const wyrejTop5  = (d.wyrej_reasons || []).slice(0, 5);
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Analiza powiatowa"
         sub="MRPiPS-01 · ZUS · województwo mazowieckie · Styczeń 2026"
@@ -269,49 +226,44 @@ export default function Powiaty({ initialPowiat = null }) {
           label="ZUS · I poł. 2025" variant="green" />
       </Grid>
 
-      {/* ── Napływ/odpływ + Stopa bezrobocia ────────────────────────────── */}
+      {/* ── Stopa bezrobocia — porównanie powiatów ────────────────────────── */}
+      <Card title="Stopa bezrobocia — porównanie powiatów" style={{ marginBottom: '14px' }}>
+        <div style={{ marginBottom: '10px' }}>
+          <PowiatSelector
+            selected={cmpWgms}
+            onChange={setCmpWgms}
+            allPowiaty={powSorted}
+            max={6}
+          />
+        </div>
+        <LineChartSVG datasets={stopaDatasets} labels={trendLabels} height={145} />
+      </Card>
+
+      {/* ── Napływ/odpływ + Przyczyny wyrejestrowania ─────────────────────── */}
       <Grid cols={2} style={{ marginBottom: '14px' }}>
         {trendZarej.some(v => v != null) && (
           <Card title="Napływ i odpływ — ostatnie 13 miesięcy">
-            <div style={{ display: 'flex', gap: '20px', marginBottom: '10px' }}>
-              <ChartLabel color="#52b788" label={`Zarejestrowani (bież. ${fmt(d.zarej_razem)})`} />
-              <ChartLabel color="#f4a261" label={`Wyrejestrowani (bież. ${fmt(wyrej)})`} />
-            </div>
             <LineChartSVG
               datasets={[
-                { data: trendZarej, color: '#52b788', label: 'Zarejestrowani' },
-                { data: trendWyrej, color: '#f4a261', label: 'Wyrejestrowani' },
+                { data: trendZarej, color: '#e63946', label: 'Zarejestrowani' },
+                { data: trendWyrej, color: '#4895ef', label: 'Wyrejestrowani' },
               ]}
               labels={trendLabels}
-              height={145}
+              height={150}
             />
           </Card>
         )}
-
-        <Card title="Stopa bezrobocia — porównanie powiatów">
-          <div style={{ marginBottom: '10px' }}>
-            <PowiatSelector
-              selected={cmpWgms}
-              onChange={setCmpWgms}
-              allPowiaty={powSorted}
-              max={6}
+        {wyrejTop5.length > 0 && (
+          <Card title={`Przyczyny wyrejestrowania · ${d.nazwa || ''}`}>
+            <WyrejList
+              data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
             />
-          </div>
-          <LineChartSVG datasets={stopaDatasets} labels={trendLabels} height={145} />
-        </Card>
+          </Card>
+        )}
       </Grid>
 
-      {/* ── Przyczyny wyrejestrowania — full width ───────────────────────── */}
-      {wyrejTop5.length > 0 && (
-        <Card title={`Przyczyny wyrejestrowania · ${d.nazwa || ''}`}>
-          <DonutChart
-            data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
-          />
-        </Card>
-      )}
-
       {/* ── Kategorie + Charakterystyka ─────────────────────────────────── */}
-      <Grid cols={2} style={{ marginTop: '14px' }}>
+      <Grid cols={2}>
         <Card title={`Kategorie bezrobotnych · ${d.nazwa || ''}`}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '16px' }}>
             <GenderCell icon="♀" label="Kobiety"   n={kobiety}   total={bezr} color="#f4a261" />
@@ -324,10 +276,12 @@ export default function Powiaty({ initialPowiat = null }) {
         </Card>
 
         <Card title="Charakterystyka bezrobotnych">
-          {czasData.length > 0 && <MiniSection label="Czas pozostawania bez pracy" data={czasData} colorFn={blueColor} />}
-          {wiekData.length > 0 && <MiniSection label="Wiek" data={wiekData} colorFn={greenColor} />}
-          {wykData.length  > 0 && <MiniSection label="Wykształcenie" data={wykData} colorFn={blueColor} />}
-          {stazData.length > 0 && <MiniSection label="Staż pracy ogółem" data={stazData} colorFn={greenColor} />}
+          <CharMiniCards
+            czasData={czasData}
+            wiekData={wiekData}
+            wykData={wykData}
+            stazData={stazData}
+          />
         </Card>
       </Grid>
     </div>

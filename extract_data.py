@@ -100,9 +100,11 @@ def load_stopa_xlsx(rok: str, miesiac: str) -> tuple:
     Plik: dane/stopa_bezrobocia/{rok}/{rok}_{miesiac}.xlsx
     Arkusz Tabl.1a — kolumny: WOJ(0), POW(1), Nazwa(2), Bezrob_tys(3), Stopa%(4)
 
-    Zwraca: ({wgm_str: stopa_float}, stopa_maz_float|None)
-      - powiaty: tylko dla powiatów mazowieckich (WOJ=14, POW≠00)
-      - stopa_maz: agregat województwa mazowieckiego (WOJ=14, POW=00)
+    Zwraca: (powiaty_dict, stopa_maz, stopa_pl, woj_stopy)
+      - powiaty_dict: {wgm_str: stopa} dla powiatów mazowieckich (WOJ=14, POW≠00)
+      - stopa_maz:    stopa woj. mazowieckiego (WOJ=14, POW=00)
+      - stopa_pl:     stopa dla Polski (WOJ=0, POW=00)
+      - woj_stopy:    {woj_code: stopa} dla pozostałych 15 województw (POW=00)
     """
     fpath = os.path.join(STOPA_DIR, rok, f'{rok}_{miesiac}.xlsx')
     if not os.path.exists(fpath):
@@ -123,38 +125,40 @@ def load_stopa_xlsx(rok: str, miesiac: str) -> tuple:
             return {}, None
 
         ws = wb['Tabl.1a']
-        result = {}
-        stopa_maz = None  # agregat województwa (POW=00)
+        result    = {}    # {wgm: stopa} dla powiatów mazowieckich
+        stopa_maz = None  # agregat Mazowsza (WOJ=14, POW=00)
+        stopa_pl  = None  # agregat Polski   (WOJ=0,  POW=00)
+        woj_stopy = {}    # {woj_code: stopa} dla pozostałych 15 woj.
         for row in ws.iter_rows(min_row=2, values_only=True):
             if row[0] is None:
                 continue
-            # Kolumna WOJ — filtruj Mazowieckie (14)
             try:
                 woj = str(int(float(str(row[0]).strip())))
             except (ValueError, TypeError):
                 continue
-            if woj != '14':
-                continue
-            # Kolumna POW — kod powiatu (może być int lub str)
             try:
                 pow_code = str(int(float(str(row[1]).strip()))).zfill(2)
             except (ValueError, TypeError):
                 continue
-            # Kolumna Stopa% (indeks 4)
             try:
                 stopa = float(row[4]) if row[4] is not None else None
             except (ValueError, TypeError):
                 stopa = None
+
             if pow_code == '00':
-                # wiersz agregatu województwa — zapisz osobno
-                stopa_maz = stopa
-                continue
-            wgm = '14' + pow_code
-            if stopa is not None:
-                result[wgm] = stopa
+                if woj == '0':
+                    stopa_pl = stopa           # wiersz POLSKA
+                elif woj == '14':
+                    stopa_maz = stopa          # agregat Mazowsza
+                elif stopa is not None:
+                    woj_stopy[woj] = stopa     # agregaty pozostałych woj.
+            elif woj == '14':
+                wgm = '14' + pow_code          # powiaty mazowieckie
+                if stopa is not None:
+                    result[wgm] = stopa
 
         wb.close()
-        return result, stopa_maz
+        return result, stopa_maz, stopa_pl, woj_stopy
 
     except Exception as e:
         print(f"  WARN stopa: błąd czytania {os.path.basename(fpath)}: {e}")
@@ -684,6 +688,11 @@ def build_dashboard_final(mrpips_data: dict, wynagr_data: dict, zwolnienia_data:
     stopa_delta = (round(stopa_cur - stopa_prev, 1)
                    if stopa_cur is not None and stopa_prev is not None else None)
 
+    stopa_pl_cur  = meta(cur, 'stopa_pl')
+    stopa_pl_prev = meta(prv, 'stopa_pl')
+    stopa_pl_delta = (round(stopa_pl_cur - stopa_pl_prev, 1)
+                      if stopa_pl_cur is not None and stopa_pl_prev is not None else None)
+
     # ── Kategorie bezrobotnych ───────────────────────────────────────────────
     def kategoria(label, field):
         n = s(cur, field)
@@ -766,6 +775,32 @@ def build_dashboard_final(mrpips_data: dict, wynagr_data: dict, zwolnienia_data:
         {'okres': p, 'label': trend_label(p), 'stopa': meta(p, 'stopa_maz')}
         for p in last_13
     ]
+
+    # ── Trend stopy Polski — ostatnie 13 miesięcy (GUS BDL) ─────────────────
+    trend_pl_13m = [
+        {'label': trend_label(p), 'stopa': meta(p, 'stopa_pl')}
+        for p in last_13
+    ]
+
+    # ── Stopa bezrobocia — wszystkie 16 województw (bieżący miesiąc) ────────
+    WOJ_NAMES = {
+        '2':  'Dolnośląskie',  '4':  'Kujawsko-pom.',
+        '6':  'Lubelskie',     '8':  'Lubuskie',
+        '10': 'Łódzkie',       '12': 'Małopolskie',
+        '14': 'Mazowieckie',   '16': 'Opolskie',
+        '18': 'Podkarpackie',  '20': 'Podlaskie',
+        '22': 'Pomorskie',     '24': 'Śląskie',
+        '26': 'Świętokrzyskie','28': 'Warmińsko-maz.',
+        '30': 'Wielkopolskie', '32': 'Zachodniopom.',
+    }
+    woj_stopy_cur = dict(meta(cur, 'woj_stopy') or {})
+    woj_stopy_cur['14'] = stopa_cur   # Mazowieckie z agregatu GUS
+    woj_stopa_list = sorted(
+        [{'n': WOJ_NAMES[k], 's': v}
+         for k, v in woj_stopy_cur.items()
+         if k in WOJ_NAMES and v is not None],
+        key=lambda x: x['s'], reverse=True
+    )
 
     # ── Mapa Mazowsza ────────────────────────────────────────────────────────
     mapa_maz = [
@@ -870,8 +905,8 @@ def build_dashboard_final(mrpips_data: dict, wynagr_data: dict, zwolnienia_data:
             'bezr_delta':      bezr_cur - bezr_prev,
             'stopa_maz':       stopa_cur,
             'stopa_maz_delta': stopa_delta,
-            'stopa_pl':        6.0,
-            'bezr_pl':         796000,
+            'stopa_pl':        stopa_pl_cur if stopa_pl_cur is not None else 5.4,
+            'bezr_pl':         841000,
             'trend_37m':       trend_37m,
             'mapa_maz':        mapa_maz,
         },
@@ -900,8 +935,8 @@ def build_dashboard_final(mrpips_data: dict, wynagr_data: dict, zwolnienia_data:
             },
         },
         'stopa': {
-            'stopa_pl':        6.0,
-            'stopa_pl_delta':  None,
+            'stopa_pl':        stopa_pl_cur if stopa_pl_cur is not None else 5.4,
+            'stopa_pl_delta':  stopa_pl_delta,
             'stopa_maz':       stopa_cur,
             'stopa_maz_delta': stopa_delta,
             'pow_max':         pow_sorted[0]  if pow_sorted else None,
@@ -909,6 +944,8 @@ def build_dashboard_final(mrpips_data: dict, wynagr_data: dict, zwolnienia_data:
             'pow_top5':        to_bar(pow_sorted[:5]),
             'pow_bot5':        to_bar(pow_sorted[-5:]),
             'trend_maz_13m':   trend_maz_13m,
+            'woj_stopa':       woj_stopa_list,
+            'trend_pl_13m':    trend_pl_13m,
         },
         'wynagrodzenia': {
             'maz_avg':       maz_avg,
@@ -949,7 +986,7 @@ def main():
 
     for period, fpath in dbf_files.items():
         rok, miesiac = period.split('-')
-        stopa_dict, stopa_maz = load_stopa_xlsx(rok, miesiac)
+        stopa_dict, stopa_maz, stopa_pl, woj_stopy = load_stopa_xlsx(rok, miesiac)
         n_stopa = len(stopa_dict)
 
         print(f"  {period}  {os.path.basename(fpath)} ...", end='  ')
@@ -958,6 +995,8 @@ def main():
             # Agregat województwa — stopa GUS (POW=00)
             data['_meta'] = {
                 'stopa_maz': stopa_maz,   # stopa bezrobocia Mazowsza wg GUS (%)
+                'stopa_pl':  stopa_pl,    # stopa bezrobocia Polski   wg GUS (%)
+                'woj_stopy': woj_stopy,   # {woj_code: stopa} dla 15 pozostałych woj.
             }
             mrpips_out[period] = data
             maz_str = f"{stopa_maz}%" if stopa_maz is not None else "brak"

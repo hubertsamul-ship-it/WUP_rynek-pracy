@@ -1,58 +1,77 @@
-export default function Card({ title, badge, badgeLive, children, style: extraStyle = {} }) {
+/**
+ * grow=true → card uczestniczy w flex layout parenta:
+ *   wewnątrz ustawia flex-column, content scrolluje jeśli nie mieści się
+ */
+export default function Card({ title, badge, badgeLive, children, style: extraStyle = {}, grow = false }) {
   return (
-    <div style={{
-      background: 'var(--card-bg)',
-      border: '1px solid var(--card-br)',
-      borderRadius: '14px', padding: '18px 20px',
-      transition: 'border-color 0.2s',
-      ...extraStyle,
-    }}
+    <div
+      style={{
+        background: 'var(--card-bg)',
+        border: '1px solid var(--card-br)',
+        borderRadius: '12px',
+        padding: '12px 14px',
+        transition: 'border-color 0.2s',
+        ...(grow ? { display: 'flex', flexDirection: 'column', minHeight: 0, overflow: 'hidden' } : {}),
+        ...extraStyle,
+      }}
       onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'}
       onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--card-br)'}
     >
       {(title || badge) && (
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+        <div style={{
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          marginBottom: '10px', flexShrink: 0,
+        }}>
           {title && (
-            <div style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text)', letterSpacing: '0.01em' }}>
+            <div style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--text)', letterSpacing: '0.01em' }}>
               {title}
             </div>
           )}
           {badge && (
             <div style={{
-              fontSize: '0.62rem',
+              fontSize: '0.6rem',
               background: badgeLive ? 'rgba(82,183,136,0.12)' : 'rgba(255,255,255,0.06)',
               color: badgeLive ? 'var(--green)' : 'var(--muted)',
               border: badgeLive ? '1px solid rgba(82,183,136,0.2)' : 'none',
-              padding: '3px 9px', borderRadius: '20px', fontWeight: 500,
+              padding: '2px 8px', borderRadius: '20px', fontWeight: 500,
             }}>
               {badge}
             </div>
           )}
         </div>
       )}
-      {children}
+      {grow
+        ? <div style={{ flex: 1, minHeight: 0, overflowY: 'auto' }}>{children}</div>
+        : children
+      }
     </div>
   );
 }
 
 export function SectionHeader({ title, sub }) {
   return (
-    <div style={{ marginBottom: '18px' }}>
-      <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: '1.6rem', color: 'var(--text)', letterSpacing: '-0.01em' }}>
+    <div style={{ marginBottom: '10px', flexShrink: 0 }}>
+      <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: '1.35rem', color: 'var(--text)', letterSpacing: '-0.01em' }}>
         {title}
       </div>
-      {sub && <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '3px' }}>{sub}</div>}
-      <div style={{ width: '40px', height: '2px', background: 'var(--accent)', marginTop: '8px', borderRadius: '1px' }} />
+      {sub && <div style={{ fontSize: '0.7rem', color: 'var(--muted)', marginTop: '2px' }}>{sub}</div>}
+      <div style={{ width: '32px', height: '2px', background: 'var(--accent)', marginTop: '5px', borderRadius: '1px' }} />
     </div>
   );
 }
 
-export function Grid({ cols = 2, children, style: extraStyle = {} }) {
+/**
+ * grow=true → Grid uczestniczy w flex layout strony: flex:1, minHeight:0
+ *             Karty wewnątrz dostają align-items: stretch → wypełniają wysokość
+ */
+export function Grid({ cols = 2, children, style: extraStyle = {}, grow = false }) {
   return (
     <div style={{
       display: 'grid',
       gridTemplateColumns: `repeat(${cols}, 1fr)`,
-      gap: '14px', marginBottom: '14px',
+      gap: '10px',
+      marginBottom: grow ? 0 : '10px',
+      ...(grow ? { flex: 1, minHeight: 0, alignItems: 'stretch' } : {}),
       ...extraStyle,
     }}>
       {children}
