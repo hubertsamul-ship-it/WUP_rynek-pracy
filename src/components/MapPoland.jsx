@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { WOJ_DATA } from '../data/mockData';
+import { useAppData } from '../context/DataContext';
 
-// WOJ_DATA display name → GeoJSON nazwa
+// Display name (z woj_stopa JSON) → GeoJSON nazwa
 const WOJ_MAP = {
   'Warmińsko-maz.':  'warmińsko-mazurskie',
   'Podkarpackie':    'podkarpackie',
@@ -20,10 +20,6 @@ const WOJ_MAP = {
   'Mazowieckie':     'mazowieckie',
   'Wielkopolskie':   'wielkopolskie',
 };
-
-// GeoJSON nazwa → stopa and display name
-const STOPA = Object.fromEntries(WOJ_DATA.map(d => [WOJ_MAP[d.n], d.s]));
-const DISP  = Object.fromEntries(WOJ_DATA.map(d => [WOJ_MAP[d.n], d.n]));
 
 const SVG_W = 500, SVG_H = 390;
 const MID_LAT_RAD = 52 * Math.PI / 180;
@@ -69,38 +65,62 @@ function geoToPath(geometry, project) {
 }
 
 function stopaColor(s, minS, maxS) {
-  const t = (s - minS) / (maxS - minS);
-  const lo = [72, 149, 239];   // #4895ef – bright blue (low)
-  const hi = [193, 18, 31];    // #c1121f – deep red (high)
+  const t = Math.max(0, Math.min(1, (s - minS) / (maxS - minS)));
+  const lo = [72, 149, 239];   // #4895ef – blue (low)
+  const hi = [193, 18, 31];    // #c1121f – red (high)
   return `rgb(${lo.map((v, i) => Math.round(v + t * (hi[i] - v))).join(',')})`;
 }
 
 export default function MapPoland() {
-  const [paths, setPaths] = useState([]);
+  const [features, setFeatures] = useState([]);
   const [tooltip, setTooltip] = useState(null);
+  const { stopa } = useAppData();
 
-  const minS = Math.min(...WOJ_DATA.map(d => d.s));
-  const maxS = Math.max(...WOJ_DATA.map(d => d.s));
+  // Buduj lookup z prawdziwych danych GUS
+  const wojData = stopa?.woj_stopa ?? [];
+  const STOPA_MAP = Object.fromEntries(
+    wojData.map(d => [WOJ_MAP[d.n], d.s]).filter(([k]) => k != null)
+  );
+  const DISP_MAP = Object.fromEntries(
+    wojData.map(d => [WOJ_MAP[d.n], d.n]).filter(([k]) => k != null)
+  );
+  const stopaValues = wojData.map(d => d.s).filter(v => v != null);
+  const minS = stopaValues.length ? Math.min(...stopaValues) : 2;
+  const maxS = stopaValues.length ? Math.max(...stopaValues) : 12;
 
+  // Ładuj geometrię GeoJSON raz
   useEffect(() => {
     fetch('/data/wojewodztwa.geojson')
       .then(r => r.json())
       .then(data => {
         const bbox = calcBbox(data.features);
         const project = makeProject(bbox);
-        setPaths(data.features.map(f => ({
+        setFeatures(data.features.map(f => ({
           d: geoToPath(f.geometry, project),
           nazwa: f.properties.nazwa,
-          display: DISP[f.properties.nazwa] || f.properties.nazwa,
-          stopa: STOPA[f.properties.nazwa] ?? null,
-          isMaz: f.properties.nazwa === 'mazowieckie',
         })));
       })
       .catch(e => console.error('GeoJSON load error:', e));
   }, []);
 
+  // Łącz geometrię z danymi (reaktywnie)
+  const paths = features.map(f => ({
+    ...f,
+    display: DISP_MAP[f.nazwa] || f.nazwa,
+    stopa:   STOPA_MAP[f.nazwa] ?? null,
+    isMaz:   f.nazwa === 'mazowieckie',
+  }));
+
   return (
-    <div style={{ position: 'relative', background: 'rgba(255,255,255,0.02)', borderRadius: '10px', overflow: 'hidden' }}>
+    <div style={{
+      position: 'relative',
+      background: 'rgba(255,255,255,0.02)',
+      borderRadius: '10px',
+      overflow: 'hidden',
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+    }}>
       {tooltip && (
         <div style={{
           position: 'absolute', background: '#1a2235',
@@ -116,8 +136,11 @@ export default function MapPoland() {
             : <span style={{ color: 'var(--muted)' }}>brak danych</span>}
         </div>
       )}
-      <svg viewBox={`0 0 ${SVG_W} ${SVG_H}`} style={{ width: '100%', display: 'block', height: '270px' }}>
-        {paths.length === 0 && (
+      <svg
+        viewBox={`0 0 ${SVG_W} ${SVG_H}`}
+        style={{ width: '100%', display: 'block', flex: 1, minHeight: 0 }}
+      >
+        {features.length === 0 && (
           <text x={SVG_W / 2} y={SVG_H / 2} textAnchor="middle" fill="var(--muted)" fontSize="13" fontFamily="Outfit, sans-serif">
             Ładowanie mapy…
           </text>
@@ -144,7 +167,10 @@ export default function MapPoland() {
           />
         ))}
       </svg>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', padding: '0 4px' }}>
+      <div style={{
+        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+        marginTop: '6px', padding: '0 4px', flexShrink: 0,
+      }}>
         <div style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>Najazd = szczegóły · Mazowieckie = czerwona obwódka</div>
         <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
           <div style={{ width: '50px', height: '5px', borderRadius: '3px', background: 'linear-gradient(to right, #4895ef, #c1121f)' }} />
