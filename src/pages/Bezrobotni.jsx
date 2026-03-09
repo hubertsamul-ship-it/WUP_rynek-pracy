@@ -29,30 +29,65 @@ function dtType(d) {
   return d >= 0 ? 'up' : 'dn';
 }
 
+// ── SVG Icons ─────────────────────────────────────────────────────────────────
+
+function FemaleIcon({ color = 'currentColor', size = 32 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
+      {/* Head */}
+      <circle cx="12" cy="4" r="3" />
+      {/* Body - dress/skirt shape */}
+      <path d="M12 8c-2 0-3 1-3.5 2L6 18h3l1-4v8h4v-8l1 4h3l-2.5-8c-.5-1-1.5-2-3.5-2z" />
+    </svg>
+  );
+}
+
+function MaleIcon({ color = 'currentColor', size = 32 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
+      {/* Head */}
+      <circle cx="12" cy="4" r="3" />
+      {/* Body - torso */}
+      <rect x="9" y="8" width="6" height="7" rx="1" />
+      {/* Legs */}
+      <rect x="9" y="15" width="2.5" height="7" rx="0.5" />
+      <rect x="12.5" y="15" width="2.5" height="7" rx="0.5" />
+    </svg>
+  );
+}
+
 // ── Sub-components ────────────────────────────────────────────────────────────
 
-function GenderCell({ icon, label, n, total, color }) {
+function GenderCell({ gender, label, n, total, color }) {
   return (
     <div style={{
-      padding: '10px 14px',
+      padding: '12px 14px',
       background: 'rgba(255,255,255,0.04)',
       borderRadius: '8px',
-      borderLeft: `2px solid ${color}`,
+      borderLeft: `3px solid ${color}`,
+      display: 'flex',
+      alignItems: 'center',
+      gap: '12px',
     }}>
-      <div style={{
-        fontSize: '0.6rem', textTransform: 'uppercase',
-        letterSpacing: '0.08em', color, marginBottom: '5px',
-      }}>
-        {icon} {label}
+      <div style={{ opacity: 0.9, flexShrink: 0 }}>
+        {gender === 'female' ? <FemaleIcon color={color} size={36} /> : <MaleIcon color={color} size={36} />}
       </div>
-      <div style={{
-        fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
-        fontSize: '1.05rem', color: 'var(--text)',
-      }}>
-        {fmt(n)}
-      </div>
-      <div style={{ fontSize: '0.65rem', color: 'var(--muted)', marginTop: '3px' }}>
-        {fmtPct(n, total)} ogółu
+      <div style={{ flex: 1 }}>
+        <div style={{
+          fontSize: '0.6rem', textTransform: 'uppercase',
+          letterSpacing: '0.08em', color, marginBottom: '4px',
+        }}>
+          {label}
+        </div>
+        <div style={{
+          fontFamily: "'JetBrains Mono', monospace", fontWeight: 700,
+          fontSize: '1.1rem', color: 'var(--text)',
+        }}>
+          {fmt(n)}
+        </div>
+        <div style={{ fontSize: '0.65rem', color: 'var(--muted)', marginTop: '2px' }}>
+          {fmtPct(n, total)} ogółu
+        </div>
       </div>
     </div>
   );
@@ -135,9 +170,9 @@ export default function Bezrobotni() {
       {/* ── Kategorie + Charakterystyka ─────────────────────────────────── */}
       <Grid cols={2} grow>
         <Card title="Kategorie bezrobotnych · Sty 2026" grow>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '16px' }}>
-            <GenderCell icon="♀" label="Kobiety"    n={kobiety}   total={genderTotal} color="#f4a261" />
-            <GenderCell icon="♂" label="Mężczyźni"  n={mezczyzni} total={genderTotal} color="#4895ef" />
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '16px' }}>
+            <GenderCell gender="female" label="Kobiety"    n={kobiety}   total={genderTotal} color="#f4a261" />
+            <GenderCell gender="male"   label="Mężczyźni"  n={mezczyzni} total={genderTotal} color="#4895ef" />
           </div>
           <HorizontalBar
             data={kategorieData}
