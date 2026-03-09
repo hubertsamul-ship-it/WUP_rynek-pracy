@@ -2,7 +2,7 @@ import KpiCard from '../components/KpiCard';
 import Card, { SectionHeader, Grid } from '../components/Card';
 import HorizontalBar, { blueColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
-import WyrejList from '../components/WyrejList';
+import WyrejBarChart from '../components/WyrejBarChart';
 import CharBarChart from '../components/CharBarChart';
 import { useAppData } from '../context/DataContext';
 
@@ -126,7 +126,8 @@ export default function Bezrobotni() {
   const trendZarej  = trend_13m.map(t => t.zarej);
   const trendWyrej  = trend_13m.map(t => t.wyrej);
 
-  const wyrejTop5 = wyrej_reasons.slice(0, 5);
+  // Wszystkie przyczyny wyrejestrowania
+const wyrejAll = wyrej_reasons;
 
   const prevLabel = 'grudzień';
 
@@ -208,11 +209,9 @@ export default function Bezrobotni() {
             />
           </Card>
         )}
-        {wyrejTop5.length > 0 && (
+        {wyrejAll.length > 0 && (
           <Card title="Przyczyny wyrejestrowania · Sty 2026">
-            <WyrejList
-              data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
-            />
+            <WyrejBarChart data={wyrejAll} />
           </Card>
         )}
       </Grid>
