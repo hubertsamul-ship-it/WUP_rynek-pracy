@@ -3,7 +3,7 @@ import Card, { SectionHeader, Grid } from '../components/Card';
 import HorizontalBar, { blueColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
 import WyrejList from '../components/WyrejList';
-import CharMiniCards from '../components/CharMiniCards';
+import CharBarChart from '../components/CharBarChart';
 import { useAppData } from '../context/DataContext';
 
 const CZAS_LABELS = ['do 1 mies.', '1–3 mies.', '3–6 mies.', '6–12 mies.', '12–24 mies.', 'pow. 24 mies.'];
@@ -184,8 +184,8 @@ export default function Bezrobotni() {
           />
         </Card>
 
-        <Card title="Charakterystyka bezrobotnych" grow>
-          <CharMiniCards
+        <Card title="Charakterystyka bezrobotnych · Sty 2026" grow>
+          <CharBarChart
             czasData={czasData}
             wiekData={wiekData}
             wykData={wykData}
