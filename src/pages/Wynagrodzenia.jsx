@@ -17,7 +17,7 @@ export default function Wynagrodzenia() {
   } = wynagrodzenia_kpi;
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Wynagrodzenia"
         sub="ZUS · Blender Danych · województwo mazowieckie · I poł. 2025"
@@ -43,21 +43,21 @@ export default function Wynagrodzenia() {
       </Grid>
 
       {/* Rankingi powiatów */}
-      <Grid cols={2} grow>
-        <Card title="TOP 5 powiatów wg wynagrodzenia" badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="TOP 5 powiatów wg wynagrodzenia" badge="Top 5">
           <HorizontalBar data={toBar(top5_pow_wyn)} unit=" zł" colorFn={greenColor} />
         </Card>
-        <Card title="5 powiatów z najniższym wynagrodzeniem" badge="Bot 5" grow>
+        <Card title="5 powiatów z najniższym wynagrodzeniem" badge="Bot 5">
           <HorizontalBar data={toBar(bot5_pow_wyn)} unit=" zł" colorFn={stopaColor} />
         </Card>
       </Grid>
 
       {/* Rankingi zawodów — TOP 10 jako tabele */}
-      <Grid cols={2} grow>
-        <Card title="TOP 10 najlepiej opłacanych zawodów (min. 50 UoP)" badge="Top 10" grow>
+      <Grid cols={2}>
+        <Card title="TOP 10 najlepiej opłacanych zawodów (min. 50 UoP)" badge="Top 10">
           <RankTable data={toBar(top10_zawody_best)} unit=" zł" accentColor="#52b788" />
         </Card>
-        <Card title="TOP 10 najniżej opłacanych zawodów (min. 50 UoP)" badge="Bot 10" grow>
+        <Card title="TOP 10 najniżej opłacanych zawodów (min. 50 UoP)" badge="Bot 10">
           <RankTable data={toBar(top10_zawody_worst)} unit=" zł" accentColor="#e63946" reverse />
         </Card>
       </Grid>

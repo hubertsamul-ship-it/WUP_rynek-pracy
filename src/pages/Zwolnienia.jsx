@@ -105,7 +105,7 @@ export default function Zwolnienia() {
   const pkdFaktData = pkd_top10_fakt.slice(0, 5).map(d => ({ label: pkdLabel(d.pkd), value: d.n }));
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Zwolnienia grupowe"
         sub="WUP Mazowsze · dane miesięczne"
@@ -139,8 +139,8 @@ export default function Zwolnienia() {
       </Card>
 
       {/* Wykresy trendu */}
-      <Grid cols={2} grow>
-        <Card title="Zgłoszenia i wypowiedzenia zmieniające" badge="13 miesięcy" grow>
+      <Grid cols={2}>
+        <Card title="Zgłoszenia i wypowiedzenia zmieniające" badge="13 miesięcy">
           <LineChartSVG
             datasets={[
               { data: zglData, color: '#e63946', label: 'Zgłoszenia' },
@@ -149,7 +149,7 @@ export default function Zwolnienia() {
             labels={tLabels} height={150}
           />
         </Card>
-        <Card title="Faktyczne zwolnienia i monitorowane" badge="13 miesięcy" grow>
+        <Card title="Faktyczne zwolnienia i monitorowane" badge="13 miesięcy">
           <LineChartSVG
             datasets={[
               { data: faktData, color: '#f4a261', label: 'Faktyczne' },
@@ -161,11 +161,11 @@ export default function Zwolnienia() {
       </Grid>
 
       {/* PKD */}
-      <Grid cols={2} grow>
-        <Card title="Zgłoszenia wg PKD · ost. 12 m." badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="Zgłoszenia wg PKD · ost. 12 m." badge="Top 5">
           <RankTable data={pkdZglData}  unit=" os." accentColor="#e63946" />
         </Card>
-        <Card title="Faktyczne zwolnienia wg PKD · ost. 12 m." badge="Top 5" grow>
+        <Card title="Faktyczne zwolnienia wg PKD · ost. 12 m." badge="Top 5">
           <RankTable data={pkdFaktData} unit=" os." accentColor="#e63946" />
         </Card>
       </Grid>

@@ -131,7 +131,7 @@ export default function Bezrobotni() {
   const prevLabel = 'grudzień';
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Bezrobotni"
         sub="MRPiPS-01 · rejestrowane bezrobocie · województwo mazowieckie"
@@ -168,8 +168,8 @@ export default function Bezrobotni() {
       </Grid>
 
       {/* ── Kategorie + Charakterystyka ─────────────────────────────────── */}
-      <Grid cols={2} grow>
-        <Card title="Kategorie bezrobotnych · Sty 2026" grow>
+      <Grid cols={2}>
+        <Card title="Kategorie bezrobotnych · Sty 2026">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '16px' }}>
             <GenderCell gender="female" label="Kobiety"    n={kobiety}   total={genderTotal} color="#f4a261" />
             <GenderCell gender="male"   label="Mężczyźni"  n={mezczyzni} total={genderTotal} color="#4895ef" />
@@ -184,7 +184,7 @@ export default function Bezrobotni() {
           />
         </Card>
 
-        <Card title="Charakterystyka bezrobotnych · Sty 2026" grow>
+        <Card title="Charakterystyka bezrobotnych · Sty 2026">
           <CharBarChart
             czasData={czasData}
             wiekData={wiekData}
@@ -195,9 +195,9 @@ export default function Bezrobotni() {
       </Grid>
 
       {/* ── Napływ/odpływ + Przyczyny wyrejestrowania ──────────────────── */}
-      <Grid cols={2} grow>
+      <Grid cols={2}>
         {trend_13m.length > 1 && (
-          <Card title="Napływ i odpływ bezrobotnych — ostatnie 13 miesięcy" grow>
+          <Card title="Napływ i odpływ bezrobotnych — ostatnie 13 miesięcy">
             <LineChartSVG
               datasets={[
                 { data: trendZarej, color: '#e63946', label: 'Zarejestrowani' },
@@ -209,7 +209,7 @@ export default function Bezrobotni() {
           </Card>
         )}
         {wyrejTop5.length > 0 && (
-          <Card title="Przyczyny wyrejestrowania · Sty 2026" grow>
+          <Card title="Przyczyny wyrejestrowania · Sty 2026">
             <WyrejList
               data={wyrejTop5.map(r => ({ label: r.label, value: r.n, pct: r.pct }))}
             />

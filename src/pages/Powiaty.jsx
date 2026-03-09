@@ -4,7 +4,7 @@ import Card, { SectionHeader, Grid } from '../components/Card';
 import HorizontalBar, { blueColor } from '../components/HorizontalBar';
 import LineChartSVG from '../components/LineChartSVG';
 import WyrejList from '../components/WyrejList';
-import CharMiniCards from '../components/CharMiniCards';
+import CharBarChart from '../components/CharBarChart';
 import { useAppData } from '../context/DataContext';
 
 const POW_COLORS = ['#e63946', '#4895ef', '#f4a261', '#52b788', '#a78bfa', '#fbbf24'];
@@ -315,7 +315,7 @@ export default function Powiaty({ initialPowiat = null }) {
         </Card>
 
         <Card title="Charakterystyka bezrobotnych">
-          <CharMiniCards
+          <CharBarChart
             czasData={czasData}
             wiekData={wiekData}
             wykData={wykData}

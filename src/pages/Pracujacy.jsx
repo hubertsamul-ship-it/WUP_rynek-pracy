@@ -19,7 +19,7 @@ export default function Pracujacy() {
   } = pracujacy;
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Pracujący"
         sub="ZUS · Blender Danych · województwo mazowieckie · I poł. 2025"
@@ -37,29 +37,29 @@ export default function Pracujacy() {
           target={n_dg} label={`${fmtPct(pct_dg)} pracujących`} />
       </Grid>
 
-      <Grid cols={2} grow>
-        <Card title="TOP 5 powiatów wg liczby pracujących" badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="TOP 5 powiatów wg liczby pracujących" badge="Top 5">
           <HorizontalBar data={toBar(top5_pracujacy)} unit=" os." colorFn={blueColor} />
         </Card>
-        <Card title="5 powiatów z najmniejszą liczbą pracujących" badge="Bot 5" grow>
+        <Card title="5 powiatów z najmniejszą liczbą pracujących" badge="Bot 5">
           <HorizontalBar data={toBar(bot5_pracujacy)} unit=" os." colorFn={greenColor} />
         </Card>
       </Grid>
 
-      <Grid cols={2} grow>
-        <Card title="TOP 5 zawodów wg liczby pracujących" badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="TOP 5 zawodów wg liczby pracujących" badge="Top 5">
           <RankTable data={toBar(top5_zawody_pracujacy)} unit=" os." accentColor="#4895ef" />
         </Card>
-        <Card title="TOP 5 zawodów z dominacją umów o pracę" badge="UoP" grow>
+        <Card title="TOP 5 zawodów z dominacją umów o pracę" badge="UoP">
           <RankTable data={toBar(top5_zawody_uop)} unit="%" accentColor="#52b788" />
         </Card>
       </Grid>
 
-      <Grid cols={2} grow>
-        <Card title="TOP 5 powiatów wg szac. liczby cywilnoprawnych" badge="Cywil." grow>
+      <Grid cols={2}>
+        <Card title="TOP 5 powiatów wg szac. liczby cywilnoprawnych" badge="Cywil.">
           <RankTable data={toBar(top5_pow_cywil)} unit=" os." accentColor="#4895ef" />
         </Card>
-        <Card title="TOP 5 zawodów z dominacją działalności gosp." badge="DG" grow>
+        <Card title="TOP 5 zawodów z dominacją działalności gosp." badge="DG">
           <RankTable data={toBar(top5_zawody_dg)} unit="%" accentColor="#e63946" />
         </Card>
       </Grid>

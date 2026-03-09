@@ -1,6 +1,5 @@
 /**
- * grow=true → card uczestniczy w flex layout parenta:
- *   wewnątrz ustawia flex-column, content scrolluje jeśli nie mieści się
+ * Card component - zawsze pokazuje pełną zawartość bez wewnętrznego scrollowania
  */
 export default function Card({ title, badge, badgeLive, children, style: extraStyle = {}, grow = false }) {
   return (
@@ -11,7 +10,6 @@ export default function Card({ title, badge, badgeLive, children, style: extraSt
         borderRadius: '12px',
         padding: '12px 14px',
         transition: 'border-color 0.2s',
-        ...(grow ? { display: 'flex', flexDirection: 'column', minHeight: 0, overflow: 'hidden' } : {}),
         ...extraStyle,
       }}
       onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'}
@@ -20,7 +18,7 @@ export default function Card({ title, badge, badgeLive, children, style: extraSt
       {(title || badge) && (
         <div style={{
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-          marginBottom: '10px', flexShrink: 0,
+          marginBottom: '10px',
         }}>
           {title && (
             <div style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--text)', letterSpacing: '0.01em' }}>
@@ -40,10 +38,7 @@ export default function Card({ title, badge, badgeLive, children, style: extraSt
           )}
         </div>
       )}
-      {grow
-        ? <div style={{ flex: 1, minHeight: 0, overflowY: 'auto' }}>{children}</div>
-        : children
-      }
+      {children}
     </div>
   );
 }
@@ -61,8 +56,7 @@ export function SectionHeader({ title, sub }) {
 }
 
 /**
- * grow=true → Grid uczestniczy w flex layout strony: flex:1, minHeight:0
- *             Karty wewnątrz dostają align-items: stretch → wypełniają wysokość
+ * Grid component - prosty layout bez wewnętrznego scrollowania
  */
 export function Grid({ cols = 2, children, style: extraStyle = {}, grow = false }) {
   return (
@@ -70,8 +64,7 @@ export function Grid({ cols = 2, children, style: extraStyle = {}, grow = false 
       display: 'grid',
       gridTemplateColumns: `repeat(${cols}, 1fr)`,
       gap: '10px',
-      marginBottom: grow ? 0 : '10px',
-      ...(grow ? { flex: 1, minHeight: 0, alignItems: 'stretch' } : {}),
+      marginBottom: '10px',
       ...extraStyle,
     }}>
       {children}

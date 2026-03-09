@@ -164,7 +164,7 @@ export default function Stopa() {
     : trend_pl_13m.map(t => t.label);
 
   return (
-    <div className="page-enter">
+    <div className="page-scroll">
       <SectionHeader
         title="Stopa bezrobocia"
         sub="GUS · dane miesięczne"
@@ -197,27 +197,27 @@ export default function Stopa() {
       </Grid>
 
       {/* Ranking województw */}
-      <Grid cols={2} grow>
-        <Card title="Województwa — najwyższa stopa" badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="Województwa — najwyższa stopa" badge="Top 5">
           <RankTable data={WOJ_TOP5} unit="%" accentColor="#e63946" />
         </Card>
-        <Card title="Województwa — najniższa stopa" badge="Bot 5" grow>
+        <Card title="Województwa — najniższa stopa" badge="Bot 5">
           <RankTable data={WOJ_BOT5} unit="%" accentColor="#52b788" reverse />
         </Card>
       </Grid>
 
       {/* Ranking powiatów */}
-      <Grid cols={2} grow>
-        <Card title="Powiaty mazowieckie — najwyższa stopa" badge="Top 5" grow>
+      <Grid cols={2}>
+        <Card title="Powiaty mazowieckie — najwyższa stopa" badge="Top 5">
           <RankTable data={pow_top5} unit="%" accentColor="#e63946" />
         </Card>
-        <Card title="Powiaty mazowieckie — najniższa stopa" badge="Bot 5" grow>
+        <Card title="Powiaty mazowieckie — najniższa stopa" badge="Bot 5">
           <RankTable data={pow_bot5} unit="%" accentColor="#52b788" reverse />
         </Card>
       </Grid>
 
       {/* Trend z wyborem do 3 województw */}
-      <Card title="Trend stopy bezrobocia 2025–2026" grow>
+      <Card title="Trend stopy bezrobocia 2025–2026">
         <div style={{ marginBottom: '8px' }}>
           <WojSelector selected={selWojs} onChange={setSelWojs} options={WOJ_OPTIONS} />
         </div>
