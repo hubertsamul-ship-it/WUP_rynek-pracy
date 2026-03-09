@@ -1,13 +1,72 @@
 import React from 'react';
 
+// ── SVG Icons for Navigation ─────────────────────────────────────────────────
+
+const IconDashboard = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="3" y="3" width="7" height="7" rx="1" />
+    <rect x="14" y="3" width="7" height="7" rx="1" />
+    <rect x="3" y="14" width="7" height="7" rx="1" />
+    <rect x="14" y="14" width="7" height="7" rx="1" />
+  </svg>
+);
+
+const IconUsers = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+  </svg>
+);
+
+const IconTrendDown = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polyline points="22 17 13.5 8.5 8.5 13.5 2 7" />
+    <polyline points="16 17 22 17 22 11" />
+  </svg>
+);
+
+const IconBriefcase = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+  </svg>
+);
+
+const IconWallet = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4" />
+    <path d="M3 5v14a2 2 0 0 0 2 2h16v-5" />
+    <path d="M18 12a2 2 0 0 0 0 4h4v-4Z" />
+  </svg>
+);
+
+const IconFactory = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" />
+    <path d="M17 18h1" />
+    <path d="M12 18h1" />
+    <path d="M7 18h1" />
+  </svg>
+);
+
+const IconMap = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z" />
+    <path d="M9 3v15" />
+    <path d="M15 6v15" />
+  </svg>
+);
+
 const NAV = [
-  { id:'pulpit',        icon:'⬛', label:'Pulpit',             section:'Główne' },
-  { id:'bezrobotni',    icon:'👥', label:'Bezrobotni',         section:null },
-  { id:'stopa',         icon:'📉', label:'Stopa bezrobocia',   section:null },
-  { id:'pracujacy',     icon:'💼', label:'Pracujący',          section:null },
-  { id:'wynagrodzenia', icon:'💰', label:'Wynagrodzenia',      section:null },
-  { id:'zwolnienia',    icon:'🏭', label:'Zwolnienia grupowe', section:null },
-  { id:'powiaty',       icon:'🗺️', label:'Powiaty',           section:'Analityka' },
+  { id:'pulpit',        icon: IconDashboard, label:'Pulpit',             section:'Główne' },
+  { id:'bezrobotni',    icon: IconUsers,     label:'Bezrobotni',         section:null },
+  { id:'stopa',         icon: IconTrendDown, label:'Stopa bezrobocia',   section:null },
+  { id:'pracujacy',     icon: IconBriefcase, label:'Pracujący',          section:null },
+  { id:'wynagrodzenia', icon: IconWallet,    label:'Wynagrodzenia',      section:null },
+  { id:'zwolnienia',    icon: IconFactory,   label:'Zwolnienia grupowe', section:null },
+  { id:'powiaty',       icon: IconMap,       label:'Powiaty',            section:'Analityka' },
 ];
 
 export default function Sidebar({ active, onNav, collapsed, onToggle }) {
@@ -165,6 +224,7 @@ export default function Sidebar({ active, onNav, collapsed, onToggle }) {
 }
 
 function NavItem({ item, isActive, onClick, collapsed }) {
+  const IconComponent = item.icon;
   return (
     <div
       style={{
@@ -196,9 +256,10 @@ function NavItem({ item, isActive, onClick, collapsed }) {
         width: '28px', height: '28px', borderRadius: '7px',
         background: isActive ? 'rgba(232,57,70,0.2)' : 'rgba(255,255,255,0.06)',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
-        fontSize: '0.8rem', flexShrink: 0, transition: 'all 0.2s',
+        flexShrink: 0, transition: 'all 0.2s',
+        color: isActive ? 'var(--accent)' : 'var(--muted)',
       }}>
-        {item.icon}
+        <IconComponent />
       </div>
       {!collapsed && (
         <span style={{

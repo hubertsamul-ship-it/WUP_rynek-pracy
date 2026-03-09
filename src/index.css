@@ -33,6 +33,10 @@ body {
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
 /* Każda strona = flex column wypełniający dostępną wysokość */
 .page-enter {
   animation: fadeIn 0.3s ease;
